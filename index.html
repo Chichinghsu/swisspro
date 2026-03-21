@@ -50,9 +50,78 @@
     </nav>
     <header class="hero">
         <div class="hero-content">
-            <h1>省下昂貴的瑞士車資</h1>
-            <p>為你的行程精算買車票的最佳組合！瑞士旅遊錙銖必較！</p>
-            <a href="https://calculator.swisspro.tw" class="btn" style="padding: 8px 16px;">馬上試算 🚀</a>
+            <h1>🇨🇭精算你的瑞士旅費</h1>
+            <!-- <p>為你的行程精算買車票的最佳組合！瑞士旅遊錙銖必較！</p>
+            <p>30 秒找出最適合你的瑞士行程</p> -->
+            <!-- <a href="https://calculator.swisspro.tw" class="btn" style="padding: 8px 16px;">馬上試算 🚀</a> -->
+            <div id="quiz-container" class="quiz-card-embedded">
+                <div style="margin-bottom: 25px;">
+                    <h2 style="color: var(--st-primary); margin-top: 0; font-size: 1.5rem;">30 秒找出最適合你的瑞士票券</h2>
+                </div>
+                <div class="progress-container">
+                    <div id="quiz-progress" class="progress-bar"></div>
+                </div>
+                <div id="quiz-content">
+                    <div id="step-1" class="quiz-step">
+                        <p class="faq-question" style="border-left: none; padding-left: 0; text-align: center;">你想來瑞士幾天？</p>
+                        <div class="quiz-options">
+                            <button class="quiz-btn" onclick="nextStep(2, {days: '少於 7 天', daysVal: 'short'})">少於 7 天</button>
+                            <button class="quiz-btn" onclick="nextStep(2, {days: '7-14 天', daysVal: 'mid'})">7-14 天</button>
+                            <button class="quiz-btn" onclick="nextStep(2, {days: '15 天以上', daysVal: 'long'})">15 天（含）以上</button>
+                        </div>
+                    </div>
+
+                    <div id="step-2" class="quiz-step" style="display: none;">
+                        <p class="faq-question" style="border-left: none; padding-left: 0; text-align: center;">預算多少（台幣）</p>
+                        <div class="quiz-options">
+                            <button class="quiz-btn" onclick="nextStep(3, {budget: '5 萬以下', budgetVal: '5-'})">5 萬以下</button>
+                            <button class="quiz-btn" onclick="nextStep(3, {budget: '5 到 10 萬', budgetVal: '5-10'})">5 到 10 萬</button>
+                            <button class="quiz-btn" onclick="nextStep(3, {budget: '10 到 15 萬', budgetVal: '10-15'})">10 到 15 萬</button>
+                            <button class="quiz-btn" onclick="nextStep(3, {budget: '15 萬以上', budgetVal: '15'})">15 萬以上</button>
+                        </div>
+                        <button class="back-link" onclick="prevStep(1)">← 我按錯了</button>
+                    </div>
+
+                    <div id="step-3" class="quiz-step" style="display: none;">
+                        <p class="faq-question" style="border-left: none; padding-left: 0; text-align: center;">你是哪型人</p>
+                        <div class="quiz-options">
+                            <button class="quiz-btn" onclick="nextStep(4, {style: '超級懶人', styleVal: 'lazy'})">超級懶人</button>
+                            <button class="quiz-btn" onclick="nextStep(4, {style: '精算型玩家', styleVal: 'price'})">精算型玩家</button>
+                        </div>
+                        <button class="back-link" onclick="prevStep(2)">← 我按錯了</button>
+                    </div>
+        
+                    <div id="step-4" class="quiz-step" style="display: none;">
+                        <p class="faq-question" style="border-left: none; padding-left: 0; text-align: center;">要去策馬特嗎？</p>
+                        <div class="quiz-options">
+                            <button class="quiz-btn" onclick="nextStep(5, {zermatt: '是，策馬特必去', zermattVal: true})">是，策馬特必去</button>
+                            <button class="quiz-btn" onclick="nextStep(5, {zermatt: '否，策馬特還好', zermattVal: false})">否，策馬特還好</button>
+                        </div>
+                        <button class="back-link" onclick="prevStep(3)">← 我按錯了</button>
+                    </div>
+        
+                    <div id="step-5" class="quiz-step" style="display: none;">
+                        <p class="faq-question" style="border-left: none; padding-left: 0; text-align: center;">要去少女峰嗎？</p>
+                        <div class="quiz-options">
+                            <button class="quiz-btn" onclick="showResult({jungfrau: '是，少女峰必去', jungfrauVal: true})">是，少女峰必去</button>
+                            <button class="quiz-btn" onclick="showResult({jungfrau: '否，少女峰還好', jungfrauVal: false})">否，少女峰還好</button>
+                        </div>
+                        <button class="back-link" onclick="prevStep(4)">← 我按錯了</button>
+                    </div>
+        
+                    <div id="quiz-result" class="quiz-step" style="display: none;">
+                        <div id="user-summary" style="background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; border: 1px dashed #ccc;">
+                            <strong>我的瑞士之旅：</strong> <span id="summary-display"></span>
+                        </div>
+                        <h3 id="result-title" style="color: var(--st-primary); margin-top: 0;"></h3>
+                        <p id="result-text" style="margin-bottom: 25px;"></p>
+                        <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                            <a id="calc-redirect-btn" href="#" class="btn"></a>
+                            <!-- <a href="https://swisspro.tw/blog/" class="btn" style="margin-top: 0;">參考行程詳細資訊</a> -->
+                            <button class="btn" style="background-color: #666;" onclick="resetQuiz()">重來</button>
+                        </div>
+                    </div>
+                </div>
         </div>
     </header>
 
@@ -71,7 +140,6 @@
 
     <section id="faq" class="section-container">
         <h2 class="section-title">❓ 常見問題 FAQ</h2>
-        
         <div class="faq-item">
             <div class="faq-question">怎麼算出來都那麼貴？</div>
             <div class="faq-answer"><p>可以改去日本。</p></div>
@@ -164,7 +232,10 @@
                 <i class="fab fa-instagram"></i>
             </a>
         </div>
-        <p>&copy; 2026 省瑞計劃 | 專為台灣自由行旅人設計的瑞士旅遊工具</p>
+        <p style="font-size: 0.85rem; color: rgba(9, 9, 9, 0.8);text-align: center;">
+            <i class="fas fa-info-circle"></i> 資料來源：SBB 2026 官方最新票價
+        </p>
+        <p>&copy; 2026 省瑞計劃 v0.2 | 專為台灣自由行旅人設計的瑞士旅遊工具</p>
 
     </footer>
     <div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #31333F; color: white; padding: 15px; text-align: center; font-size: 0.9rem; z-index: 10000; display: none;">
@@ -179,7 +250,12 @@
         function acceptCookies() {
             localStorage.setItem('cookiesAccepted', 'true');
             document.getElementById('cookie-banner').style.display = 'none';
+
+            if (typeof gtag === 'function') {
+                gtag('event', 'cookie_consent', { 'status': 'accepted' });
+            }
         }
     </script>
+    <script src="quiz.js"></script>
 </body>
 </html>
