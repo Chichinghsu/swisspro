@@ -62,10 +62,10 @@
             <h1>🇨🇭精算你的瑞士旅費</h1>
             <!-- <p>為你的行程精算買車票的最佳組合！瑞士旅遊錙銖必較！</p>
             <p>30 秒找出最適合你的瑞士行程</p> -->
-            <!-- <a href="https://calculator.swisspro.tw" class="btn" style="padding: 8px 16px;">馬上試算 🚀</a> -->
+            <!-- <a href="https://calculator.swisspro.tw" class="btn" style="padding: 8px 16px;">我已經知道我的行程了</a> -->
             <div id="quiz-container" class="quiz-card-embedded">
                 <div style="margin-bottom: 25px;">
-                    <h2 style="color: var(--st-primary); margin-top: 0; font-size: 1.5rem;">30 秒找出最適合你的瑞士票券</h2>
+                    <h2 style="color: var(--st-primary); margin-top: 0; font-size: 1.5rem;">30 秒找出最適合你的瑞士行程及票券</h2>
                 </div>
                 <div class="progress-container">
                     <div id="quiz-progress" class="progress-bar"></div>
@@ -131,6 +131,13 @@
                         </div>
                     </div>
                 </div>
+                 
+                <a href="https://calculator.swisspro.tw" 
+                    id="direct-link-btn" 
+                    class="direct-link"
+                    onclick="gtag('event', 'click_direct_calculator');">
+                        我已排好行程了 ➔ 直接精算
+                </a>
         </div>
     </header>
 

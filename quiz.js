@@ -5,7 +5,14 @@ function nextStep(step, data) {
     Object.assign(answers, data);
 
     const key = Object.keys(data)[0]; 
-    const value = data[key];           
+    const value = data[key];       
+    const directLink = document.getElementById('direct-link-btn');    
+
+    if (step > 0) {
+        directLink.style.display = 'none';
+    } else {
+        directLink.style.display = 'inline-block';
+    }
 
     if (typeof gtag === 'function') {
         gtag('event', 'quiz_answer', {
@@ -76,13 +83,13 @@ function showResult(data) {
 
     if (answers.budgetVal === '5-'){
         title.innerText = "建議行程：改去日本";
-        text.innerText = "開玩笑的，不過五萬可能有點難，加油，請看下面行程";
+        text.innerText = "開玩笑的，不過 5萬遊瑞士可能有點難\n⬇️ 請看下面推薦行程";
     } else if (answers.styleVal === 'lazy') {
         title.innerText = "建議方案：Swiss Travel Pass (STP)";
-        text.innerText = "追求極致自由，說走就走，車來就上，不想計劃行程細節的人。";
+        text.innerText = "追求極致自由，不想計劃行程細節的人\n⬇️ 請看下面推薦行程";
     } else if (answers.styleVal === 'price') {
         title.innerText = "建議方案：半價卡 (Half fare card)";
-        text.innerText = "能省則省的計劃狂人，尤其適合行程多的 J人。";
+        text.innerText = "能省則省的計劃狂人，尤其行程多的 J人\n⬇️ 請看下面推薦行程";
     }
     const calcBtn = document.getElementById('calc-redirect-btn');
     calcBtn.onclick = function() {
@@ -93,7 +100,7 @@ function showResult(data) {
         }
     };
     calcBtn.href = `https://calculator.swisspro.tw/?itinerary_id=${itineraryId}&from=quiz`;
-    calcBtn.innerText = `查看與你喜好相近的「${answers.days}」參考行程`;
+    calcBtn.innerText = `查看與你喜好相近「${answers.days}」參考行程`;
 
     document.getElementById('quiz-result').style.display = 'block';
     document.getElementById('quiz-progress').parentElement.style.display = 'none'; 

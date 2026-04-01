@@ -92,10 +92,25 @@ nav {
     margin: 0 auto;
 }
 
+.hero-content h1 {
+    font-size: 1.6rem; 
+    line-height: 1.4;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
 .hero h1 { 
     font-size: 2.8rem; 
     margin-bottom: 15px; 
     text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 768px) {
+    .hero h1 { 
+        font-size: 2.2rem; 
+        margin-bottom: 15px; 
+        line-height: 1.3;
+    }
 }
 
 .hero p { 
@@ -111,15 +126,16 @@ nav {
     color: var(--st-text); 
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     text-align: center;
-
-    width: 95%;
-    max-width: 600px; 
+    width: 90%;
+    max-width: 500px; 
     margin: 0 auto;
 }
 
 .quiz-card-embedded h2 {
     letter-spacing: -0.5px;
     line-height: 1.2;
+    color: #333 !important;
+    font-weight: 600;
 }
 
 @media (max-width: 600px) {
@@ -293,4 +309,23 @@ footer {
     background-color: var(--st-primary);
     height: 100%;
     transition: width 0.4s ease;
+}
+
+.direct-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-radius: 50px;
+    color: #e63946;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+#calc-redirect-btn {
+    white-space: nowrap;      
+    display: inline-block;    
+    padding: 12px 24px;   
+    font-size: 1rem;   
 }
