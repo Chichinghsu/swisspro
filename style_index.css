@@ -329,3 +329,27 @@ footer {
     padding: 12px 24px;   
     font-size: 1rem;   
 }
+
+.swiss-spinner {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(255,255,255,0.1);
+    border-top: 2px solid #E63946;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fade-in {
+    display: flex !important;
+    animation: opacityIn 0.4s ease-in;
+}
+
+@keyframes opacityIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

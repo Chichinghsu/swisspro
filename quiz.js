@@ -56,11 +56,11 @@ function showResult(data) {
         progressContainer.style.display = 'none';
     }
 
-    document.getElementById('summary-display').innerText = 
-        `${answers.days} | ${answers.budget} | ${answers.style} | ${answers.zermatt} | ${answers.jungfrau}`;
+//     document.getElementById('summary-display').innerText = 
+//         `${answers.days} | ${answers.budget} | ${answers.style} | ${answers.zermatt} | ${answers.jungfrau}`;
 
-    const title = document.getElementById('result-title');
-    const text = document.getElementById('result-text');
+//     const title = document.getElementById('result-title');
+//     const text = document.getElementById('result-text');
 
     let itineraryId = 1; 
     if (answers.budgetVal === '5-') {
@@ -80,30 +80,13 @@ function showResult(data) {
             itineraryId = 6
         }
     } 
-
-    if (answers.budgetVal === '5-'){
-        title.innerText = "建議行程：改去日本";
-        text.innerText = "開玩笑的，不過 5萬遊瑞士可能有點難\n⬇️ 請看下面推薦行程";
-    } else if (answers.styleVal === 'lazy') {
-        title.innerText = "建議方案：Swiss Travel Pass (STP)";
-        text.innerText = "追求極致自由，不想計劃行程細節的人\n⬇️ 請看下面推薦行程";
-    } else if (answers.styleVal === 'price') {
-        title.innerText = "建議方案：半價卡 (Half fare card)";
-        text.innerText = "能省則省的計劃狂人，尤其行程多的 J人\n⬇️ 請看下面推薦行程";
-    }
-    const calcBtn = document.getElementById('calc-redirect-btn');
-    calcBtn.onclick = function() {
-        if (typeof gtag === 'function') {
-            gtag('event', 'click_calculator', {
-                'itinerary_id': itineraryId, 
-            });
-        }
-    };
-    calcBtn.href = `https://calculator.swisspro.tw/?itinerary_id=${itineraryId}&from=quiz`;
-    calcBtn.innerText = `查看與你喜好相近「${answers.days}」參考行程`;
-
-    document.getElementById('quiz-result').style.display = 'block';
-    document.getElementById('quiz-progress').parentElement.style.display = 'none'; 
+    const loader = document.getElementById('high-end-loader');
+    loader.style.display = 'flex';
+    loader.classList.add('fade-in');
+    console.log(itineraryId)
+    setTimeout(() => {
+        window.location.href = `https://calculator.swisspro.tw/?itinerary_id=${itineraryId}&from=quiz`;
+    }, 800);
 }
 
 function resetQuiz() {
