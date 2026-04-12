@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ETZ7DMRD6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-2ETZ7DMRD6');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+    <link rel="icon" href="{{ site.favicon }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/style_index.css' | relative_url }}">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebApplication",
+          "name": "{{ site.title }}",
+          "url": "{{ site.url }}",
+          "description": "{{ site.description }}",
+          "applicationCategory": "TravelApplication",
+          "operatingSystem": "All",
+          "inLanguage": "zh-Hant-TW",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "TWD"
+          },
+          "author": {
+            "@type": "Organization",
+            "name": "省瑞計劃",
+            "url": "https://swisspro.tw"
+          }
+        }
+    </script>
+</head>
+
+<body>
+    <nav>
+        <a href="{{ '/' | relative_url }}" class="logo">省瑞計劃</a>
+        <div class="nav-links">
+            <a href="{{ '/#faq' | relative_url }}" style="padding: 8px 16px;">常見問題</a>
+            <a href="{{ '/blog' | relative_url }}" style="padding: 8px 16px;">瑞士攻略</a>
+            <a href="https://calculator.swisspro.tw" style="padding: 8px 16px;">票券精算</a>
+            <a href="https://calculator.swisspro.tw/?p=validator" style="padding: 8px 16px;">票券範圍確認</a>
+        </div>
+    </nav>
+
+    {{ content }}
+
+    <footer style="padding: 40px 5%; background: var(--st-secondary-bg); text-align: center; border-top: 1px solid #e0e0e0;">
+        <div class="social-links" style="margin-bottom: 20px;">
+            <p style="margin-bottom: 10px; font-weight: 600;">還是不懂？歡迎私訊詢問</p>
+            <a href="https://www.instagram.com/swisspro.tw/" target="_blank" rel="noopener" style="color: #D32F2F; font-size: 2rem; text-decoration: none; transition: 0.3s;">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <p style="font-size: 0.85rem; color: rgba(9,9,9,0.8); text-align: center;">
+            <i class="fas fa-info-circle"></i> 資料來源：SBB 2026 官方最新票價
+        </p>
+        <p>&copy; 2026 省瑞計劃 v0.5.2 | 專為台灣自由行旅人設計的瑞士旅遊工具</p>
+    </footer>
+
+    <script src="{{ '/quiz.js' | relative_url }}"></script>
+</body>
+</html>

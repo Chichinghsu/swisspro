@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<article class="post-container">
+    <header class="post-header">
+        {% if page.categories %}
+        <span class="post-category-badge post-category-badge--inline">{{ page.categories | first }}</span>
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%Y年%m月%d日" }}</p>
+    </header>
+
+    {% if page.thumbnail %}
+    <div class="post-thumbnail-full">
+        <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
+    <div class="post-body">
+        {{ content }}
+    </div>
+
+    <div class="post-footer">
+        <hr>
+        <div class="post-footer-cta">
+            <!-- <p>💡 還有疑問嗎？歡迎私訊 IG
+                <a href="https://www.instagram.com/swisspro.tw/" target="_blank" rel="noopener">@swisspro.tw</a>
+                詢問瑞士旅遊問題！
+            </p> -->
+            <!-- <a href="https://calculator.swisspro.tw" class="btn" style="margin-right: 12px;">🧮 票券精算</a> -->
+            <a href="{{ '/blog' | relative_url }}" class="back-to-blog">← 返回瑞士攻略</a>
+        </div>
+    </div>
+</article>
