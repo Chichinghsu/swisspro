@@ -13,7 +13,7 @@ permalink: /blog/zermatt-pass-guide/
 策馬特 (Zermatt) 位於瑞士南部山區，以馬特洪峰還有 Toblerone 巧克力聞名於世。可說是來瑞士必去經典中的經典之一。要去策馬特交通上需預留較多時間，距離主要城市：
 
 - 蘇黎世 (Zurich HB)：約 3小時 15分 （班次多，每小時都有）
-- 米蘭 (Milano)：約 3小時 40分（只有早上 7：10 與 8：10 兩班，其他都要轉很多車花費五小時以上）
+- 米蘭 (Milano)：約 3小時 40分（班次不多，一天可能三四班快的，其他都要轉很多車花費五小時以上）
 - 日內瓦 (Geneva)：約 3小時 50分（班次多，每小時都有）
 - 琉森 (Lucerne)：約 3小時 17分（班次多，每小時都有）
 - 伯恩 (Bern)：約 2小時 10分（班次多，每小時都有）
@@ -27,7 +27,7 @@ permalink: /blog/zermatt-pass-guide/
 不管去哪一個，天氣很重要，很重要，很重要，天氣不好基本上就是看霧，真的不要有「來都來了」的心態，真的啥都看不到，不妨想想，這次沒看到，我下次再來，就會再回來。建議上山前先看一下 [山上 Webcam](https://www.matterhornparadise.ch/en/information/webcams)。
 
 <figure>
-  <img src="{{ '/img/zermatt/zermatt_map.png' | relative_url }}" alt="策馬地圖">
+  <img src="{{ '/img/zermatt/zermatt_map.png' | relative_url }}" alt="策馬特地圖">
   <figcaption>策馬特地圖，基本上就是三個大景點。來源<a href="https://zermatt.swiss/en/map?type=summer">策馬特官網</a></figcaption>
 </figure>
 
