@@ -62,28 +62,27 @@ function showResult(data) {
 //     const title = document.getElementById('result-title');
 //     const text = document.getElementById('result-text');
 
-    let itineraryId = 1; 
+    let itineraryId = '1'; 
     if (answers.budgetVal === '5-') {
-        itineraryId = 0
+        itineraryId = '0'
     } else if ((answers.daysVal === 'long')) {
-        itineraryId = 7
+        itineraryId = '7'
     } else if (answers.daysVal === 'short') {
         if (answers.zermattVal) {
-            itineraryId = answers.jungfrauVal ? 1 : 2; 
+            itineraryId = answers.jungfrauVal ? '1' : '2'; 
         } else {
-            itineraryId = 3
+            itineraryId = '3'
         }
     } else if (answers.daysVal === 'mid') {
         if (answers.zermattVal) {
-            itineraryId = answers.jungfrauVal ? 4 : 5; 
+            itineraryId = answers.jungfrauVal ? 'fd5b65b6' : 'd5f19e8b'; 
         } else {
-            itineraryId = 6
+            itineraryId = '6'
         }
     } 
     const loader = document.getElementById('high-end-loader');
     loader.style.display = 'flex';
     loader.classList.add('fade-in');
-    console.log(itineraryId)
     setTimeout(() => {
         window.location.href = `https://calculator.swisspro.tw/?itinerary_id=${itineraryId}&from=quiz`;
     }, 800);
