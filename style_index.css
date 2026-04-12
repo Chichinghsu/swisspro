@@ -18,9 +18,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    background: var(--st-secondary-bg);
+    background: rgba(240, 242, 246, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid #e0e0e0;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .logo { 

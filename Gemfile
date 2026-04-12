@@ -5,3 +5,8 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "jekyll", "~> 4.4"
+
+group :jekyll_plugins do
+    gem "jekyll-sitemap"
+    # ... other plugins like jekyll-feed
+  end
