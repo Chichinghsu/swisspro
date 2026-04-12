@@ -109,8 +109,8 @@ permalink: /blog/zermatt-pass-guide/
 | 季節 | 皆可 | 期間限定 |
 | 推薦程度 | 還好 | 推 |
 
-<figure>
-  <img src="{{ '/img/zermatt/calculator_zermatt.png' | relative_url }}" alt="策馬地圖">
+<figure style="max-width: 300px; margin: 20px auto;">
+  <img src="{{ '/img/zermatt/calculator_zermatt.png' | relative_url }}" alt="瑞士票券精算器使用畫面">
   <figcaption><a href="https://calculator.swisspro.tw">瑞士票券精算器</a> 使用畫面，輸入行程，就知道買什麼 </figcaption>
 </figure>
 
