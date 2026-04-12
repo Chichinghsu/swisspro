@@ -46,7 +46,7 @@ permalink: /blog/zermatt-pass-guide/
 </div>
 
 ## 群山綜覽通行證 (Zermatt Peak Pass)：極致懶人首選
-如果你預計在策馬特待很多天，Peak Pass 就是你的吃到飽車票。有 1 到 5 天可以選擇，期間無限搭乘纜車、火車等等。
+如果你預計在策馬特待很多天，Peak Pass 就是你的吃到飽車票。有 1 到 5 天可以選擇，期間無限搭乘纜車、火車等等。如果真的懶得決定要買什麼，就買這個，無腦搭。
 
 * **包含範圍：** 策馬特地區所有纜車、齒軌火車，甚至包含到 Täsch 的接駁火車。（因為策馬特是無車小鎮，自駕的人需要把車停在 Täsch）
 * **適合對象：** 想去五湖健行、想去戈爾內格拉特、又想去冰川天堂，而且每天都想去，只要天氣好就要上去拍照的人。
@@ -61,7 +61,7 @@ permalink: /blog/zermatt-pass-guide/
 | **4 Days** | 326  | 244.5  |
 | **5 Days** | 360  | 270.0  |
 
-夏天的話戈爾內格拉特來回約 66 瑞郎，冰川天堂約 60 瑞郎，五湖健行的票大概 25 瑞郎（持半價卡/STP）。所以如果真的精算一下你會發現，基本上都不太划算除非你真的狂上山且待很多天，每天都狂上山或健行，才有可能比較划算，
+夏天的話戈爾內格拉特來回約 66 瑞郎，冰川天堂約 60 瑞郎，五湖健行的票大概 25 瑞郎（持半價卡/STP）。所以如果真的精算一下你會發現，基本上都不太划算除非你真的狂上山且待很多天，每天都狂上山或健行，才有可能比較划算。
 
 <div class="swiss-buy-container">
     <a href="https://www.kkday.com/zh-tw/product/18767-zermatt-peak-pass-switzerland?cid=24072" 
@@ -90,6 +90,11 @@ permalink: /blog/zermatt-pass-guide/
     </a>
 </div>
 
+<figure>
+  <img src="{{ '/img/zermatt/gornergrat_image.png' | relative_url }}" alt="策馬特戈爾內格拉特">
+  <figcaption>策馬特 戈爾內格拉特 火車搭上山後的風景，另外一邊即是馬特洪峰</figcaption>
+</figure>
+
 ## 結論
 
 | 景點 | 群山綜覽通行證 | Peak2Peak |
@@ -104,15 +109,10 @@ permalink: /blog/zermatt-pass-guide/
 | 季節 | 皆可 | 期間限定 |
 | 推薦程度 | 還好 | 推 |
 
-
-
+<figure>
+  <img src="{{ '/img/zermatt/calculator_zermatt.png' | relative_url }}" alt="策馬地圖">
+  <figcaption><a href="https://calculator.swisspro.tw">瑞士票券精算器</a> 使用畫面，輸入行程，就知道買什麼 </figcaption>
+</figure>
 
 ## 💡 還是不知道要買啥？
 直接去 **[瑞士票券精算器](https://calculator.swisspro.tw)** 輸入你的策馬特行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算（包含 Peak2Peak 與群山綜覽通行證 (Zermatt Peak Pass)，或者什麼都不買）。或者直接去 **[IG](https://www.instagram.com/swisspro.tw/)** 私訊發問。
-
-<figure>
-  <img src="{{ '/img/zermatt/gornergrat_image.png' | relative_url }}" alt="策馬特戈爾內格拉特">
-  <figcaption>策馬特 戈爾內格拉特 火車搭上山後的風景，另外一邊即是馬特洪峰</figcaption>
-</figure>
-
-

@@ -28,7 +28,7 @@ description: 少女峰、策馬特、瑞士票券攻略，一篇看懂不踩雷
         <div class="post-card-body">
             <p class="post-meta">{{ post.date | date: "%Y年%m月%d日" }}</p>
             <h2 class="index-post-title">{{ post.title }}</h2>
-            <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+            <p class="post-excerpt">{{ post.description | strip_html | truncate: 150 }}</p>
             <span class="read-more">閱讀全文 →</span>
         </div>
     </a>
