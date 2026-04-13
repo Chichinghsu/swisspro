@@ -42,5 +42,11 @@ permalink: /blog/zermatt-milano-how-to/
 
 過了 Domodossola 之後會進入長約 20 公里的 Simplon 隧道，出隧道你就到瑞士了。過了 Domodossola 但進隧道之前風景不錯，可以看到阿爾卑斯山深山中的義大利小村莊，建議可以先別睡覺。順帶一提這個隧道差點在二戰時被炸掉，還好最後沒有。在 Domodossola 站時可能會有邊境警察上來檢查護照或海關來看你有沒有帶什麼違禁品，所以會停個一陣子才開車。
 
+
+{% assign target_post = site.posts | where: "url", "/blog/zermatt-pass-guide/" | first %}
+到了策馬特之後，可以參考這篇
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+
 ## 💡 還是不知道要買啥票？
 直接去 **[瑞士票券精算器](https://calculator.swisspro.tw)** 輸入你的行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算。或者直接去 **[IG](https://www.instagram.com/swisspro.tw/)** 私訊發問。
