@@ -3,17 +3,54 @@ layout: default
 title: 瑞士遊記 & 旅遊攻略
 description: 少女峰、策馬特、瑞士票券攻略，一篇看懂不踩雷
 ---
+<style>
+.category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    justify-content: center; 
+}
+
+.cat-link {
+    color: #333; 
+    text-decoration: none; 
+    font-weight: 700; 
+    font-size: 16px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.cat-link:hover {
+    color: #E53E3E; 
+}
+
+.cat-link.active {
+    color: #E53E3E; 
+    border-bottom: 2px solid #E53E3E; 
+    padding-bottom: 4px;
+}
+</style>
 
 <div class="blog-hero">
     <div class="blog-hero-content">
         <h1>瑞士遊記 & 旅遊攻略</h1>
-        <p>票券攻略、景點推薦、實際踩點紀錄</p>
+    </div>
+    <div class="category-nav">
+        <a href="{{ '/blog/' | relative_url }}" class="cat-link active">全部</a>
+        {% assign categories = site.categories | sort %}
+        {% for category in categories %}
+            {% assign cat_name = category[0] %}
+            <a href="#{{ cat_name }}" class="cat-link" onclick="filterCategory('{{ cat_name }}')">{{ cat_name }}</a>
+        {% endfor %}
     </div>
 </div>
 
-<div class="blog-container">
+<div class="blog-container" id="post-list">
     {% for post in site.posts %}
-    <a href="{{ post.url | relative_url }}" class="post-card" aria-label="{{ post.title }}">
+    <a href="{{ post.url | relative_url }}" class="post-card" data-category="{{ post.categories | join: ' ' }}" aria-label="{{ post.title }}">
         <div class="post-thumbnail">
             {% if post.thumbnail %}
                 <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" loading="lazy">
@@ -34,3 +71,23 @@ description: 少女峰、策馬特、瑞士票券攻略，一篇看懂不踩雷
     </a>
     {% endfor %}
 </div>
+
+<script>
+function filterCategory(category) {
+    const posts = document.querySelectorAll('.post-card');
+    const links = document.querySelectorAll('.cat-link');
+    
+    // 更新 Active 狀態
+    links.forEach(link => link.classList.remove('active'));
+    event.target.classList.add('active');
+
+    posts.forEach(post => {
+        if (category === 'all' || post.getAttribute('data-category').includes(category)) {
+            post.style.display = 'flex';
+        } else {
+            post.style.display = 'none';
+        }
+    });
+}
+</script>
+
