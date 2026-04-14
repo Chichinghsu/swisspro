@@ -155,7 +155,7 @@ input:checked + .slider:before { transform: translateX(22px); }
 購買方式很簡單，只要在 SBB App 上面選擇 Saver Day Pass，選定日期購買即可（見下圖左），但再說一次，**買了就無法退了，也不能改了，下好離手。**有可能合理的使用場合例如：旅程最後幾天要從策馬特到蘇黎世，蘇黎世住一天，隔天從蘇黎世機場飛回家，這樣買就很合理，因為無論天氣如何你都得搭這段策馬特到蘇黎世。此外，請見下圖右，如果 Saver Day Pass 比你要搭的車划算的話，App 也會直接顯示。
 
 <figure>
-  <img src="{{ '/img/sbb/sbb_app_saver_day_pass.png' | relative_url }}" alt="策馬特地圖">
+  <img src="{{ '/img/sbb/sbb_app_saver_day_pass.png' | relative_url }}" alt="SBB App Saver Day Pass">
   <figcaption>（左）買票直接點這邊，然後選日期即可（右）直接查車，如果 Saver Day Pass 比較便宜的話也會顯示</figcaption>
 </figure>
 
@@ -186,7 +186,7 @@ input:checked + .slider:before { transform: translateX(22px); }
 比如說下圖，蘇黎世到策馬特持半價卡的話是 65 瑞郎，這是 2026年 6月 5日的班次（現在是 4月14日）所以差不多一個半月前，可以買到 46.6 瑞郎的價格，差不多是七折。但就只能搭 2026年 6月 5號 7:02 蘇黎世中央車站發車，10:17 抵達策馬特的車（當然要轉車，但就只能搭上面顯示的那台轉那台）。如果你不小心睡過頭，那你只能直接重買一張，而且重買的話肯定是原價 65，等於是你花了 46.6 + 65 瑞郎（當然，別睡過頭就好）。
 
 <figure style="max-width: 400px; margin: 20px auto;">
-  <img src="{{ '/img/sbb/super_saver.png' | relative_url }}" alt="策馬特地圖">
+  <img src="{{ '/img/sbb/super_saver.png' | relative_url }}" alt="SBB Supersaver">
   <figcaption>Supersaver 省省遊瑞士的極致</figcaption>
 </figure>
 
