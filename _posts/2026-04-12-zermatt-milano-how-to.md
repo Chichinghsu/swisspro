@@ -23,6 +23,10 @@ permalink: /blog/zermatt-milano-how-to/
 
 有半價卡或 Swiss Travel Pass (STP) 的旅客，從 Domodossola 之後就可以享有折扣，也就是說有 STP 的你只需要買票買到 Domodossola，之後免費，而有半價卡的 Domodossola 之後到策馬特半價。義大利境內車票比瑞士便宜很多，這段米蘭到 Domodossola 票價約 16 歐（在[義大利國鐵 Trenitalia 官網](https://www.trenitalia.com/en.html)買。）
 
+{% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
+什麼是半價卡？什麼是 STP？請看這篇
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
 <div class="tip-box" markdown="1">
 ### 💡 懶人包
 - 有 STP 的人：買米蘭到 Domodossola 就好，後段免費（義大利國鐵官網買），約 16 歐

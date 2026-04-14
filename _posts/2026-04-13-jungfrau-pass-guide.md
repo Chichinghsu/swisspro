@@ -35,7 +35,13 @@ permalink: /blog/jungfrau-pass-guide/
 | 格林德瓦 ↔ 少女峰頂 | 249.2 | 189.6 | 129.6  |  89 |
 | 勞特布魯嫩 ↔ 少女峰頂 | 260 | 188.8 | 135  | 89 |
 
+{% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
+什麼是半價卡？什麼是 STP？請看這篇
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+
 總之，非常之貴，應該沒有人會用原價上下少女峰頂，從這張表看起來好像少女峰通票最划算？讓我們繼續看下去。
+
 
 <!-- 這附近的票券十分複雜且昂貴，除了最基本的 Swiss Travel Pass (STP) 與半價卡幾乎可說是必備之外，大致上還可搭配以下兩種票券：少女峰旅行通票 (Jungfrau Travel Pass)，或者伯恩高地通票 (Berner Oberland Pass)。 -->
 
@@ -106,7 +112,7 @@ permalink: /blog/jungfrau-pass-guide/
 | D4 布里恩茨湖遊船 | 75 | 0 | 37.5  | 0 |
 | 總計 | 486.6 | 249.6 | 248.3  | 89 |
 
-乍看之下好像少女峰通票賺爛了，但如果加上票券本身的價格，事情就沒有這麼單純，可以再細分為以下幾種情況（車票總價來自上表），由最便宜到最貴分別是：
+其中 D2 格林德瓦 ↔ 少女峰山頂含訂位費 10 瑞郎。乍看之下好像少女峰通票賺爛了，但如果加上票券本身的價格，事情就沒有這麼單純，可以再細分為以下幾種情況（車票總價來自上表），由最便宜到最貴分別是：
 
 | 半價卡? | STP? | 少女峰通票? | 票券總價| 車票總價 | 總價 |
 | :--- | :--- | :--- | :--- |  :--- | :--- | 
@@ -137,7 +143,16 @@ permalink: /blog/jungfrau-pass-guide/
 
 ## 結論：到底買什麼比較划算？
 
-跟你的行程有關，所有的「如果你很常上山」或什麼之類的條件句子，其實都比不上你直接去省瑞計劃的**[瑞士票券精算器](https://calculator.swisspro.tw/?itinerary_id=40262633&utm_source=swisspro_blog&utm_campaign=jungfrau_pass_guide)**填一填算一下，幫你的行程精算一波。少女峰地區的票價計算可能是全瑞士最複雜的（還有夏季與冬季票價差），而且票價十分昂貴，應該也是全瑞士最貴。精算器都幫你把這些考慮進去了，只需要輸入你要去的地點與日期，即可知道什麼最划算。也恭喜你解決了最複雜的部分，接下來的瑞士之旅票券只會更簡單。
+跟你的行程有關，所有的「如果你很常上山」或什麼之類的條件句子，其實都比不上你直接去省瑞計劃的票券精算器填一填算一下，幫你的行程精算一波。少女峰地區的票價計算可能是全瑞士最複雜的（還有夏季與冬季票價差），而且票價十分昂貴，應該也是全瑞士最貴。精算器都幫你把這些考慮進去了，只需要輸入你要去的地點與日期，即可知道什麼最划算。也恭喜你解決了最複雜的部分，接下來的瑞士之旅票券只會更簡單。
+
+<div class="swiss-buy-container">
+    <a href="https://calculator.swisspro.tw/" 
+       target="_blank" 
+       rel="nofollow noopener" 
+       class="kkday-swiss-btn">
+       省瑞票券精算器
+    </a>
+</div>
 
 {% assign target_post = site.posts | where: "url", "/blog/zermatt-pass-guide/" | first %}
 除了少女峰之外，策馬特部分可以參考
