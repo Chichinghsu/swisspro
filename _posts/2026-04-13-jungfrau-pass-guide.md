@@ -4,7 +4,7 @@ title: "【2026 少女峰交通全攻略】：少女峰旅行通票？搭配半�
 date: 2026-04-13
 categories: 少女峰
 thumbnail: /img/jungfrau_cover.png
-description: "少女峰上山交通可說是世上最貴，一篇看懂少女峰旅行通票 Jungfrau Travel Pass 值不值得，教你如何利用半價卡省上加省。"
+description: "內附試算工具，少女峰上山交通可說是世上最貴，一篇看懂少女峰旅行通票 Jungfrau Travel Pass 值不值得，教你如何利用半價卡省上加省。"
 permalink: /blog/jungfrau-pass-guide/
 ---
 

@@ -4,7 +4,7 @@ title: "【2026 伯恩高地通票】：神秘的隱藏通票？划算嗎？一�
 date: 2026-04-13
 categories: [精算攻略, 少女峰]
 thumbnail: /img/jungfrau/bern_pass.webp
-description: "鮮為人知的伯恩高地通票 Berner Oberland Pass，改惡之後還划不划算呢？這篇一次整理給你。"
+description: "內附試算工具，鮮為人知的伯恩高地通票 Berner Oberland Pass，改惡之後還划不划算呢？這篇一次整理給你。"
 permalink: /blog/berner-oberland-pass/
 ---
 
@@ -69,6 +69,10 @@ permalink: /blog/berner-oberland-pass/
 | 琉森 - 茵特拉肯 （單程）| 34  | 17 | 0  | 0 | ❌ |
 
 ❌ 就是少女峰通票不包含，但要看你有沒有 STP 或半價卡價錢不同。所以 BO-Pass 真正亮點大概就是前兩項，雪朗峰跟布里恩茨蒸汽火車，還有其他二十幾個較為小眾的登山纜車。
+
+- 注意布里恩茨蒸汽火車需要額外付 8 瑞郎訂位費。[官網訂位](https://shop.brienz-rothorn-bahn.ch/en/ticket-with-seat-guarantee)，有 BO-Pass者只要選 8 塊錢那個選項即可。
+
+- 琉森 - 茵特拉肯 Luzern - Interlaken Express 這段也建議訂位，訂位費 2026/05/02 到 2026/11/01 是 16 瑞郎，其他時間為 12 瑞郎。可直接在 SBB App 上面訂位，三個月前可訂票。
 
 <figure>
   <img src="{{ '/img/background_mountain.webp' | relative_url }}" alt="穆倫健行">
