@@ -3,7 +3,9 @@ layout: post
 title: "【2026 SBB App 教學】：全部功能大解析：買車票、轉車月台、停靠位置、擁擠程度，全部掌握"
 date: 2026-04-15
 categories: 精算攻略
+image: /img/sbb/sbb_app_intro.png
 thumbnail: /img/sbb/sbb_app_intro.png
+og_image:  /img/sbb/sbb_app_intro.png
 description: "SBB App 瑞士自由行不可或缺的神級 App，其實有超多功能，到底要怎麼用呢？這篇帶你看懂，內附票價試算工具。Easy ride 怎麼用？怎麼搭車？轉車五分鐘來得及嗎？馬上看懂。"
 permalink: /blog/how-to-sbb-app/
 ---

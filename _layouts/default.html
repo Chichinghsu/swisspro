@@ -13,12 +13,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>{{ page.title | default: site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}">
+    {% endif %}
     <meta name="keywords" content="{{ site.keywords }}">
-
+    <meta property="og:site_name" content="省瑞計劃">
     <meta property="og:title" content="{{ page.title | default: site.title }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+    {% else %}
     <meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
+    {% endif %}
+
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
     <link rel="icon" href="{{ site.favicon }}">
@@ -29,25 +39,35 @@
 
     <script type="application/ld+json">
         {
-          "@context": "https://schema.org",
-          "@type": "WebApplication",
-          "name": "{{ site.title }}",
-          "url": "{{ site.url }}",
-          "description": "{{ site.description }}",
-          "applicationCategory": "TravelApplication",
-          "operatingSystem": "All",
-          "inLanguage": "zh-Hant-TW",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "TWD"
-          },
-          "author": {
-            "@type": "Organization",
-            "name": "省瑞計劃",
-            "url": "https://swisspro.tw"
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "WebSite",
+                "@id": "https://swisspro.tw/#website",
+                "url": "https://swisspro.tw",
+                "name": "省瑞計劃",
+                "alternateName": "SwissPro",
+                "description": "{{ site.description }}",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "省瑞計劃",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{ site.url }}{{ site.favicon }}"
+                  }
+                }
+              },
+              {
+                "@type": "WebApplication",
+                "@id": "https://calculator.swisspro.tw/#app",
+                "name": "瑞士交通票券精算助手",
+                "url": "https://calculator.swisspro.tw",
+                "applicationCategory": "TravelApplication",
+                "operatingSystem": "All",
+                "description": "專為台灣自由行旅人設計的瑞士鐵路票券試算工具，自動比價 STP、半價卡與原價。"
+              }
+            ]
           }
-        }
     </script>
 </head>
 
@@ -74,7 +94,7 @@
         <p style="font-size: 0.85rem; color: rgba(9,9,9,0.8); text-align: center;">
             <i class="fas fa-info-circle"></i> 資料來源：SBB 2026 官方最新票價
         </p>
-        <p>&copy; 2026 省瑞計劃 v0.5.2 | 專為台灣自由行旅人設計的瑞士旅遊工具</p>
+        <p>&copy; 2026 省瑞計劃 v0.5.5 | 專為台灣自由行旅人設計的瑞士旅遊工具</p>
     </footer>
 
     <script src="{{ '/quiz.js' | relative_url }}"></script>

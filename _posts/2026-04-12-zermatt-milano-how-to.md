@@ -3,8 +3,10 @@ layout: post
 title: "【2026 米蘭到策馬特攻略】：瑞士義大利跨境買票精省教學"
 date: 2026-04-12
 categories: 策馬特
+image: /img/zermatt/milano_cover.png
 thumbnail: /img/zermatt/milano_cover.png
-description: "直飛義大利米蘭之後想去策馬特要怎麼買票？有瑞士的 Swiss Travel Pass 或半價卡要怎麼買這段票，一篇帶你看懂。"
+og_image: /img/zermatt/milano_cover.png
+description: "直飛義大利米蘭之後想去策馬特要怎麼買票？有瑞士的 Swiss Travel Pass 或半價卡要怎麼買這段票，一篇帶你看懂（內附試算工具）。"
 permalink: /blog/zermatt-milano-how-to/
 ---
 

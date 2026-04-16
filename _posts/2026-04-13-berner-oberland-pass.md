@@ -3,8 +3,10 @@ layout: post
 title: "【2026 伯恩高地通票】：神秘的隱藏通票？划算嗎？一篇看懂"
 date: 2026-04-13
 categories: [精算攻略, 少女峰]
+image: /img/jungfrau/bern_pass.webp
 thumbnail: /img/jungfrau/bern_pass.webp
-description: "內附試算工具，鮮為人知的伯恩高地通票 Berner Oberland Pass，改惡之後還划不划算呢？這篇一次整理給你。"
+og_image: /img/jungfrau/bern_pass.webp
+description: "鮮為人知的伯恩高地通票 Berner Oberland Pass，改惡之後還划不划算呢？這篇一次整理給你（內附試算工具）。"
 permalink: /blog/berner-oberland-pass/
 ---
 

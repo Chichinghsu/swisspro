@@ -3,8 +3,10 @@ layout: post
 title: "【2026 策馬特交通全攻略】：群山綜覽通行證還是 Peak2Peak？怎麼選？"
 date: 2026-04-12
 categories: [策馬特, 精算攻略]
+image: /img/zermatt_cover.png
 thumbnail: /img/zermatt_cover.png
-description: "內附試算工具，策馬特交通費貴到想哭？一篇看懂群山綜覽通行證 Zermatt Peak Pass 與 Peak2Peak 的差異，教你如何利用半價卡省上加省。"
+og_image: /img/zermatt_cover.png
+description: "2026 策馬特交通攻略（內附試算工具）！分析策馬特群山綜覽通行證與 Peak2Peak 票券優缺點，教你配合瑞士半價卡省下大筆旅費。"
 permalink: /blog/zermatt-pass-guide/
 ---
 
