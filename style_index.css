@@ -818,3 +818,53 @@ figcaption {
         margin: 0 auto;
     }
 }
+
+.screenshot-carousel {
+    margin: 30px auto;
+    max-width: 1000px; /* Limits how wide the whole group gets on giant monitors */
+}
+
+.carousel-container {
+    display: flex;
+    gap: 15px;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 767px) {
+    .carousel-container {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 15px;
+    }
+
+    .carousel-container img {
+        flex: 0 0 65%; /* Shows most of one image + a peek of the next */
+        scroll-snap-align: center;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-container {
+        overflow-x: hidden; /* No scrolling needed */
+        justify-content: space-between; /* Spreads them out evenly */
+    }
+
+    .carousel-container img {
+        flex: 0 0 31%; /* Exactly enough for 3 images with gaps */
+        max-width: 31%;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+}
+
+.screenshot-carousel figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 15px;
+    line-height: 1.5;
+}
