@@ -3,9 +3,9 @@ layout: post
 title: "【2026 瑞士旅遊車票】：半價卡還是 Swiss Travel Pass？一篇看懂"
 date: 2026-04-14
 categories: 精算攻略
-image: /img/background_mountain.webp
-thumbnail: /img/background_mountain.webp
-og_image: /img/background_mountain.webp
+image: /img/sbb/stp_post.webp
+thumbnail: /img/sbb/stp_post.webp
+og_image: /img/sbb/stp_post.webp
 description: "瑞士票券好多好複雜？到底要買什麼？（內附試算工具）看完這篇你就知道，你到底該買「瑞士旅行通行證 (STP)」還是「半價卡」？"
 permalink: /blog/stp-halbtax-guide/
 ---

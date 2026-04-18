@@ -3,9 +3,9 @@ layout: post
 title: "【2026 少女峰交通全攻略】：少女峰旅行通票？搭配半價卡 還是 STP 怎麼選？"
 date: 2026-04-13
 categories: [少女峰, 精算攻略]
-image: /img/jungfrau_cover.png
-thumbnail: /img/jungfrau_cover.png
-og_image: /img/jungfrau_cover.png
+image: /img/jungfrau/jungfrau_post.webp
+thumbnail: /img/jungfrau/jungfrau_post.webp
+og_image: /img/jungfrau/jungfrau_post.webp
 description: "少女峰上山交通可說是世上最貴，一篇看懂少女峰旅行通票 Jungfrau Travel Pass 值不值得（內附試算工具），教你如何利用半價卡省上加省。"
 permalink: /blog/jungfrau-pass-guide/
 ---

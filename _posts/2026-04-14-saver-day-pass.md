@@ -3,9 +3,9 @@ layout: post
 title: "【2026 瑞士省錢神券】：Saver Day Pass 與 Supersaver Ticket 全攻略"
 date: 2026-04-14
 categories: 精算攻略
-image: /img/luzern/rigi2.webp
-thumbnail: /img/luzern/rigi2.webp
-og_image: /img/luzern/rigi2.webp
+image: /img/sbb/saver_post.webp
+thumbnail: /img/sbb/saver_post.webp
+og_image: /img/sbb/saver_post.webp
 description: "瑞士一日票，這張瑞士 SBB 早鳥神票，根本買到賺到。Saver Day Pass 與 Supersaver Ticket 到底怎麼用，看完這篇你就懂。"
 permalink: /blog/saver-day-pass/
 ---
