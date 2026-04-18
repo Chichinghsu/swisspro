@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ETZ7DMRD6"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ETZ7DMRD6"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-2ETZ7DMRD6');
-    </script>
-
+    </script> -->
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -28,15 +28,20 @@
     {% else %}
     <meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
     {% endif %}
-
+    {% if page.thumbnail %}
+    <meta name="thumbnail" content="{{ site.url }}{{ page.thumbnail }}">
+    {% elsif page.image %}
+    <meta name="thumbnail" content="{{ site.url }}{{ page.image }}">
+    {% endif %}
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
     <link rel="icon" href="{{ site.favicon }}">
-
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/style_index.css' | relative_url }}">
 
+    
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -56,6 +61,17 @@
                     "url": "{{ site.url }}{{ site.favicon }}"
                   }
                 }
+              },
+              {
+                "@type": "BlogPosting",
+                "@id": "{{ page.url | absolute_url }}/#article",
+                "headline": "{{ page.title }}",
+                "description": "{{ page.description | strip_html | strip_newlines | truncate: 150 }}",
+                "image": [
+                    "{{ site.url }}{{ page.thumbnail | default: page.image }}"
+                ],
+                "author": { "@type": "Person", "name": "SwissPro" },
+                "datePublished": "{{ page.date | date_to_xmlschema }}"
               },
               {
                 "@type": "WebApplication",
