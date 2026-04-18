@@ -16,7 +16,6 @@ permalink: /blog/saver-day-pass/
 什麼是半價卡？什麼是 STP？請看這篇
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
-
 快速導覽
 - [Saver Day Pass (SBB 早鳥天票)](#saverdaypass)
 - [Supersaver Ticket (點對點早鳥票)](#supersaver)
