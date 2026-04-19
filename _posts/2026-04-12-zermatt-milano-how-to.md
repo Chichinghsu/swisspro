@@ -10,6 +10,32 @@ description: "直飛義大利米蘭之後想去策馬特要怎麼買票？有瑞
 permalink: /blog/zermatt-milano-how-to/
 ---
 
+<div style="background-color: #fff3f3; border-left: 5px solid #D32F2F; padding: 15px; margin: 20px 0;">
+  <strong style="color: #D32F2F;"><i class="fas fa-exclamation-triangle"></i> 2026 施工資訊，重要交通警告（更新日期：2026/4/19）</strong>
+  <p>旅客請注意！2026 夏天 6/14 - 7/26 期間，米蘭往返邊境 Domodossola 部分路段停駛並改由巴士接駁。建議避開此時段或預留充裕轉乘時間。如果你打算這段期間內從米蘭往返策馬特，一定要先查好時刻表，並注意各種有可能的異動。</p>
+  <p>以前路線：米蘭 - Domodossola - Brig - 策馬特（全火車）<br>
+  現在路線：米蘭 - Domodossola - Iselle di Trasquera - Brig - 策馬特（需轉公車）</p>
+
+  懶人包
+  
+  <p>請見下圖，從米蘭出發到 Iselle di Trasquera （有些只到 Domodossola，就需多轉一次到 Iselle di Trasquera）這站有替代公車運行（約兩小時半），但因為是客運公車，所以比較多不確定性（路況等等），大件行李也變得棘手。</p>
+  
+  <p>從 Iselle di Trasquera - Brig 這段有接駁火車，定時發車，到 Brig 之後就脫離施工的部分，Visp轉一次車可到策馬特。</p>
+  
+  <figure>
+  <img src="{{ '/img/zermatt/milano_construction.webp' | relative_url }}" alt="米蘭到策馬特施工路線">
+  <figcaption>米蘭到策馬特施工路線</figcaption>
+ </figure>  
+
+ <p>若要繞過這段施工路線，則需繞道蘇黎世：米蘭 - 蘇黎世 - 策馬特，米蘭到蘇黎世約需 3 小時直達，蘇黎世到策馬特需 3 小時要轉車，需要花上七小時。可以考慮替代方案，例如先北上蘇黎世 - 伯恩/琉森 - 策馬特，一路旅行過去。</p>
+ <p>強烈建議如果仍打算走這條路線的旅客，在出發前一定要在 SBB App 查詢最新資訊。</p>
+
+{% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}
+如何使用 SBB App？
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+</div>
+
 ## 怎麼從米蘭到策馬特？
 
 先說結論，沒有直達的火車，都要轉車而且最快也要四小時。大家可能都從台北直飛米蘭 (MXP) 後，先到米蘭觀光幾日，再前往策馬特。但這條路線跨越瑞義國境，購票複雜，容易花冤望錢。這篇文章幫你整理好最關鍵的訂票省錢秘訣。如果有瑞士的 Swiss Travel Pass 或半價卡要怎麼買這段票。
