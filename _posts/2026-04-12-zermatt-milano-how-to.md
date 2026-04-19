@@ -20,15 +20,15 @@ permalink: /blog/zermatt-milano-how-to/
   
   <p>請見下圖，從米蘭出發到 Iselle di Trasquera （有些只到 Domodossola，就需多轉一次到 Iselle di Trasquera）這站有替代公車運行（約兩小時半），但因為是客運公車，所以比較多不確定性（路況等等），大件行李也變得棘手。</p>
   
-  <p>從 Iselle di Trasquera - Brig 這段有接駁火車，定時發車（約兩小時一班），到 Brig 之後就脫離施工的部分，Visp轉一次車可到策馬特。</p>
+  <p>從 Iselle di Trasquera 到 Brig 這段有接駁火車，定時發車（約兩小時一班），到 Brig 之後就脫離施工的部分，可搭到 Visp 再轉一次車到策馬特。</p>
   
   <figure>
   <img src="{{ '/img/zermatt/milano_construction.webp' | relative_url }}" alt="米蘭到策馬特施工路線">
-  <figcaption>米蘭到策馬特施工路線</figcaption>
+  <figcaption>米蘭到策馬特施工路線，從米蘭得搭替代公車到 Iselle di Trasquera（兩個半小時）</figcaption>
  </figure>  
 
  <h4>買票？</h4>
- 建議直接從[義大利鐵路網站](https://www.trenitalia.com/en.html)買米蘭到 Iselle di Trasquera 的票（18 歐元，但班次不多），從 Iselle di Trasquera 之後就可以用 SBB App 買（持半價卡者），持 STP 就免費，不用再額外買票。
+ 建議直接從<a href="https://www.trenitalia.com/en.html">義大利國鐵 Trenitalia 官網</a>，買米蘭到 Iselle di Trasquera 的接駁公車票（18 歐元，但班次不多），從 Iselle di Trasquera 之後就可以用 SBB App 買到策馬特（持半價卡者），持 STP 就免費，不用再額外買票。
 
  <h4>太麻煩了吧，能繞過嗎？</h4>
 
