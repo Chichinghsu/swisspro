@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【2026 瑞士旅遊車票】：半價卡還是 Swiss Travel Pass？一篇看懂"
+title: "【2026 瑞士旅遊車票】半價卡還是 Swiss Travel Pass？一篇看懂"
 date: 2026-04-14
 categories: 精算攻略
 image: /img/sbb/stp_post.webp
@@ -66,7 +66,7 @@ STP 內含 「博物館通行證 (Swiss Museum Pass)」，這比較容易被忽�
 以下舉例幾個大家比較常去的：
 
 | 博物館| 城市 | 票價 | STP 價格 |
-| :--- | :--- | :--- | 
+| :--- | :--- | :--- | :--- | 
 | 瑞士國家博物館 Landesmuseum | 蘇黎世 | 13  | 0 |
 | 世界足球博物館 FIFA Museum | 蘇黎世  | 26 | 0 |
 | 巴塞爾美術館 Kunstmuseum Basel | 巴塞爾 | 25 | 0 |
@@ -114,5 +114,5 @@ STP 內含 「博物館通行證 (Swiss Museum Pass)」，這比較容易被忽�
 </div>
 
 <div class="tip-box" markdown="1">
-還是無法消化這些東西？歡迎直接去 **[IG](https://www.instagram.com/swisspro.tw/)** 私訊發問。
+還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
 </div>

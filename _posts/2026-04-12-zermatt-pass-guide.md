@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "【2026 策馬特交通全攻略】：群山綜覽通行證還是 Peak2Peak？怎麼選？"
+title: "【2026 策馬特交通全攻略】群山綜覽通行證還是 Peak2Peak？怎麼選？"
 date: 2026-04-12
 categories: [策馬特, 精算攻略]
 image: /img/zermatt/zermatt_post.webp
 thumbnail: /img/zermatt/zermatt_post.webp
 og_image: /img/zermatt/zermatt_post.webp
-description: "2026 策馬特交通攻略（內附試算工具）！分析策馬特群山綜覽通行證與 Peak2Peak 票券優缺點，教你配合瑞士半價卡省下大筆旅費。"
+description: "2026 策馬特交通攻略（內附試算工具）！分析策馬特群山綜覽通行證與 Peak2Peak 票券優缺點，教你配合瑞士半價卡省上加省。"
 permalink: /blog/zermatt-pass-guide/
 ---
 
@@ -132,4 +132,8 @@ permalink: /blog/zermatt-pass-guide/
 [購買五湖健行票 英文官網](https://www.matterhornparadise.ch/en/book/tickets/kombitickets)
 
 ## 💡 還是不知道要買啥？
-直接去 **[瑞士票券精算器](https://calculator.swisspro.tw)** 輸入你的策馬特行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算（包含 Peak2Peak 與群山綜覽通行證 (Zermatt Peak Pass)，或者什麼都不買）。或者直接去 **[IG](https://www.instagram.com/swisspro.tw/)** 私訊發問。
+直接去 **[瑞士票券精算器](https://calculator.swisspro.tw)** 輸入你的策馬特行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算（包含 Peak2Peak 與群山綜覽通行證 (Zermatt Peak Pass)，或者什麼都不買）。
+
+<div class="tip-box" markdown="1">
+還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
+</div>

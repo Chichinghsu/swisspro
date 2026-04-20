@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【2026 米蘭到策馬特攻略】：瑞士義大利跨境買票精省教學"
+title: "【2026 米蘭到策馬特攻略】瑞士義大利跨境買票精省教學"
 date: 2026-04-12
 categories: 策馬特
 image: /img/zermatt/milano_post.webp
@@ -86,4 +86,8 @@ permalink: /blog/zermatt-milano-how-to/
 
 
 ## 💡 還是不知道要買啥票？
-直接去 **[瑞士票券精算器](https://calculator.swisspro.tw)** 輸入你的行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算。或者直接去 **[IG](https://www.instagram.com/swisspro.tw/)** 私訊發問。
+直接去 **[瑞士票券精算器](https://calculator.swisspro.tw)** 輸入你的行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算。
+
+<div class="tip-box" markdown="1">
+還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【2026 伯恩高地通票】：神秘的隱藏通票？划算嗎？一篇看懂"
+title: "【2026 伯恩高地通票】神秘的隱藏通票？划算嗎？一篇看懂"
 date: 2026-04-13
 categories: [精算攻略, 少女峰]
 image: /img/jungfrau/bopass_post.webp
@@ -131,5 +131,5 @@ permalink: /blog/berner-oberland-pass/
 </div>
 
 <div class="tip-box" markdown="1">
-還是無法理解？歡迎直接去 **[IG](https://www.instagram.com/swisspro.tw/)** 私訊發問。
+還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
 </div>

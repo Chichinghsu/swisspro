@@ -868,3 +868,22 @@ figcaption {
     margin-top: 15px;
     line-height: 1.5;
 }
+
+.map-frame {
+    width: 600px;
+    max-width: 100%; /* Ensures it doesn't break out of the screen on smaller desktops */
+    display: block;
+    margin: 20px auto; /* Centering the map */
+}
+
+/* Specific for Mobile */
+@media (max-width: 767px) {
+    .map-frame {
+        width: 100%; /* Takes up the full width of the mobile screen */
+        height: 350px; /* Optional: make it shorter on mobile so it's easier to scroll past */
+    }
+}
+
+a[id]:empty {
+    scroll-margin-top: 90px;
+}

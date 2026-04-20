@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【2026 少女峰交通全攻略】：少女峰旅行通票？搭配半價卡 還是 STP 怎麼選？"
+title: "【2026 少女峰交通全攻略】少女峰旅行通票？搭配半價卡 還是 STP 怎麼選？"
 date: 2026-04-13
 categories: [少女峰, 精算攻略]
 image: /img/jungfrau/jungfrau_post.webp
@@ -78,6 +78,18 @@ permalink: /blog/jungfrau-pass-guide/
 | **7 Days** | 310  | 240  |
 | **8 Days** | 330  | 255  |
 
+<div class="tip-box" markdown="1">
+**💡 關於 First 冒險活動**
+
+少女峰通票只包含纜車從格林德瓦到 First（免費搭乘），並不包含冒險活動。且現在冒險活動購票只能現場排隊，通常夏天、天氣好的時候最好早點去排隊（八點左右），否則要極有可能售光，或者要等一兩小時才可以玩。小秘訣就是：用 SBB App 買纜車票，選擇 Grindelwald (Firstbahn) - First (Grindelwald)，單程 18 瑞郎、來回 36 瑞郎（持半價卡或STP），直接上去冒險活動的地方買冒險活動的票，就可以稍微避開排隊人潮。可以買單程上去，然後冒險活動下來。
+
+冒險活動有四種：高空飛索 (First Flyer)、神鷹飛索 (First Glider)、卡丁車 (Mountain Cart) 和滑板車 (Trottibike Scooter)
+
+一次買兩個活動的話有打折 109 瑞郎（原價）/ 81 瑞郎（持半價卡或STP），只買一個的話是 90 瑞郎 （原價）/ 60 瑞郎（持半價卡或STP），所以一次買兩個划算許多。
+
+[First 冒險活動官網（內有圖）](https://www.jungfrau.ch/en-gb/grindelwaldfirst/adventure-package/) 注意官網無法購票，只能現場買
+</div>
+
 <!-- 如果不想上到頂，只到艾格冰川的話票價如下表（2026 五月 - 十月票價），用少女峰旅行通票就直接免費搭乘。票價如下表，雖然大家可能會覺得「來都來了」怎麼可能不上到最高。
 
 | 路線 | 車種 | 時間（分） | 來回原價 | STP 價格 75 折| 半價卡價格 半價|
@@ -97,7 +109,7 @@ permalink: /blog/jungfrau-pass-guide/
     </a>
 </div>
 
-或者如果打算直接買從格林德瓦或者勞特布魯嫩來回少女峰頂的車票，可以點此購買。如果還是無法決定？請繼續往下看範例行程，與最划算票券計算過程。
+或者如果打算直接買從格林德瓦或者勞特布魯嫩來回少女峰頂的車票，可以點此購買。
 
 <div class="swiss-buy-container">
     <a href="https://www.kkday.com/zh-tw/product/263631-jungfraujoch-top-of-europe-round-trip-train-ticket?cid=24072" 
@@ -107,6 +119,8 @@ permalink: /blog/jungfrau-pass-guide/
        KKday 少女峰頂車票
     </a>
 </div>
+
+如果還是無法決定？請繼續往下看範例行程，與最划算票券計算過程。
 
 <div class="tip-box" markdown="1">
 ### 💡 好難懂，懶得研究買什麼比較划算？
@@ -178,5 +192,5 @@ permalink: /blog/jungfrau-pass-guide/
 
 
 <div class="tip-box" markdown="1">
-還是無法消化這些東西？歡迎直接去 **[IG](https://www.instagram.com/swisspro.tw/)** 私訊發問。
+還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
 </div>

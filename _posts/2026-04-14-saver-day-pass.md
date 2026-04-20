@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【2026 瑞士省錢神券】：Saver Day Pass 與 Supersaver Ticket 全攻略"
+title: "【2026 瑞士省錢神券】Saver Day Pass 與 Supersaver Ticket 全攻略"
 date: 2026-04-14
 categories: 精算攻略
 image: /img/sbb/saver_post.webp
@@ -230,5 +230,5 @@ input:checked + .slider:before { transform: translateX(22px); }
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 <div class="tip-box" markdown="1">
-還是無法消化這些東西？歡迎直接去 **[IG](https://www.instagram.com/swisspro.tw/)** 私訊發問。
+還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
 </div>

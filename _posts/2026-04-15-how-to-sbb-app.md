@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【2026 SBB App 教學】：全部功能大解析：買車票、轉車月台、停靠位置、擁擠程度，全部掌握"
+title: "【2026 SBB App 教學】全部功能大解析：買車票、轉車月台、停靠位置、擁擠程度，全部掌握"
 date: 2026-04-15
 categories: 精算攻略
 image: /img/sbb/sbb_app_post.webp
@@ -192,9 +192,5 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
 Point-to-point 「瑞士境內」出發之前可以改，通常做法是去你的買票的帳戶（所以建議註冊），找到退票的選項，全額退款之後再重買一張。如果是有跨國的車票就麻煩了，你需要打 SBB 客服或者直接去櫃檯找他們處理。
 
 <div class="tip-box" markdown="1">
-還是無法理解？歡迎直接去 **[IG](https://www.instagram.com/swisspro.tw/)** 私訊發問。
+還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
 </div>
-
-
-
-
