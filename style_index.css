@@ -193,6 +193,7 @@ h1 { font-size: 2.5rem; margin-bottom: 20px; }
 .section-container { 
     padding: 80px 10%; 
 }
+
 h2.section-title { 
     text-align: center; 
     margin-bottom: 50px; 
@@ -209,10 +210,75 @@ h2.section-title {
 .faq-question {
     color: var(--st-primary);
     border-left: 4px solid var(--st-primary);
-    padding-left: 15px;
+    padding: 10px 15px;
     font-size: 1.3rem;
     font-weight: 600;
-    margin-bottom: 15px;
+    cursor: pointer; 
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+details[open] .faq-question::after {
+    content: '−';
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .section-container { 
+        padding: 40px 15px; 
+    }
+    
+    .faq-item {
+        padding: 15px; 
+        margin-bottom: 20px;
+    }
+
+    .faq-question {
+        font-size: 1.15rem; 
+    }
+}
+
+.faq-question::after {
+    content: '+';
+    font-size: 1.5rem;
+}
+
+.faq-answer {
+    padding: 15px;
+    line-height: 1.6;
+    background-color: #fafafa; 
+    border-top: 1px solid #eee;
+}
+
+.section-container a {
+    color: var(--st-primary);
+    text-decoration: underline; 
+    transition: color 0.3s ease;
+}
+
+.hero-survey {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--st-primary);
+    text-align: center;
+    margin: 40px auto 20px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; 
+}
+
+@media (max-width: 768px) {
+    .hero-survey {
+        font-size: 1.3rem;
+        margin: 30px auto 15px;
+    }
 }
 
 .table-wrapper { 
