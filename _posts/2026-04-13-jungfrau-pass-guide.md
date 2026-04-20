@@ -78,6 +78,10 @@ permalink: /blog/jungfrau-pass-guide/
 | **7 Days** | 310  | 240  |
 | **8 Days** | 330  | 255  |
 
+除了少女峰旅行通票之外，這附近也可以使用較冷門的伯恩高地通票，對某些行程來說會比較划算（如雪朗峰、布里恩茨蒸汽火車等），請見這篇：{% assign target_post = site.posts | where: "url", "/blog/berner-oberland-pass/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+
 <div class="tip-box" markdown="1">
 **💡 關於 First 冒險活動**
 
@@ -156,15 +160,6 @@ permalink: /blog/jungfrau-pass-guide/
 當然這邊 STP 用 8 天來算不太公平，因為其他四天還可以去別的地方，半價卡也不算太公平，不過大概可以給你一點感覺，就是很難算。少女峰通票如果真的都去少女峰附近的話，的確是蠻值得一買，就算加上 89 塊那段還是划算。但應該很少旅客來瑞士只去少女峰其他都不去，所以還是建議可以直接去省瑞計劃的**[瑞士票券精算器](https://calculator.swisspro.tw/?itinerary_id=40262633&utm_source=swisspro_blog&utm_campaign=jungfrau_pass_guide)** 輸入你要去哪裡及預計日期，我們會自動幫你比對各種方案，你就不用研究半天，因為真的很複雜。
 
 另外也可以看到價差其實不小，光第一選項跟第二選項差 75 瑞郎就台幣 3000 了，所以建議還是精算一下，不要憑感覺選票。
-
-
-<!-- ## 伯恩高地通票 (Berner Oberland Pass)
-
-
-{% assign target_post = site.posts | where: "url", "/blog/berner-oberland-pass/" | first %}
-這張票券也是非常複雜，另寫一篇詳細介紹，請至此觀看：
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a> -->
-
 
 
 <figure>
