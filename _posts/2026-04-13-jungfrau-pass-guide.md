@@ -128,7 +128,7 @@ permalink: /blog/jungfrau-pass-guide/
 
 <div class="tip-box" markdown="1">
 ### 💡 好難懂，懶得研究買什麼比較划算？
-直接去 **[瑞士票券精算器](https://calculator.swisspro.tw/?itinerary_id=0&utm_source=swisspro_blog&utm_campaign=jungfrau_pass_guide)** 輸入你要去哪裡及預計日期，我們會自動幫你比對各種方案（STP 或半價卡）的價差（以及買少女峰旅行通票是否划算），你就不用研究半天，因為真的很複雜。
+直接去 **[瑞士票券精算器](https://calculator.swisspro.tw/?itinerary_id=40262633&utm_source=swisspro_blog&utm_campaign=jungfrau_pass_guide)** 輸入你要去哪裡及預計日期，我們會自動幫你比對各種方案（STP 或半價卡）的價差（以及買少女峰旅行通票是否划算），你就不用研究半天，因為真的很複雜。
 </div>
 
 <a id="example"></a>

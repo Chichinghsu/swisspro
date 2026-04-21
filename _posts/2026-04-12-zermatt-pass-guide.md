@@ -60,7 +60,7 @@ permalink: /blog/zermatt-pass-guide/
 
 <div class="tip-box" markdown="1">
 ### 💡 懶得研究買什麼比較划算？
-直接去 **[瑞士票券精算器](https://calculator.swisspro.tw/?itinerary_id=0&utm_source=swisspro_blog&utm_campaign=zermatt_pass_guide)** 輸入你的瑞士行程（或只輸入策馬特部分行程）及預計日期，我們會自動幫你比對各種方案（STP 或半價卡）的價差，看買什麼最划算（Peak2Peak 與群山綜覽通行證 (Zermatt Peak Pass)，或者什麼都不買）。你就不用研究半天，真的很複雜。
+直接去 **[瑞士票券精算器（8 天範例行程含策馬特）](https://calculator.swisspro.tw/?itinerary_id=fd5b65b6&utm_source=swisspro_blog&utm_campaign=zermatt_pass_guide)** 輸入你的瑞士行程（或只輸入策馬特部分行程）及預計日期，我們會自動幫你比對各種方案（STP 或半價卡）的價差，看買什麼最划算（Peak2Peak 與群山綜覽通行證 (Zermatt Peak Pass)，或者什麼都不買）。你就不用研究半天，真的很複雜。
 </div>
 
 <a id="zermatt-peak-pass"></a>

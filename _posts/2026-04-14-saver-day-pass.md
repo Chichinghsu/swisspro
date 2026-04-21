@@ -215,11 +215,11 @@ input:checked + .slider:before { transform: translateX(22px); }
 瑞士交通，就是這麼瑞，複雜但看完這篇你就完全懂。如果還是不知道如何是好，歡迎使用省瑞精算器：我們的票券精算器都幫你把這些考慮進去了，只需要輸入你要去的地點與日期，即可知道什麼最划算。雖然目前還不包含早鳥票功能，但之後有機會會整合。但如果你只是要算算該買 STP 還是半價卡，歡迎使用。
 
 <div class="swiss-buy-container">
-    <a href="https://calculator.swisspro.tw/?itinerary_id=0&utm_source=swisspro_blog&utm_campaign=saver_day_pass" 
+    <a href="https://calculator.swisspro.tw/?itinerary_id=40262633&utm_source=swisspro_blog&utm_campaign=saver_day_pass" 
        target="_blank" 
        rel="nofollow noopener" 
        class="kkday-swiss-btn">
-       省瑞票券精算器（範例行程）
+       省瑞票券精算器（少女峰範例行程）
     </a>
 </div>
 

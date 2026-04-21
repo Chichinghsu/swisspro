@@ -6,7 +6,7 @@ categories: 策馬特
 image: /img/zermatt/milano_post.webp
 thumbnail: /img/zermatt/milano_post.webp
 og_image: /img/zermatt/milano_post.webp
-description: "直飛義大利米蘭之後想去策馬特要怎麼買票？有瑞士的 Swiss Travel Pass 或半價卡要怎麼買這段票，一篇帶你看懂（內附試算工具）。"
+description: "直飛義大利米蘭之後想去策馬特要怎麼買票？（最新 2026 夏天鐵路施工資訊）有瑞士的 Swiss Travel Pass 或半價卡要怎麼買這段票，一篇帶你看懂（內附試算工具）。"
 permalink: /blog/zermatt-milano-how-to/
 ---
 
