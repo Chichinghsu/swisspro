@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ page.title | default: site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} | 省瑞計劃{% else %}{{ site.title }}{% endif %}</title>
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     <meta property="og:description" content="{{ page.description }}">
@@ -53,6 +53,7 @@
                 "name": "省瑞計劃",
                 "alternateName": "SwissPro",
                 "description": "{{ site.description }}",
+                "inLanguage": "zh-TW",
                 "publisher": {
                   "@type": "Organization",
                   "name": "省瑞計劃",
@@ -114,7 +115,7 @@
         <p style="font-size: 0.85rem; color: rgba(9,9,9,0.8); text-align: center;">
             <i class="fas fa-info-circle"></i> 資料來源：SBB 2026 官方最新票價
         </p>
-        <p>&copy; 2026 省瑞計劃 v0.5.5 | 專為台灣自由行旅人設計的瑞士旅遊工具</p>
+        <p>&copy; 2026 省瑞計劃 v0.5.8 | 專為台灣自由行旅人設計的瑞士旅遊工具</p>
     </footer>
 
     <script src="{{ '/quiz.js' | relative_url }}"></script>

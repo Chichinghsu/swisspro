@@ -2,7 +2,7 @@
 layout: post
 title: "【2026 米蘭到策馬特攻略】瑞士義大利跨境買票精省教學"
 date: 2026-04-12
-categories: 策馬特
+categories: [策馬特, 精算攻略]
 image: /img/zermatt/milano_post.webp
 thumbnail: /img/zermatt/milano_post.webp
 og_image: /img/zermatt/milano_post.webp
