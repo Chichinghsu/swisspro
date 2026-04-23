@@ -12,7 +12,7 @@ permalink: /blog/zermatt-milano-how-to/
 
 <div style="background-color: #fff3f3; border-left: 5px solid #D32F2F; padding: 15px; margin: 20px 0;">
   <strong style="color: #D32F2F;"><i class="fas fa-exclamation-triangle"></i> 2026 施工資訊，重要交通警告（更新日期：2026/4/19）</strong>
-  <p>旅客請注意！2026 夏天 6/14 - 7/26 期間，米蘭往返邊境 Domodossola 部分路段停駛並改由巴士接駁。建議避開此時段或預留充裕轉乘時間。如果你打算這段期間內從米蘭往返策馬特，一定要先查好時刻表，並注意各種有可能的異動。</p>
+  <p>旅客請注意！2026 夏天 6/7 - 7/26 期間，米蘭往返邊境 Domodossola 部分路段停駛並改由巴士接駁。建議避開此時段或預留充裕轉乘時間。如果你打算這段期間內從米蘭往返策馬特，一定要先查好時刻表，並注意各種有可能的異動。</p>
   <p>以前路線：米蘭 - Domodossola - Brig - 策馬特（全火車）<br>
   現在路線：米蘭 - Domodossola - Iselle di Trasquera - Brig - 策馬特（需轉公車）</p>
 
