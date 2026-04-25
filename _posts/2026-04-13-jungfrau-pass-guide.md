@@ -87,6 +87,10 @@ permalink: /blog/jungfrau-pass-guide/
 
 少女峰通票只包含纜車從格林德瓦到 First（免費搭乘），並不包含冒險活動。且現在冒險活動購票只能現場排隊，通常夏天、天氣好的時候最好早點去排隊（八點左右），否則要極有可能售光，或者要等一兩小時才可以玩。小秘訣就是：用 SBB App 買纜車票，選擇 Grindelwald (Firstbahn) - First (Grindelwald)，單程 18 瑞郎、來回 36 瑞郎（持半價卡或STP），直接上去冒險活動的地方買冒險活動的票，就可以稍微避開排隊人潮。可以買單程上去，然後冒險活動下來。
 
+{% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}
+如何使用 SBB App？
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
 冒險活動有四種：高空飛索 (First Flyer)、神鷹飛索 (First Glider)、卡丁車 (Mountain Cart) 和滑板車 (Trottibike Scooter)
 
 一次買兩個活動的話有打折 109 瑞郎（原價）/ 81 瑞郎（持半價卡或STP），只買一個的話是 90 瑞郎 （原價）/ 60 瑞郎（持半價卡或STP），所以一次買兩個划算許多。

@@ -2,7 +2,7 @@
 layout: post
 title: "【2026 SBB App 教學】全部功能大解析：買車票、轉車月台、停靠位置、擁擠程度，全部掌握"
 date: 2026-04-15
-categories: 精算攻略
+categories: [精算攻略, App介紹]
 image: /img/sbb/sbb_app_post.webp
 thumbnail: /img/sbb/sbb_app_post.webp
 og_image:  /img/sbb/sbb_app_post.webp
@@ -12,7 +12,7 @@ permalink: /blog/how-to-sbb-app/
 
 SBB (德語：Schweizerische Bundesbahnen) 是瑞士鐵路公司的簡稱，在法語區與義大利語區有不同的名字（法語 CFF 義大利語 FFS），火車上會印全部的名字（請見下圖）。瑞鐵 SBB 的 App 整合了火車、巴士、路面電車、渡輪甚至纜車都有，查時刻表、買票都可以。舉個台灣的例子，就是你用「一個」 App 就可以買台北捷運、機場捷運、高鐵、高雄捷運、各縣市公車等等全部交通系統的票，還可以查時刻表。
 
-這篇帶你看 2026 年最新的功能幾個主要功能，重點摘要如下
+這篇帶你看 2026 年最新的功能幾個主要功能，重點摘要如下。App 下載連結於底部[常見問題](#faq)。
 
 - [實用功能介紹](#function) - 我轉車來得及嗎？月台怎麼看？擁擠嗎？
 - [怎麼買票](#buy) - 買好半價卡了，要怎麼買單程票？
@@ -26,7 +26,6 @@ SBB (德語：Schweizerische Bundesbahnen) 是瑞士鐵路公司的簡稱，在�
 </figure>
 
 可能也因為這麼強大的關係，其實旅人有時候會不知所措，因為有太多東西了。這篇帶你手把手剖析每一個你可能在瑞士旅遊會用到的功能。建議在台灣就先綁定好信用卡，這樣到瑞士才不會手忙腳亂。另外目前這個 App 只有英文、德文、法文、義大利文。
-
 
 <a id="function"></a>
 ## 實用功能介紹
@@ -149,17 +148,17 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
 <a id="faq"></a>
 ## 常見問題
 
+- 下載 SBB App
+
+[SBB App (iOS)](https://apps.apple.com/tw/app/sbb-mobile/id294855237)<br>
+[SBB App (Android)](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&hl=zh_TW)
+
 - 什麼是半價卡？什麼是 STP？
 
 {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 如果你打算買半價卡或 STP 的話，可以參考以下購買連結：[KKday 買半價卡](https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072)與 [KKday 買 STP](http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072)。
-
-- 去哪裡下載 SBB App？
-
-[SBB App (iOS)](https://apps.apple.com/tw/app/sbb-mobile/id294855237)<br>
-[SBB App (Android)](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&hl=zh_TW)
 
 - 一定要註冊嗎？
 

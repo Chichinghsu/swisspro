@@ -155,6 +155,12 @@ input:checked + .slider:before { transform: translateX(22px); }
 
 購買方式很簡單，只要在 SBB App 上面選擇 Saver Day Pass，選定日期購買即可（見下圖左），但再說一次，**買了就無法退了，也不能改了，下好離手。**有可能合理的使用場合例如：旅程最後幾天要從策馬特到蘇黎世，蘇黎世住一天，隔天從蘇黎世機場飛回家，這樣買就很合理，因為無論天氣如何你都得搭這段策馬特到蘇黎世。此外，請見下圖右，如果 Saver Day Pass 比你要搭的車划算的話，App 也會直接顯示。
 
+<div class="tip-box" markdown="1">
+{% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}
+如何使用 SBB App 買票？
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+</div>
+
 <figure>
   <img src="{{ '/img/sbb/sbb_app_saver_day_pass.png' | relative_url }}" alt="SBB App Saver Day Pass">
   <figcaption>（左）買票直接點這邊，然後選日期即可（右）直接查車，如果 Saver Day Pass 比較便宜的話也會顯示</figcaption>
