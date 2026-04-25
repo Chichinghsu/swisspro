@@ -154,6 +154,7 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
 {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
+如果你打算買半價卡或 STP 的話，可以參考以下購買連結：[KKday 買半價卡](https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072)與 [KKday 買 STP](http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072)。
 
 - 去哪裡下載 SBB App？
 
