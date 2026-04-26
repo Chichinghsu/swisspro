@@ -883,55 +883,63 @@ figcaption {
 
 .screenshot-carousel {
     margin: 30px auto;
-    max-width: 1000px;
-    /* 隱藏捲軸，保持介面乾淨 */
-    overflow: hidden;
+    max-width: 900px; 
+    width: 95%;
 }
 
 .carousel-container {
     display: flex;
-    gap: 0px;
-    -webkit-overflow-scrolling: touch;
+    gap: 15px;
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 767px) {
     .carousel-container {
         overflow-x: auto;
         scroll-snap-type: x mandatory;
-        padding-bottom: 20px;
-        scrollbar-width: none; 
+        padding-bottom: 10px;
+        gap: 0; 
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
     }
-    
+
     .carousel-container::-webkit-scrollbar {
         display: none;
     }
 
     .carousel-container img {
-        flex: 0 0 80%; 
+        flex: 0 0 100%; 
         width: 100%;
         scroll-snap-align: center;
-        scroll-snap-stop: always; 
-        height: auto;
-        border-radius: 0px;
-        object-fit: contain;
-        padding: 0 10px;
+        scroll-snap-stop: always;
+        
+        max-height: 500px;
+        object-fit: contain; 
+        
+        border-radius: 12px;
         box-sizing: border-box;
+        padding: 0 5px; 
     }
 }
 
 @media (min-width: 768px) {
     .carousel-container {
-        overflow-x: hidden;
+        overflow: hidden;
         justify-content: space-between;
-        gap: 2%; /* 給予一點視覺間隔 */
+        align-items: flex-start; 
     }
 
     .carousel-container img {
-        flex: 0 0 32%; /* 三張剛好平分 */
-        height: auto;
-        border-radius: 12px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease;
+        flex: 0 0 31.5%; 
+        width: 31.5%;
+        
+        aspect-ratio: 9 / 20; 
+        max-height: 500px;    
+        
+        object-fit: cover;   
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        transition: transform 0.2s ease;
     }
 }
 
