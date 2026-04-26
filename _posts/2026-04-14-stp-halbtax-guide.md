@@ -105,14 +105,10 @@ STP 內含 「博物館通行證 (Swiss Museum Pass)」，這比較容易被忽�
 最後建議大家，不要衝動之下就買 STP，不是說 STP 不划算，而是可以用省瑞精算器算算看，再決定到底要買什麼，畢竟每個人對於方便的價值都不同。最後的最後附上購買連結 [KKday 買半價卡](https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072)與 [KKday 買 STP](http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072)，希望可以幫你省下一些錢，多買一些瑞士巧克力。
 
 <div class="swiss-buy-container">
-    <a href="https://calculator.swisspro.tw/" 
+    <a href="https://calculator.swisspro.tw/?itinerary_id=fd5b65b6" 
        target="_blank" 
        rel="nofollow noopener" 
        class="kkday-swiss-btn">
-       省瑞票券精算器
+       省瑞票券精算器（經典 8 天）
     </a>
-</div>
-
-<div class="tip-box" markdown="1">
-還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
 </div>

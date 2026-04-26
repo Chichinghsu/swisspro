@@ -133,7 +133,3 @@ permalink: /blog/zermatt-pass-guide/
 
 ## 💡 還是不知道要買啥？
 直接去 **[瑞士票券精算器](https://calculator.swisspro.tw/?itinerary_id=fd5b65b6)** 輸入你的策馬特行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算（包含 Peak2Peak 與群山綜覽通行證 (Zermatt Peak Pass)，或者什麼都不買）。
-
-<div class="tip-box" markdown="1">
-還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
-</div>

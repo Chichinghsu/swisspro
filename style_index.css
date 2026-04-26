@@ -631,9 +631,6 @@ footer {
     }
 }
 
-/* ============================================================
-   BLOG POST — Clean header (no background)
-   ============================================================ */
 .post-header {
     margin-bottom: 28px;
 }
@@ -658,7 +655,6 @@ footer {
     margin: 0;
 }
 
-/* Thumbnail shown as regular image below the title */
 .post-thumbnail-full {
     margin: 0 0 32px;
     border-radius: 12px;
@@ -813,8 +809,8 @@ footer {
 
 .back-to-blog {
     display: inline-block;
-    font-size: 0.88rem;
-    color: #888;
+    font-size: 1rem;
+    color: #000;
     text-decoration: none;
     transition: color 0.2s;
 }
@@ -835,11 +831,11 @@ figcaption {
 }
 
 .tip-box {
-    background-color: #f9f9f9;      /* Light gray background */
-    border-left: 5px solid #D32F2F; /* Swiss Red accent line */
+    background-color: #f9f9f9;      
+    border-left: 5px solid #D32F2F; 
     padding: 20px;
     margin: 30px 0;
-    border-radius: 0 8px 8px 0;    /* Rounded corners on the right */
+    border-radius: 0 8px 8px 0;   
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
@@ -887,12 +883,14 @@ figcaption {
 
 .screenshot-carousel {
     margin: 30px auto;
-    max-width: 1000px; /* Limits how wide the whole group gets on giant monitors */
+    max-width: 1000px;
+    /* 隱藏捲軸，保持介面乾淨 */
+    overflow: hidden;
 }
 
 .carousel-container {
     display: flex;
-    gap: 15px;
+    gap: 0px;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -900,29 +898,39 @@ figcaption {
     .carousel-container {
         overflow-x: auto;
         scroll-snap-type: x mandatory;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
+        scrollbar-width: none; 
+    }
+    
+    .carousel-container::-webkit-scrollbar {
+        display: none;
     }
 
     .carousel-container img {
-        flex: 0 0 65%; /* Shows most of one image + a peek of the next */
+        flex: 0 0 80%; 
+        width: 100%;
         scroll-snap-align: center;
+        scroll-snap-stop: always; 
         height: auto;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 0px;
+        object-fit: contain;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
 }
 
 @media (min-width: 768px) {
     .carousel-container {
-        overflow-x: hidden; /* No scrolling needed */
-        justify-content: space-between; /* Spreads them out evenly */
+        overflow-x: hidden;
+        justify-content: space-between;
+        gap: 2%; /* 給予一點視覺間隔 */
     }
 
     .carousel-container img {
-        flex: 0 0 31%; /* Exactly enough for 3 images with gaps */
-        max-width: 31%;
+        flex: 0 0 32%; /* 三張剛好平分 */
         height: auto;
-        border-radius: 8px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         transition: transform 0.3s ease;
     }
 }

@@ -137,11 +137,11 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
 最後如果不知道要怎麼買比較划算，可以來省瑞票券精算器，輸入你的行程，可以看到票價多少，也可以看買什麼車票比較划算。
 
 <div class="swiss-buy-container">
-    <a href="https://calculator.swisspro.tw/" 
+    <a href="https://calculator.swisspro.tw/?itinerary_id=fd5b65b6" 
        target="_blank" 
        rel="nofollow noopener" 
        class="kkday-swiss-btn">
-       省瑞票券精算器
+       省瑞票券精算器（經典 8 天）
     </a>
 </div>
 
@@ -190,7 +190,3 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
 - 訂錯日期了能改嗎？能退嗎？
 
 Point-to-point 「瑞士境內」出發之前可以改，通常做法是去你的買票的帳戶（所以建議註冊），找到退票的選項，全額退款之後再重買一張。如果是有跨國的車票就麻煩了，你需要打 SBB 客服或者直接去櫃檯找他們處理。
-
-<div class="tip-box" markdown="1">
-還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
-</div>

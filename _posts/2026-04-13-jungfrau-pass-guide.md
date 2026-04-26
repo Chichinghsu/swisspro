@@ -177,19 +177,14 @@ permalink: /blog/jungfrau-pass-guide/
 跟你的行程有關，所有的「如果你很常上山」或什麼之類的條件句子，其實都比不上你直接去省瑞計劃的票券精算器填一填算一下，幫你的行程精算一波。少女峰地區的票價計算可能是全瑞士最複雜的（還有夏季與冬季票價差），而且票價十分昂貴，應該也是全瑞士最貴。精算器都幫你把這些考慮進去了，只需要輸入你要去的地點與日期，即可知道什麼最划算。也恭喜你解決了最複雜的部分，接下來的瑞士之旅票券只會更簡單。
 
 <div class="swiss-buy-container">
-    <a href="https://calculator.swisspro.tw/" 
+    <a href="https://calculator.swisspro.tw/?itinerary_id=fd5b65b6" 
        target="_blank" 
        rel="nofollow noopener" 
        class="kkday-swiss-btn">
-       省瑞票券精算器
+       省瑞票券精算器（經典 8 天）
     </a>
 </div>
 
 {% assign target_post = site.posts | where: "url", "/blog/zermatt-pass-guide/" | first %}
 除了少女峰之外，策馬特部分可以參考
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
-
-
-<div class="tip-box" markdown="1">
-還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
-</div>

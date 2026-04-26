@@ -234,7 +234,3 @@ input:checked + .slider:before { transform: translateX(22px); }
 
 {% assign target_post = site.posts | where: "url", "/blog/jungfrau-pass-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
-
-<div class="tip-box" markdown="1">
-還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
-</div>

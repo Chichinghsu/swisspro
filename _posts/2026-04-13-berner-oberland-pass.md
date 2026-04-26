@@ -108,7 +108,7 @@ permalink: /blog/berner-oberland-pass/
 | ✅    |  ❌ | 4 天 | 150+196 | 22.0 | 368.0 |
 | ❌   |  4 天 | ❌ | 309 | 116.7 | 425.7 |
 
-不過這可說是為 BO-Pass 量身打造的行程，所以就看個人喜好，如果你要上少女峰的話，那又要重新查一下。不過還好現在有**[省瑞計劃票券精算器](https://calculator.swisspro.tw)**，只要輸入你的行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算。
+不過這可說是為 BO-Pass 量身打造的行程，所以就看個人喜好，如果你要上少女峰的話，那又要重新查一下。不過還好現在有**[省瑞計劃票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)**，只要輸入你的行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算。
 
 <a id="conclusions"></a>
 ## 結論
@@ -128,8 +128,4 @@ permalink: /blog/berner-oberland-pass/
        class="kkday-swiss-btn">
        KKday 伯恩高地地區通行證
     </a>
-</div>
-
-<div class="tip-box" markdown="1">
-還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
 </div>
