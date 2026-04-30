@@ -165,11 +165,13 @@ Too Good To Go App 下載
 
 泡麵多帶一點。
 
-其實還有 IKEA 餐廳也很划算，只是通常都比較郊區一點，如果你正好有買 Swiss Travel Pass 的話，可以考慮去 IKEA 吃個肉丸和冰淇淋，大概也是 15 瑞郎可以解決。
+其實還有 IKEA 餐廳也很划算，只是通常都比較郊區一點，如果你正好有買 Swiss Travel Pass (STP) 的話，可以考慮去 IKEA 吃個肉丸和冰淇淋，大概也是 15 瑞郎可以解決。
 
 {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
+
+如果你打算買半價卡或 STP 的話，可以參考以下購買連結：[KKday 買半價卡](https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072) 與 [KKday 買 STP](http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072)。
 
 瑞士很貴是真的，餐廳吃飯很貴也是真的。但如果知道去哪吃、怎麼吃，就可以省下大量旅費。除此之外，瑞士交通也是很貴，不過如果你使用本站的交通票券精算器，只需要輸入你要去的地點與日期，即可知道買什麼票最划算。
 

@@ -844,6 +844,8 @@ initWidget();
 
 恭喜你，現在衣物搞定了，如果不確定瑞士行程怎麼安排或者該如何買票，歡迎使用本站票券精算器，只要輸入行程就可以知道要買什麼票比較划算。
 
+如果你打算買半價卡或 Swiss Travel Pass (STP) 的話，可以參考以下購買連結：[KKday 買半價卡](https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072)與 [KKday 買 STP](http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072)。
+
 <div class="swiss-buy-container">
     <a href="https://calculator.swisspro.tw/?itinerary_id=40262633&utm_source=swisspro_blog&utm_campaign=saver_day_pass" 
        target="_blank" 

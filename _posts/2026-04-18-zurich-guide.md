@@ -351,6 +351,10 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 | [玉特利山 + 市區](#uetliberg) |  110 + 154 + 155 | 9.4 / 4.7 | 18.8 / 9.4 | 
 | [玉特利山 - 行星小徑健行](#uetliberg) | 110 + 154 + 155 + 150 | 11.4 / 5.7 | 22.8 / 11.4 | 
 
+
+如果你打算買半價卡或 STP 的話，可以參考以下購買連結：[KKday 買半價卡](https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072)與 [KKday 買 STP](http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072)。
+
+
 <div class="tip-box" markdown="1">
 還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
 </div>
