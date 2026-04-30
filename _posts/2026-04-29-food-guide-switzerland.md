@@ -23,6 +23,7 @@ permalink: /blog/food-guide-switzerland/
 - [速食店與 Kebab](#fastfood)
 - [超市附設餐廳](#supermarket)
 - [Äss Bar（昨天的麵包）](#aessbar)
+- [i 珍食 友善時光](#discount)
 - [Too good to go](#tgtg)
 - [大學學生餐廳](#mensa)
 - [結論](#conclusions)
@@ -99,6 +100,16 @@ permalink: /blog/food-guide-switzerland/
   <img src="{{ '/img/food/aess_bar.webp' | relative_url }}" alt="Äss Bar 蘇黎世">
   <figcaption>位於蘇黎世老城區的 Äss Bar 認這個藍色招牌</figcaption>
 </figure>
+
+
+<a id="discount"></a>
+## i 珍食 友善時光
+
+瑞士超市在打烊前也會有友善時光。瑞士基本上超市八點關門（車站裡面會開比較晚，少數開到九點，鄉下的話七點就關，可以看 Google Maps 確定一下），大概打烊前四小時開始（下午四點左右），會有折扣貼紙。店員會一個一個慢慢貼，你可以追著店員跑，他一貼你就拿走。除了三明治之外還有蛋糕、甜點、沙拉之類的東西，只要保存期限較短的，就容易出現。
+
+不過最著名的 Coop 超市，今 (2026) 年改了規則，取消了 50% 折扣，現在最多只有 40%（打六折）。不過他們（號稱）會提早開始貼，大概四五點就開始會有 20% （打八折）的貼紙，都沒人買的話會加碼到 40%。不過買了記得早點吃，不然就過期了。
+
+[心痛比快樂更珍食 (Instagram)](https://www.instagram.com/reel/DWeAHiMiHbf/)
 
 <a id="tgtg"></a>
 ## Too Good To Go
