@@ -430,7 +430,7 @@ footer {
 .blog-hero {
     background-color: var(--st-secondary-bg);
     border-bottom: 1px solid #e0e0e0;
-    padding: 48px 5% 40px;
+    padding: 48px 5% 10px;
     text-align: center;
 }
 

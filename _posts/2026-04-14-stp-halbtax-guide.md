@@ -25,6 +25,19 @@ permalink: /blog/stp-halbtax-guide/
 
 半價卡嚴格來說並不是一張「卡」，反而是一種「資格」。可以想像成台灣的「敬老卡」，只是你不用老，只要繳錢就可以。
 
+<div class="tip-box" markdown="1">
+我不知道這段路線 STP 能不能搭？輸入路線，馬上知道有沒有包含，還可看到各種小訣竅
+
+<div class="swiss-buy-container">
+    <a href="https://calculator.swisspro.tw/?p=validator" 
+       target="_blank" 
+       rel="nofollow noopener" 
+       class="kkday-swiss-btn">
+       省瑞票券速查
+    </a>
+</div>
+</div>
+
 ## 很多人其實都「買錯」了
 
 網路上很多人都會說「無腦 STP」，但是我精算 Facebook 社團上隨機挑選 20 個人的行程後發現，其實有 19 個人買半價卡會比較划算，但他們都買了 STP ，而且有些人甚至價差高達一萬台幣。這邊說的「買錯」就是多花了一些錢，但當然方便無價，可以理解旅人們不想在陌生的國度還要研究怎麼買票，所以就是看個人需求，而且我沒有算到博物館的門票，所以也許還是 STP 划算。不過，省瑞計劃的[精算工具](https://calculator.swisspro.tw/?itinerary_id=fd5b65b6&utm_source=swisspro_blog&utm_campaign=stp_halbtax_guide)可以讓你知道你想要的方便值多少錢，只要輸入你的行程與日期，馬上清清楚楚誰便宜多少。
