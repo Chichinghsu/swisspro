@@ -19,7 +19,30 @@ permalink: /blog/meteoswiss-app-guide/
 
 在瑞士旅遊，到底要怎麼穿比較好？這篇帶你一次看懂，需注意，瑞士沒有 Uniqlo，所以相對沒有那麼方便，無法少什麼再買就好。
 
-我們先來感受一下，你正在讀此文的「現在」瑞士各大地區的溫度如何
+我們先來感受一下，你正在讀此文的「現在」瑞士各大地區的溫度如何，現在瑞士時間：
+<span id="zurich-clock">00:00:00</span>
+
+（瑞士夏季時間等於台灣減六，冬季減七）
+
+<script>
+    function updateClock() {
+        const now = new Date();
+        const options = {
+            timeZone: 'Europe/Zurich',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: false
+        };
+        const formatter = new Intl.DateTimeFormat('en-GB', options);
+        document.getElementById('zurich-clock').textContent = formatter.format(now);
+    }
+
+    // 每 1000 毫秒（1秒）更新一次
+    setInterval(updateClock, 1000);
+    // 立即啟動，避免等待第一秒
+    updateClock();
+</script>
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
