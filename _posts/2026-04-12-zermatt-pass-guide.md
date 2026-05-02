@@ -225,8 +225,8 @@ const CARD = {
 // fullPrice = original (no discount), halfPrice = with halbtax/STP (50% off individual ticket)
 // cardDiscount: with Zermatt card these are included free
 const ACTIVITIES = [
-  { id:'gorn',    name:'戈爾內格拉特', nameEn:'Gornergrat Bahn',    full:132, half:66  },
-  { id:'glacier', name:'冰川天堂',         nameEn:'Glacier Paradise',   full:120, half:60  },
+  { id:'gorn',    name:'戈爾內格拉特（來回）', nameEn:'Gornergrat Bahn',    full:132, half:66  },
+  { id:'glacier', name:'冰川天堂（來回）',         nameEn:'Glacier Paradise',   full:120, half:60  },
   { id:'fivelakes',name:'五湖健行纜車',    nameEn:'Five Lakes Hike',    full:53,  half:26.5},
 ];
 
