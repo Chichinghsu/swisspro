@@ -16,7 +16,7 @@ permalink: /blog/zermatt-pass-guide/
 - [Peak2Peak：期間限定一日雙塔，最划算](#peak2peak)
 - [結論](#conclusions)
 
-直接去[結論](#conclusions)有策馬特精算機，點一點就知道買什麼划算。文末附有所有策馬特相關購票連結。
+直接去[結論](#conclusions)有策馬特精算機，點一點就知道買什麼划算。或者如果不確定這段路程要提早買嗎？要訂位嗎？怎麼買？多少錢？可以使用[省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)。最後，本文文末附有所有策馬特相關購票連結。
 
 <a id="zermatt"></a>
 ## 策馬特景點與簡介
@@ -372,7 +372,9 @@ calc();
 | 季節 | 皆可 | 期間限定 |
 | 推薦程度 | 還好 | 推 |
 
-最後再次附上所有的購票連結
+
+<div class="tip-box" markdown="1">
+### 所有策馬特相關的購票連結
 
 [購買策馬特群山縱覽通行證 中文 KKday](https://www.kkday.com/zh-tw/product/18767-zermatt-peak-pass-switzerland?cid=24072)
 
@@ -383,6 +385,7 @@ calc();
 [購買五湖健行票 英文官網](https://www.matterhornparadise.ch/en/book/tickets/kombitickets)
 
 [購買Peak2Peak 英文官網](https://www.matterhornparadise.ch/en/book/tickets/peak2peak)
+</div>
 
 ## 💡 還是不知道要買啥？
 直接去 **[瑞士票券精算器](https://calculator.swisspro.tw/?itinerary_id=fd5b65b6)** 輸入你的策馬特行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算（包含 Peak2Peak 與群山綜覽通行證 (Zermatt Peak Pass)，或者什麼都不買）。

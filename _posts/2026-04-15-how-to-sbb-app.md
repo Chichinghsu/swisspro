@@ -145,6 +145,18 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
     </a>
 </div>
 
+
+或者如果不確定這段路程 STP 能搭嗎？要提早買嗎？怎麼買？多少錢？可以使用省瑞票券速查器。
+
+<div class="swiss-buy-container">
+    <a href="https://calculator.swisspro.tw/?p=validator" 
+       target="_blank" 
+       rel="nofollow noopener" 
+       class="kkday-swiss-btn">
+       省瑞票券速查器
+    </a>
+</div>
+
 <a id="faq"></a>
 ## 常見問題
 
