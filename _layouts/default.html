@@ -45,45 +45,18 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "WebSite",
-                "@id": "https://swisspro.tw/#website",
-                "url": "https://swisspro.tw",
-                "name": "省瑞計劃",
-                "alternateName": "SwissPro",
-                "description": "{{ site.description }}",
-                "inLanguage": "zh-TW",
-                "publisher": {
-                  "@type": "Organization",
-                  "name": "省瑞計劃",
-                  "logo": {
-                    "@type": "ImageObject",
-                    "url": "{{ site.url }}{{ site.favicon }}"
-                  }
-                }
-              },
-              {
-                "@type": "BlogPosting",
-                "@id": "{{ page.url | absolute_url }}/#article",
-                "headline": "{{ page.title }}",
-                "description": "{{ page.description | strip_html | strip_newlines | truncate: 150 }}",
-                "image": [
-                    "{{ site.url }}{{ page.thumbnail | default: page.image }}"
-                ],
-                "author": { "@type": "Person", "name": "SwissPro" },
-                "datePublished": "{{ page.date | date_to_xmlschema }}"
-              },
-              {
-                "@type": "WebApplication",
-                "@id": "https://calculator.swisspro.tw/#app",
-                "name": "瑞士交通票券精算助手",
-                "url": "https://calculator.swisspro.tw",
-                "applicationCategory": "TravelApplication",
-                "operatingSystem": "All",
-                "description": "專為台灣自由行旅人設計的瑞士鐵路票券試算工具，自動比價 STP、半價卡與原價。"
-              }
-            ]
+            "@type": "WebSite",
+            "@id": "https://swisspro.tw/#website",
+            "url": "https://swisspro.tw",
+            "name": "省瑞計劃",
+            "alternateName": "SwissPro",
+            "description": "{{ site.description }}",
+            "inLanguage": "zh-TW",
+            "publisher": {
+              "@type": "Organization",
+              "name": "省瑞計劃",
+              "url": "https://swisspro.tw"
+            }
           }
     </script>
 </head>
