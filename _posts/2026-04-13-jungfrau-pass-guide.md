@@ -18,6 +18,12 @@ permalink: /blog/jungfrau-pass-guide/
 - [範例行程與票價精算](#example)
 - [結論](#conclusions)
 
+<div class="tip-box" markdown="1">
+#### 💡 我只是不確定這段能不能用 Swiss Travel Pass (STP) 搭？
+
+直接用[省瑞計劃 票券速查](https://calculator.swisspro.tw/?p=validator) 功能，輸入起點跟終點即可知道什麼票券可以用，要不要先訂位等等，所有的疑難雜症一次解決。
+</div>
+
 <a id="introduction"></a>
 ## 少女峰景點與簡介
 
