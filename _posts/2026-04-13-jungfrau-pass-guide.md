@@ -18,11 +18,7 @@ permalink: /blog/jungfrau-pass-guide/
 - [範例行程與票價精算](#example)
 - [結論](#conclusions)
 
-<div class="tip-box" markdown="1">
-#### 💡 我只是不確定這段能不能用 Swiss Travel Pass (STP) 搭？
-
-直接用[省瑞計劃 票券速查](https://calculator.swisspro.tw/?p=validator) 功能，輸入起點跟終點即可知道什麼票券可以用，要不要先訂位等等，所有的疑難雜症一次解決。
-</div>
+如果你已經知道要去哪裡，直接去[結論](#conclusions)有少女峰票券試算器，點一點就知道買什麼划算。
 
 <a id="introduction"></a>
 ## 少女峰景點與簡介
@@ -180,7 +176,231 @@ permalink: /blog/jungfrau-pass-guide/
 <a id="conclusions"></a>
 ## 結論：到底買什麼比較划算？
 
-跟你的行程有關，所有的「如果你很常上山」或什麼之類的條件句子，其實都比不上你直接去省瑞計劃的票券精算器填一填算一下，幫你的行程精算一波。少女峰地區的票價計算可能是全瑞士最複雜的（還有夏季與冬季票價差），而且票價十分昂貴，應該也是全瑞士最貴。精算器都幫你把這些考慮進去了，只需要輸入你要去的地點與日期，即可知道什麼最划算。也恭喜你解決了最複雜的部分，接下來的瑞士之旅票券只會更簡單。
+
+<style>
+.j-wrap { font-family: 'PingFang TC','Microsoft JhengHei',sans-serif; max-width: 500px; margin: 0 auto; padding: 25px; border: 1px solid var(--color-border-secondary); border-radius: 16px; background: var(--color-background-primary); }
+.j-title { color: #1d4ed8; margin: 0 0 20px; text-align: center; font-size: 1.35em; }
+.j-section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--color-text-tertiary); margin: 0 0 7px; }
+.j-seg { display: flex; flex-wrap: wrap; background: var(--color-background-secondary); padding: 4px; border-radius: 10px; margin-bottom: 16px; gap: 3px; }
+.j-seg-btn { flex: 1; text-align: center; padding: 8px 3px; cursor: pointer; border-radius: 7px; font-weight: 600; font-size: 12px; transition: 0.2s; color: var(--color-text-secondary); white-space: nowrap; min-width: 50px; }
+.j-seg-btn.on { background: #1d4ed8; color: #fff; }
+.j-toggle-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; padding: 11px 14px; background: var(--color-background-secondary); border-radius: 10px; border: 0.5px solid var(--color-border-secondary); }
+.j-toggle-label { font-weight: 600; font-size: 14px; color: var(--color-text-primary); }
+.j-toggle-sub { font-size: 11px; color: var(--color-text-tertiary); }
+.sw { position: relative; display: inline-block; width: 48px; height: 26px; flex-shrink: 0; }
+.sw input { opacity: 0; width: 0; height: 0; }
+.sw .sl { position: absolute; cursor: pointer; inset: 0; background: #ccc; border-radius: 34px; transition: .3s; }
+.sw .sl:before { position: absolute; content: ""; height: 18px; width: 18px; left: 4px; bottom: 4px; background: white; border-radius: 50%; transition: .3s; }
+.sw input:checked + .sl { background: #1d4ed8; }
+.sw input:checked + .sl:before { transform: translateX(22px); }
+
+/* Activity rows */
+.j-items { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.j-item { padding: 11px 13px; border: 0.5px solid var(--color-border-secondary); border-radius: 10px; display: grid; grid-template-columns: 18px 1fr auto; gap: 0 10px; align-items: center; cursor: pointer; transition: border-color .15s; }
+.j-item:has(input:checked) { border-color: #1d4ed8; background: #eff6ff; }
+.j-item input[type=checkbox] { width: 17px; height: 17px; accent-color: #1d4ed8; cursor: pointer; }
+.j-item-right { text-align: right; }
+.j-item-name { font-size: 14px; color: var(--color-text-primary); font-weight: 500; line-height: 1.3; }
+.j-item-sub  { font-size: 11px; color: var(--color-text-tertiary); margin-top: 1px; }
+.j-item-price { font-size: 13px; font-weight: 700; color: var(--color-text-primary); white-space: nowrap; }
+.j-item-unit  { font-size: 11px; color: var(--color-text-tertiary); white-space: nowrap; }
+
+/* summary */
+.j-summary { padding: 18px; border-radius: 12px; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-secondary); }
+.j-sum-row { display: flex; justify-content: space-between; margin-bottom: 7px; font-size: 14px; color: var(--color-text-secondary); }
+.j-sum-row b { color: var(--color-text-primary); }
+.j-sum-row.blue b { color: #1d4ed8; }
+.j-divider-line { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 10px 0; }
+.j-verdict { text-align: center; padding: 14px; border-radius: 9px; font-weight: 700; font-size: 15px; }
+.j-verdict.yes { background: #dcfce7; color: #15803d; }
+.j-verdict.no  { background: #fee2e2; color: #b91c1c; }
+.j-verdict.neutral { background: var(--color-background-tertiary); color: var(--color-text-secondary); }
+.j-note { font-size: 11px; color: var(--color-text-tertiary); margin-top: 12px; line-height: 1.55; }
+.j-disc-row { display: flex; gap: 8px; margin-bottom: 18px; }
+.j-disc-row .j-toggle-row { flex: 1; margin-bottom: 0; }
+</style>
+
+<div class="j-wrap">
+  <h3 class="j-title">少女峰地區通行證精算器</h3>
+
+  <!-- Days -->
+  <div class="j-section-label">計劃停留天數（連續）</div>
+  <div class="j-seg" id="seg-days"></div>
+
+  <!-- Discount cards -->
+  <div class="j-section-label">持有優惠卡</div>
+  <div class="j-disc-row">
+    <div class="j-toggle-row">
+      <div class="j-toggle-label">Swiss Travel Pass</div>
+      <label class="sw"><input type="checkbox" id="stp" onchange="onDiscChange('stp')"><span class="sl"></span></label>
+    </div>
+    <div class="j-toggle-row">
+      <div class="j-toggle-label">半價卡</div>
+      <label class="sw"><input type="checkbox" id="halbtax" onchange="onDiscChange('halbtax')"><span class="sl"></span></label>
+    </div>
+  </div>
+
+  <!-- Activities -->
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:7px;">
+    <div class="j-section-label" style="margin-bottom:0;">計劃的景點</div>
+    <button onclick="resetAll()" style="font-size:11px; font-weight:600; color:var(--color-text-tertiary); background:#fee2e2; border:0.5px solid var(--color-border-secondary); border-radius:6px; padding:3px 10px; cursor:pointer;">清除全部重選</button>
+  </div>
+  <div class="j-items" id="j-items"></div>
+
+  <!-- Summary -->
+  <div class="j-summary">
+    <div class="j-sum-row"><span>分開購票合計</span><b id="s-indiv">0.00 CHF</b></div>
+    <div class="j-sum-row blue"><span id="s-card-label">少女峰通行證</span><b id="s-card">— CHF</b></div>
+    <hr class="j-divider-line">
+    <div class="j-verdict neutral" id="s-verdict">請勾選景點並選擇天數</div>
+  </div>
+  
+</div>
+
+<script>
+// Pass prices: { days: [full, halfPrice] }
+const PASS_PRICES = {
+  3: [210, 165],
+  4: [235, 180],
+  5: [270, 210],
+  6: [290, 225],
+  7: [310, 240],
+  8: [330, 255],
+};
+
+// Activities: full, stp, half, card prices
+const ACTIVITIES = [
+  { id:'harder',        name:'哈德昆觀景台',                       nameEn:'Harder Kulm',                         full:44,    stp:22,    half:22,    card:0   },
+  { id:'jung_grind',    name:'格林德瓦 ↔ 少女峰巔',              nameEn:'Grindelwald ↔ Jungfraujoch',          full:249.2, stp:189.6, half:129.6, card:89  },
+  { id:'jung_laut',     name:'勞特布魯嫩 ↔ 少女峰巔',            nameEn:'Lauterbrunnen ↔ Jungfraujoch',        full:250,   stp:178.8, half:125,   card:89  },
+  { id:'first',         name:'格林德瓦 ↔ First 纜車',              nameEn:'Grindelwald ↔ First',                 full:76,    stp:38,    half:38,    card:0   },
+  { id:'lauterbrunnen', name:'格林德瓦 ↔ 勞特布魯嫩',             nameEn:'Grindelwald ↔ Lauterbrunnen',         full:18.8,  stp:0,     half:9.4,   card:0   },
+  { id:'wengen',        name:'勞特布魯嫩 ↔ 溫根',        nameEn:'Lauterbrunnen ↔ Wengen',              full:7.2,   stp:0,     half:3.6,   card:0   },
+  { id:'brienz',        name:'布里恩茨湖遊船',                      nameEn:'Brienzersee Cruise',                  full:75,    stp:0,     half:37.5,  card:0   },
+  { id:'schynige',      name:'威爾德斯維爾 ↔ 徐尼格觀景台', nameEn:'Wilderswil ↔ Schynige Platte',  full:68,    stp:32,    half:32,    card:0   },
+  { id:'murren',        name:'勞特布魯嫩 ↔ 穆倫',                  nameEn:'Lauterbrunnen ↔ Mürren',              full:32.8,  stp:0,     half:16.4,  card:0   },
+];
+
+let selDays = 3;
+
+// ── Days seg ───────────────────────────────────────────────────────────────
+const segDays = document.getElementById('seg-days');
+[3,4,5,6,7,8].forEach(d => {
+  const btn = document.createElement('div');
+  btn.className = 'j-seg-btn' + (d === selDays ? ' on' : '');
+  btn.textContent = d + ' 天';
+  btn.dataset.d = d;
+  btn.onclick = () => {
+    selDays = d;
+    segDays.querySelectorAll('.j-seg-btn').forEach(b => b.classList.toggle('on', +b.dataset.d === d));
+    calc();
+  };
+  segDays.appendChild(btn);
+});
+
+// ── Activity rows ──────────────────────────────────────────────────────────
+const itemsEl = document.getElementById('j-items');
+ACTIVITIES.forEach(a => {
+  const row = document.createElement('div');
+  row.className = 'j-item';
+  row.innerHTML = `
+    <input type="checkbox" id="act-${a.id}" onchange="calc()">
+    <div>
+      <div class="j-item-name">${a.name}</div>
+      <div class="j-item-sub">${a.nameEn}</div>
+    </div>
+    <div class="j-item-right">
+      <div class="j-item-price" id="price-${a.id}">${a.full} CHF</div>
+    </div>`;
+  itemsEl.appendChild(row);
+});
+
+// ── Discount mutual exclusion ──────────────────────────────────────────────
+function onDiscChange(changed) {
+  if (changed === 'stp' && document.getElementById('stp').checked) {
+    document.getElementById('halbtax').checked = false;
+  } else if (changed === 'halbtax' && document.getElementById('halbtax').checked) {
+    document.getElementById('stp').checked = false;
+  }
+  calc();
+}
+
+// ── Calc ───────────────────────────────────────────────────────────────────
+function calc() {
+  const useSTP = document.getElementById('stp').checked;
+  const useHalf = document.getElementById('halbtax').checked;
+
+  // Pass price: STP and 半價卡 both use the discounted pass price
+  const [passFullPrice, passHalfPrice] = PASS_PRICES[selDays];
+  const cardCost = (useSTP || useHalf) ? passHalfPrice : passFullPrice;
+
+  // Update displayed per-activity prices (without pass)
+  ACTIVITIES.forEach(a => {
+    let shown;
+    if (useSTP) shown = a.stp;
+    else if (useHalf) shown = a.half;
+    else shown = a.full;
+    const el = document.getElementById('price-' + a.id);
+    el.textContent = shown % 1 === 0 ? shown + ' CHF' : shown.toFixed(1) + ' CHF';
+  });
+
+  // Totals
+  let indiv = 0, withCard = 0, anyChecked = false;
+  ACTIVITIES.forEach(a => {
+    if (document.getElementById('act-' + a.id).checked) {
+      anyChecked = true;
+      let priceWithout;
+      if (useSTP) priceWithout = a.stp;
+      else if (useHalf) priceWithout = a.half;
+      else priceWithout = a.full;
+      indiv += priceWithout;
+      withCard += a.card;
+    }
+  });
+
+  const totalWithoutPass = indiv;
+  const totalWithPass = cardCost + withCard;
+
+  document.getElementById('s-card-label').textContent = `少女峰通行證 (${selDays}天)`;
+  document.getElementById('s-indiv').textContent = totalWithoutPass.toFixed(2) + ' CHF';
+  document.getElementById('s-card').textContent = totalWithPass.toFixed(2) + ' CHF';
+
+  const verdict = document.getElementById('s-verdict');
+  if (!anyChecked) {
+    verdict.textContent = '請勾選計劃前往的景點';
+    verdict.className = 'j-verdict neutral';
+    return;
+  }
+  const diff = Math.abs(totalWithoutPass - totalWithPass).toFixed(2);
+  if (totalWithoutPass > totalWithPass) {
+    verdict.innerHTML = '✅ 建議買通行證！省下 ' + diff + ' CHF';
+    verdict.className = 'j-verdict yes';
+  } else if (totalWithoutPass < totalWithPass) {
+    verdict.innerHTML = '❌ 不需要買通行證（省 ' + diff + ' CHF）';
+    verdict.className = 'j-verdict no';
+  } else {
+    verdict.innerHTML = '兩者費用相同';
+    verdict.className = 'j-verdict neutral';
+  }
+}
+function resetAll() {
+  ACTIVITIES.forEach(a => {
+    document.getElementById('act-' + a.id).checked = false;
+  });
+  calc();
+}
+calc();
+</script>
+
+
+
+<div class="tip-box" markdown="1">
+#### 💡 我只是不確定這段能不能用 Swiss Travel Pass (STP) 搭？
+
+直接用[省瑞計劃 票券速查](https://calculator.swisspro.tw/?p=validator) 功能，輸入起點跟終點即可知道什麼票券可以用，要不要先訂位等等，所有的疑難雜症一次解決。
+</div>
+
+總而言之，跟你的行程有關，所有的「如果你很常上山」或什麼之類的條件句子，其實都比不上你直接去省瑞計劃的票券精算器填一填算一下，幫你的行程精算一波。少女峰地區的票價計算可能是全瑞士最複雜的（還有夏季與冬季票價差），而且票價十分昂貴，應該也是全瑞士最貴。精算器都幫你把這些考慮進去了，只需要輸入你要去的地點與日期，即可知道什麼最划算。也恭喜你解決了最複雜的部分，接下來的瑞士之旅票券只會更簡單。
 
 <div class="swiss-buy-container">
     <a href="https://calculator.swisspro.tw/?itinerary_id=fd5b65b6" 
@@ -193,4 +413,8 @@ permalink: /blog/jungfrau-pass-guide/
 
 {% assign target_post = site.posts | where: "url", "/blog/zermatt-pass-guide/" | first %}
 除了少女峰之外，策馬特部分可以參考
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+{% assign target_post = site.posts | where: "url", "/blog/berner-oberland-pass/" | first %}
+少女峰附近的行程也可以搭配伯恩高地通票：
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>

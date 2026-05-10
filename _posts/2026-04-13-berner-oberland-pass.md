@@ -14,7 +14,7 @@ permalink: /blog/berner-oberland-pass/
 - [伯恩高地通票 (Berner Oberland Pass)](#bo-pass)
 - [主要觀光景點](#main-tourist)
 - [範例行程](#example)
-- [結論](#conclusions)
+- [結論 - 試算器，點一點就知道你要不要買這張](#conclusions)
 
 <a id="bo-pass"></a>
 ## 伯恩高地通票 (Berner Oberland Pass)
@@ -112,6 +112,211 @@ permalink: /blog/berner-oberland-pass/
 
 <a id="conclusions"></a>
 ## 結論
+
+<style>
+.b-wrap { font-family: 'PingFang TC','Microsoft JhengHei',sans-serif; max-width: 500px; margin: 0 auto; padding: 25px; border: 1px solid var(--color-border-secondary); border-radius: 16px; background: var(--color-background-primary); }
+.b-title { color: #059669; margin: 0 0 20px; text-align: center; font-size: 1.35em; }
+.b-section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--color-text-tertiary); margin: 0 0 7px; }
+.b-seg { display: flex; flex-wrap: wrap; background: var(--color-background-secondary); padding: 4px; border-radius: 10px; margin-bottom: 16px; gap: 3px; }
+.b-seg-btn { flex: 1; text-align: center; padding: 8px 3px; cursor: pointer; border-radius: 7px; font-weight: 600; font-size: 12px; transition: 0.2s; color: var(--color-text-secondary); white-space: nowrap; min-width: 50px; }
+.b-seg-btn.on { background: #059669; color: #fff; }
+.b-toggle-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; padding: 11px 14px; background: var(--color-background-secondary); border-radius: 10px; border: 0.5px solid var(--color-border-secondary); }
+.b-toggle-label { font-weight: 600; font-size: 14px; color: var(--color-text-primary); }
+.sw { position: relative; display: inline-block; width: 48px; height: 26px; flex-shrink: 0; }
+.sw input { opacity: 0; width: 0; height: 0; }
+.sw .sl { position: absolute; cursor: pointer; inset: 0; background: #ccc; border-radius: 34px; transition: .3s; }
+.sw .sl:before { position: absolute; content: ""; height: 18px; width: 18px; left: 4px; bottom: 4px; background: white; border-radius: 50%; transition: .3s; }
+.sw input:checked + .sl { background: #059669; }
+.sw input:checked + .sl:before { transform: translateX(22px); }
+
+/* Activity rows */
+.b-items { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.b-item { padding: 11px 13px; border: 0.5px solid var(--color-border-secondary); border-radius: 10px; display: grid; grid-template-columns: 18px 1fr auto; gap: 0 10px; align-items: center; cursor: pointer; transition: border-color .15s; }
+.b-item:has(input:checked) { border-color: #059669; background: #ecfdf5; }
+.b-item input[type=checkbox] { width: 17px; height: 17px; accent-color: #059669; cursor: pointer; }
+.b-item-right { text-align: right; }
+.b-item-name { font-size: 14px; color: var(--color-text-primary); font-weight: 500; line-height: 1.3; }
+.b-item-sub  { font-size: 11px; color: var(--color-text-tertiary); margin-top: 1px; }
+.b-item-price { font-size: 13px; font-weight: 700; color: var(--color-text-primary); white-space: nowrap; }
+
+/* summary */
+.b-summary { padding: 18px; border-radius: 12px; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-secondary); }
+.b-sum-row { display: flex; justify-content: space-between; margin-bottom: 7px; font-size: 14px; color: var(--color-text-secondary); }
+.b-sum-row b { color: var(--color-text-primary); }
+.b-sum-row.green b { color: #059669; }
+.b-divider-line { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 10px 0; }
+.b-verdict { text-align: center; padding: 14px; border-radius: 9px; font-weight: 700; font-size: 15px; }
+.b-verdict.yes { background: #dcfce7; color: #15803d; }
+.b-verdict.no  { background: #fee2e2; color: #b91c1c; }
+.b-verdict.neutral { background: var(--color-background-tertiary); color: var(--color-text-secondary); }
+.b-note { font-size: 11px; color: var(--color-text-tertiary); margin-top: 12px; line-height: 1.55; }
+.b-disc-row { display: flex; gap: 8px; margin-bottom: 18px; }
+.b-disc-row .b-toggle-row { flex: 1; margin-bottom: 0; }
+
+</style>
+
+<div class="b-wrap">
+  <h3 class="b-title">BO-Pass 試算器</h3>
+
+  <!-- Days -->
+  <div class="b-section-label">計劃停留天數（連續）</div>
+  <div class="b-seg" id="seg-days"></div>
+
+  <!-- Discount cards -->
+  <div class="b-section-label">持有優惠卡</div>
+  <div class="b-disc-row">
+    <div class="b-toggle-row">
+      <div class="b-toggle-label">Swiss Travel Pass</div>
+      <label class="sw"><input type="checkbox" id="stp" onchange="onDiscChange('stp')"><span class="sl"></span></label>
+    </div>
+    <div class="b-toggle-row">
+      <div class="b-toggle-label">半價卡</div>
+      <label class="sw"><input type="checkbox" id="halbtax" onchange="onDiscChange('halbtax')"><span class="sl"></span></label>
+    </div>
+  </div>
+
+  <!-- Activities -->
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:7px;">
+    <div class="b-section-label" style="margin-bottom:0;">計劃的行程</div>
+    <button onclick="resetAll()" style="font-size:11px; font-weight:600; color:var(--color-text-tertiary); background:#fee2e2; border:0.5px solid var(--color-border-secondary); border-radius:6px; padding:3px 10px; cursor:pointer;">清除全部重選</button>
+  </div>
+  <div class="b-items" id="b-items"></div>
+
+  <!-- Summary -->
+  <div class="b-summary">
+    <div class="b-sum-row"><span>分開購票合計</span><b id="s-indiv">0.00 CHF</b></div>
+    <div class="b-sum-row green"><span id="s-card-label">BO-Pass</span><b id="s-card">— CHF</b></div>
+    <hr class="b-divider-line">
+    <div class="b-verdict neutral" id="s-verdict">請勾選行程並選擇天數</div>
+  </div>
+</div>
+
+<script>
+const PASS_PRICES = {
+  3:  [240, 168],
+  4:  [280, 196],
+  6:  [350, 254],
+  8:  [395, 287],
+  10: [435, 316],
+};
+
+// full, stp, half, card (BO-Pass price)
+const ACTIVITIES = [
+  { id:'luzern_brienz',    name:'琉森 ➔ 布里恩茨',                  nameEn:'Luzern → Brienz',                          full:30,   stp:0,    half:15,   card:0  },
+  { id:'brienz_steam',     name:'布里恩茨蒸汽火車',                  nameEn:'Brienz Rothorn Railway',            full:98,   stp:49,   half:49,   card:0  },
+  { id:'brienz_interlaken',name:'布里恩茨 ➔ 茵特拉肯東',            nameEn:'Brienz → Interlaken Ost',                  full:8.6,  stp:0,    half:4.3,  card:0  },
+  { id:'interlaken_murren',name:'茵特拉肯東 ➔ 勞特布魯嫩 ➔ 穆倫',  nameEn:'Interlaken Ost → Lauterbrunnen → Mürren',  full:19.6, stp:0,    half:9.8,  card:0  },
+  { id:'schilthorn',       name:'穆倫 ↔ 雪朗峰',                     nameEn:'Mürren ↔ Schilthorn',                      full:91.4, stp:45.7, half:45.7, card:0  },
+  { id:'murren_interlaken',name:'穆倫 ➔ 勞特布魯嫩 ➔ 茵特拉肯東',  nameEn:'Mürren → Lauterbrunnen → Interlaken Ost',  full:19.6, stp:0,    half:9.8,  card:0  },
+  { id:'harder',           name:'哈德昆觀景台',                       nameEn:'Harder Kulm',                              full:44,   stp:22,   half:22,   card:22 },
+  { id:'brienz_iseltwald', name:'布里恩茨湖一日遊船 （含Iseltwald）',          nameEn:'Brienz Lake',          full:75,   stp:0,    half:37.5, card:0  },
+  { id:'thun_cruise',      name:'茵特拉肯 ➔ 圖恩湖遊船 ➔ 圖恩',     nameEn:'Interlaken West → Thunersee Cruise → Thun',     full:54,   stp:0,    half:27,   card:0  },
+  { id:'thun_bern',        name:'圖恩 ➔ 伯恩',                        nameEn:'Thun → Bern',                              full:20.8, stp:0,    half:10.4, card:0  },
+];
+
+let selDays = 3;
+
+// ── Days seg ───────────────────────────────────────────────────────────────
+const segDays = document.getElementById('seg-days');
+[3,4,6,8,10].forEach(d => {
+  const btn = document.createElement('div');
+  btn.className = 'b-seg-btn' + (d === selDays ? ' on' : '');
+  btn.textContent = d + ' 天';
+  btn.dataset.d = d;
+  btn.onclick = () => {
+    selDays = d;
+    segDays.querySelectorAll('.b-seg-btn').forEach(b => b.classList.toggle('on', +b.dataset.d === d));
+    calc();
+  };
+  segDays.appendChild(btn);
+});
+
+// ── Activity rows ──────────────────────────────────────────────────────────
+const itemsEl = document.getElementById('b-items');
+ACTIVITIES.forEach(a => {
+  const row = document.createElement('div');
+  row.className = 'b-item';
+  row.innerHTML = `
+    <input type="checkbox" id="act-${a.id}" onchange="calc()">
+    <div>
+      <div class="b-item-name">${a.name}</div>
+      <div class="b-item-sub">${a.nameEn}</div>
+    </div>
+    <div class="b-item-right">
+      <div class="b-item-price" id="price-${a.id}">${a.full} CHF</div>
+    </div>`;
+  itemsEl.appendChild(row);
+});
+
+// ── Discount mutual exclusion ──────────────────────────────────────────────
+function onDiscChange(changed) {
+  if (changed === 'stp' && document.getElementById('stp').checked) {
+    document.getElementById('halbtax').checked = false;
+  } else if (changed === 'halbtax' && document.getElementById('halbtax').checked) {
+    document.getElementById('stp').checked = false;
+  }
+  calc();
+}
+
+// ── Calc ───────────────────────────────────────────────────────────────────
+function calc() {
+  const useSTP  = document.getElementById('stp').checked;
+  const useHalf = document.getElementById('halbtax').checked;
+
+  const [passFullPrice, passHalfPrice] = PASS_PRICES[selDays];
+  const cardCost = (useSTP || useHalf) ? passHalfPrice : passFullPrice;
+
+  ACTIVITIES.forEach(a => {
+    let shown = useSTP ? a.stp : useHalf ? a.half : a.full;
+    const el = document.getElementById('price-' + a.id);
+    el.textContent = shown % 1 === 0 ? shown + ' CHF' : shown.toFixed(1) + ' CHF';
+  });
+
+  let indiv = 0, withCard = 0, anyChecked = false;
+  ACTIVITIES.forEach(a => {
+    if (document.getElementById('act-' + a.id).checked) {
+      anyChecked = true;
+      const priceWithout = useSTP ? a.stp : useHalf ? a.half : a.full;
+      indiv    += priceWithout;
+      withCard += a.card;
+    }
+  });
+
+  const totalWithoutPass = indiv;
+  const totalWithPass    = cardCost + withCard;
+
+  document.getElementById('s-card-label').textContent = `BO-Pass (${selDays}天)`;
+  document.getElementById('s-indiv').textContent = totalWithoutPass.toFixed(2) + ' CHF';
+  document.getElementById('s-card').textContent  = totalWithPass.toFixed(2) + ' CHF';
+
+  const verdict = document.getElementById('s-verdict');
+  if (!anyChecked) {
+    verdict.textContent = '請勾選計劃前往的行程';
+    verdict.className = 'b-verdict neutral';
+    return;
+  }
+  const diff = Math.abs(totalWithoutPass - totalWithPass).toFixed(2);
+  if (totalWithoutPass > totalWithPass) {
+    verdict.innerHTML = '✅ 建議買 BO-Pass！省下 ' + diff + ' CHF';
+    verdict.className = 'b-verdict yes';
+  } else if (totalWithoutPass < totalWithPass) {
+    verdict.innerHTML = '❌ 不需要買 BO-Pass（省 ' + diff + ' CHF）';
+    verdict.className = 'b-verdict no';
+  } else {
+    verdict.innerHTML = '兩者費用相同';
+    verdict.className = 'b-verdict neutral';
+  }
+}
+
+function resetAll() {
+  ACTIVITIES.forEach(a => {
+    document.getElementById('act-' + a.id).checked = false;
+  });
+  calc();
+}
+calc();
+</script>
+
 
 這張票定位神秘，適合某些特定的行程，例如上面那個省瑞先生的行程。這可能比較像是雞生蛋、蛋生雞的問題。行程決定票券，但票券也決定行程，所以如果你想去雪朗峰、布里恩茨蒸汽火車、布里恩茨遊湖，不去少女峰人擠人，享受稍微清閒一點的旅行，加上那些 25 條相對小眾的纜車，BO-Pass 是你的好朋友。
 
