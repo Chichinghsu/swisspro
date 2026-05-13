@@ -299,7 +299,7 @@ calc();
 要不要買 LTP？總是這個答案：看你的行程，因人而異。可以總結如下：
 
 <div class="tip-box" markdown="1">
-適合已經去過少女峰、策馬特，覺得可以不用再去。到瑞士想看一些小眾景點的人（尤其是對琉森附近情有獨鍾的人）。可以類比為去膩東京、大阪，開始去岡山、青森的人，那你可以買這張。
+適合已經去過少女峰、策馬特，覺得可以不用再去的人。到瑞士想看一些小眾景點的人（尤其是對琉森附近情有獨鍾的人）。可以類比為去膩東京、大阪，開始去岡山、青森的人，那你可以買這張。
 </div>
 
 若你考慮之後覺得好像可以買這張，歡迎使用以下連結購買。
@@ -314,5 +314,5 @@ calc();
 </div>
 
 也歡迎使用本站的瑞士旅遊小工具
-- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這張票能搭這個嗎？要提早買嗎？怎麼買？多少錢？
-- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 或半價卡划算
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算

@@ -19,6 +19,12 @@ permalink: /blog/food-guide-switzerland/
 
 除了大家熟知的 Coop 烤雞之外，此文分享幾個在地人的省吃小秘訣，一餐可控制在約 15 瑞郎（約台幣 600 元）的範圍，很難再更低了。
 
+<div class="tip-box" markdown="1">
+歡迎使用本站的瑞士旅遊小工具
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
+</div>
+
 快速導覽
 - [速食店與 Kebab](#fastfood)
 - [超市附設餐廳](#supermarket)

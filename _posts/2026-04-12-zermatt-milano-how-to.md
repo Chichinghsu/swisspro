@@ -67,6 +67,13 @@ Domodossola: <a href="https://www.google.com/maps/place/Piazza+Giacomo+Matteotti
 
 <p>還是不清楚？歡迎直接去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a></p>
 
+
+</div>
+
+<div class="tip-box" markdown="1">
+歡迎使用本站的瑞士旅遊小工具
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
 </div>
 
 ## 怎麼從米蘭到策馬特？

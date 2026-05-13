@@ -128,6 +128,10 @@ permalink: /blog/zermatt-pass-guide/
 <a id="conclusions"></a>
 ## 結論
 
+歡迎使用本站的瑞士旅遊小工具
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
+
 
 <style>
 .z-wrap { font-family: 'PingFang TC','Microsoft JhengHei',sans-serif; max-width: 500px; margin: 0 auto; padding: 25px; border: 1px solid var(--color-border-secondary); border-radius: 16px; background: var(--color-background-primary); }

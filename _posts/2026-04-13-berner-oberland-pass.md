@@ -113,6 +113,10 @@ permalink: /blog/berner-oberland-pass/
 <a id="conclusions"></a>
 ## 結論
 
+歡迎使用本站的瑞士旅遊小工具
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
+
 <style>
 .b-wrap { font-family: 'PingFang TC','Microsoft JhengHei',sans-serif; max-width: 500px; margin: 0 auto; padding: 25px; border: 1px solid var(--color-border-secondary); border-radius: 16px; background: var(--color-background-primary); }
 .b-title { color: #059669; margin: 0 0 20px; text-align: center; font-size: 1.35em; }
@@ -321,7 +325,7 @@ calc();
 這張票定位神秘，適合某些特定的行程，例如上面那個省瑞先生的行程。這可能比較像是雞生蛋、蛋生雞的問題。行程決定票券，但票券也決定行程，所以如果你想去雪朗峰、布里恩茨蒸汽火車、布里恩茨遊湖，不去少女峰人擠人，享受稍微清閒一點的旅行，加上那些 25 條相對小眾的纜車，BO-Pass 是你的好朋友。
 
 <div class="tip-box" markdown="1">
-可能適合已經去過少女峰、策馬特，覺得可以不用再去。到瑞士想看一些小眾景點的人。可以類比為去膩東京、大阪，開始去岡山、青森的人，那你可以買這張。
+可能適合已經去過少女峰、策馬特，覺得可以不用再去的人。到瑞士想看一些小眾景點的人。可以類比為去膩東京、大阪，開始去岡山、青森的人，那你可以買這張。
 </div>
 
 若你考慮之後覺得好像可以買這張，歡迎使用以下連結購買。
