@@ -12,11 +12,11 @@ permalink: /blog/zermatt-milano-how-to/
 
 <div style="background-color: #fff3f3; border-left: 5px solid #D32F2F; padding: 15px; margin: 20px 0;">
 <strong style="color: #D32F2F;"><i class="fas fa-exclamation-triangle"></i> 2026 施工資訊，重要交通警告（更新日期：2026/4/24）</strong>
-<p>米蘭到策馬特的旅客請注意！2026 夏天 5/30 - 5/31 以及 6/7 - 7/26 期間，米蘭往返瑞義邊境 Domodossola 部分路段停駛並改由替代公車接駁。建議預留充裕轉乘時間（多抓一到兩小時緩衝時間），隨時上 SBB App 或本站確認最新訊息（本站看到最新消息會馬上更新）。如果你打算這段期間內從米蘭往返策馬特，一定要先查好時刻表，並注意各種可能的異動，詳情請往下看。</p>
+<p>米蘭到策馬特的旅客請注意！2026 夏天 5/30 - 5/31 以及 6/7 - 7/26 期間，米蘭往返瑞義邊境 Domodossola 部分路段停駛並改由替代公車接駁。建議預留充裕轉乘時間（多抓一到兩小時緩衝時間），隨時上 SBB App 或本站確認最新訊息（本站看到最新消息會馬上更新）。如果你打算這段期間內從米蘭往返策馬特，一定要先查好時刻表，並注意各種可能的異動，詳情請往下看，或直接跳到<a href="#survey">直接告訴我要怎麼辦</a>部分。</p>
 
 {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}
 SBB App 是什麼？
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+<p><a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a></p>
 
 <h4>施工資訊</h4>
 
@@ -53,22 +53,164 @@ Domodossola: <a href="https://www.google.com/maps/place/Piazza+Giacomo+Matteotti
 
 
 <h4>買票？</h4>
-建議直接從<a href="https://www.trenitalia.com/en.html">義大利國鐵 Trenitalia 官網</a>，買米蘭到 Iselle di Trasquera 的接駁公車票（18 歐元，但班次不多），從 Iselle di Trasquera 之後就可以用 SBB App 買到策馬特（持半價卡者），持 STP 就免費，不用再額外買票。
+<p>建議直接從<a href="https://www.trenitalia.com/en.html">義大利國鐵 Trenitalia 官網</a>，買米蘭到 Iselle di Trasquera 的接駁公車票（18 歐元，但班次不多），從 Iselle di Trasquera 之後就可以用 SBB App 買到策馬特（持半價卡者），持 STP 就免費，不用再額外買票。</p>
+
 
 <h4>太麻煩了吧，能繞過嗎？</h4>
 
 <p>目前不確定這些替代公車多可靠，也暫時沒有更多細節，但官方說絕對會把大家安全準時送達目的地。若要避開這段施工路線，則需繞道蘇黎世：米蘭 - 蘇黎世 - 策馬特，米蘭到蘇黎世約需 3 小時直達，蘇黎世到策馬特需 3 小時要轉車，需要花上 7 小時。可能替代方案：米蘭先北上蘇黎世 - 伯恩/琉森 - 策馬特，一路旅行過去。</p>
 <p>強烈建議如果仍打算走這條路線的旅客，在出發前一定要在 SBB App 查詢最新資訊。</p>
 
-<h4>結語</h4>
+</div>
+
+<a id="survey"></a>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.shell{background:#F4F3F0;border-radius:20px;padding:2.5rem;font-family:var(--font-sans)}
+.eyebrow{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#888780;margin-bottom:.5rem}
+.headline{font-size:18px;font-weight:500;color:#2C2C2A;line-height:1.4;margin-bottom:.35rem}
+.sub{font-size:13px;color:#888780;line-height:1.6;margin-bottom:2rem}
+.progress{display:flex;gap:6px;margin-bottom:2rem}
+.pip{flex:1;height:2px;border-radius:1px;background:#D3D1C7;transition:background .3s}
+.pip.done{background:#C00000}
+.step{display:none;flex-direction:column;gap:1.25rem}
+.step.active{display:flex}
+.q{font-size:15px;font-weight:500;color:#2C2C2A;line-height:1.5}
+.q-hint{font-size:12px;color:#888780;margin-top:3px;line-height:1.5}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{background:#FFFFFF;border:0.5px solid #D3D1C7;border-radius:12px;padding:13px 16px;font-size:13px;color:#444441;cursor:pointer;text-align:left;transition:border-color .15s,background .15s;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.opt:hover{border-color:#C00000;background:#fff}
+.opt:hover .arr{color:#C00000}
+.arr{font-size:16px;color:#B4B2A9;flex-shrink:0}
+.result{display:none;flex-direction:column;gap:1.25rem}
+.result.active{display:flex}
+.r-pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:500;letter-spacing:.04em;padding:4px 12px;border-radius:20px;margin-bottom:.25rem}
+.pill-go{background:#EAF3DE;color:#3B6D11}
+.pill-maybe{background:#FAEEDA;color:#854F0B}
+.pill-warn{background:#FCEBEB;color:#A32D2D}
+.r-title{font-size:16px;font-weight:500;color:#2C2C2A;line-height:1.4;margin-bottom:.1rem}
+.r-route{font-size:12px;color:#888780;font-family:var(--font-mono);margin-bottom:1rem;letter-spacing:.01em}
+.r-divider{border:none;border-top:0.5px solid #D3D1C7;margin:0}
+.r-body{font-size:13px;color:#5F5E5A;line-height:1.75}
+.r-body strong{color:#2C2C2A;font-weight:500}
+.retry-wrap{padding-top:.25rem}
+.retry{background:none;border:0.5px solid #D3D1C7;border-radius:8px;padding:8px 16px;font-size:12px;color:#888780;cursor:pointer;letter-spacing:.03em;transition:border-color .15s,color .15s}
+.retry:hover{border-color:#888780;color:#444441}
+</style>
+
+<div class="shell">
+  <div class="eyebrow">策馬特 Zermatt ↔ 米蘭 Milano</div>
+  <div class="headline">找出最適合你的替代路線</div>
+  <div class="sub">鐵路施工期間，回答三個問題，給你最實用的建議。</div>
+
+  <div class="progress" id="progress">
+    <div class="pip" id="p0"></div>
+    <div class="pip" id="p1"></div>
+    <div class="pip" id="p2"></div>
+  </div>
+
+  <div class="step active" id="step-0">
+    <div class="q">你是第一次來歐洲嗎？</div>
+    <div class="opts">
+      <button class="opt" onclick="ans(0,0)"><span>是新手，對歐洲交通還不熟悉</span><i class="ti ti-arrow-right arr" aria-hidden="true"></i></button>
+      <button class="opt" onclick="ans(0,1)"><span>不是，老鳥了</span><i class="ti ti-arrow-right arr" aria-hidden="true"></i></button>
+    </div>
+  </div>
+
+  <div class="step" id="step-1">
+    <div class="q">你能接受臨時變動嗎？</div>
+    <div class="q-hint">例如：班次資訊不清楚、需要現場確認、巴士誤點、與站務員用英文溝通</div>
+    <div class="opts">
+      <button class="opt" onclick="ans(1,0)"><span>無法，我希望行程有保障</span><i class="ti ti-arrow-right arr" aria-hidden="true"></i></button>
+      <button class="opt" onclick="ans(1,1)"><span>沒問題，我可以隨機應變</span><i class="ti ti-arrow-right arr" aria-hidden="true"></i></button>
+    </div>
+  </div>
+
+  <div class="step" id="step-2">
+    <div class="q">你有大件行李嗎？</div>
+    <div class="q-hint">例如：大型拖輪行李箱、或嬰兒車、或者你們一群人一起出遊（大於四人）</div>
+    <div class="opts">
+      <button class="opt" onclick="ans(2,0)"><span>有，行李比較多或重</span><i class="ti ti-arrow-right arr" aria-hidden="true"></i></button>
+      <button class="opt" onclick="ans(2,1)"><span>沒有，輕裝或小背包</span><i class="ti ti-arrow-right arr" aria-hidden="true"></i></button>
+    </div>
+  </div>
+
+  <div class="result" id="result-a">
+    <div>
+      <div class="r-pill pill-go"><i class="ti ti-check" aria-hidden="true"></i>推薦方案</div>
+      <div class="r-title">建議繞道蘇黎世</div>
+      <div class="r-route">米蘭 - 蘇黎世 - 策馬特</div>
+    </div>
+    <hr class="r-divider">
+    <p class="r-body">全程搭火車，路線清楚、轉乘明確，完全不需要依賴義大利接駁巴士的資訊。<br><br>雖然多花約 <strong>1.5–2 小時</strong>，但對初次旅行或行李較多的旅客，這是最安心的選擇。可直接在 <strong>SBB app</strong> 查詢並購票。</p>
+    <div class="retry-wrap"><button class="retry" onclick="reset()"><i class="ti ti-refresh" aria-hidden="true"></i>  重新作答</button></div>
+  </div>
+
+  <div class="result" id="result-b">
+    <div>
+      <div class="r-pill pill-maybe"><i class="ti ti-alert-triangle" aria-hidden="true"></i>替代接駁巴士</div>
+      <div class="r-title">可嘗試義大利接駁巴士</div>
+      <div class="r-route">米蘭 - Domodossola（替代公車 1）- Iselle di Trasquera （替代公車 2）- Brig （火車） - Visp（火車）- 策馬特（火車）</div>
+    </div>
+    <hr class="r-divider">
+    <p class="r-body">施工期間義大利段改以接駁巴士替代，但班次與站點<strong>更動頻繁、官網有時不清楚</strong>。<br><br>出發前請在 <strong>Trenitalia</strong> 或 <strong>SBB.ch</strong> 再次確認最新時刻表，並預留 <strong>30–60 分鐘</strong>緩衝。若當天資訊不確定，改走蘇黎世也是保底選擇。</p>
+    <div class="retry-wrap"><button class="retry" onclick="reset()"><i class="ti ti-refresh" aria-hidden="true"></i>  重新作答</button></div>
+  </div>
+
+  <div class="result" id="result-c">
+    <div>
+      <div class="r-pill pill-warn"><i class="ti ti-x" aria-hidden="true"></i>隨機應變</div>
+      <div class="r-title">可考慮搭接駁巴士、但不放心的話建議繞道蘇黎世</div>
+      <div class="r-route"></div>
+    </div>
+    <hr class="r-divider">
+    <p class="r-body">義大利接駁巴士是臨時替代方案，<strong>行李空間有限</strong>，且轉乘站不一定有電梯或行李推車，但能隨機應變的話應該沒有什麼問題。</p>
+    <div class="retry-wrap"><button class="retry" onclick="reset()"><i class="ti ti-refresh" aria-hidden="true"></i>  重新作答</button></div>
+  </div>
+</div>
+
+<script>
+const answers = [];
+function ans(step, val) {
+  answers[step] = val;
+  document.getElementById('step-' + step).classList.remove('active');
+  document.getElementById('p' + step).classList.add('done');
+  if (step < 2) {
+    document.getElementById('step-' + (step + 1)).classList.add('active');
+  } else {
+    showResult();
+  }
+}
+function showResult() {
+  document.getElementById('progress').style.display = 'none';
+  const [first, flexible, luggage] = answers;
+  let which;
+  if (first === 0 || flexible === 0) { 
+    which = 'result-a';
+  } else if (luggage === 0) {
+    which = 'result-c';
+  } else {
+    which = 'result-b';
+  }
+  document.getElementById(which).classList.add('active');
+}
+function reset() {
+  answers.length = 0;
+  document.getElementById('progress').style.display = 'flex';
+  ['p0','p1','p2'].forEach(id => document.getElementById(id).classList.remove('done'));
+  document.querySelectorAll('.step').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.result').forEach(el => el.classList.remove('active'));
+  document.getElementById('step-0').classList.add('active');
+}
+</script>
+
+
+## 小結
 <p><a href="https://www.sbb.ch/en/travel-information/rail-traffic-information/timetable-changes-europe/timetable-change-simplon.html#:~:text=From%207%20to%2025%20June,between%20Iselle%20and%20Domodossola/Milan.">瑞士鐵路 官方施工資訊（英文）</a></p>
 
-<p>歡迎試用 <a href="https://calculator.swisspro.tw/?itinerary_id=fd5b65b6">本站瑞士票券精算器（經典 8 天行程）</a>：輸入你的行程及日期，我們會自動幫你比對各種方案的價差，看買什麼最划算。</p> 
-
-<p>還是不清楚？歡迎直接去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a></p>
-
-
-</div>
+<p><b>免費瑞士旅遊諮詢</b>
+<br>歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a></p>
 
 <div class="tip-box" markdown="1">
 歡迎使用本站的瑞士旅遊小工具
