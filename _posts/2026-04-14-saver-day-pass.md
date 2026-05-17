@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【2026 瑞士省錢神券】Saver Day Pass 與 Supersaver Ticket 全攻略"
+title: "【2026 瑞士最划算的票】Saver Day Pass 買這張最省"
 date: 2026-04-14
 categories: 精算攻略
 image: /img/sbb/saver_post.webp
