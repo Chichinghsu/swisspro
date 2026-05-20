@@ -11,8 +11,8 @@ permalink: /blog/zermatt-milano-how-to/
 ---
 
 <div style="background-color: #fff3f3; border-left: 5px solid #D32F2F; padding: 15px; margin: 20px 0;">
-<strong style="color: #D32F2F;"><i class="fas fa-exclamation-triangle"></i> 2026 施工資訊，重要交通警告（更新日期：2026/4/24）</strong>
-<p>米蘭到策馬特的旅客請注意！2026 夏天 5/30 - 5/31 以及 6/7 - 7/26 期間，米蘭往返瑞義邊境 Domodossola 部分路段停駛並改由替代公車接駁。建議預留充裕轉乘時間（多抓一到兩小時緩衝時間），隨時上 SBB App 或本站確認最新訊息（本站看到最新消息會馬上更新）。如果你打算這段期間內從米蘭往返策馬特，一定要先查好時刻表，並注意各種可能的異動，詳情請往下看，或直接跳到<a href="#survey">直接告訴我要怎麼辦</a>部分。</p>
+<strong style="color: #D32F2F;"><i class="fas fa-exclamation-triangle"></i> 2026 施工資訊，重要交通警告（更新日期：2026/5/20）</strong>
+<p>米蘭到策馬特的旅客請注意！2026 夏天 6/7 - 7/26 期間，米蘭往返瑞義邊境 Domodossola 部分路段停駛並改由替代公車接駁。建議預留充裕轉乘時間（多抓一到兩小時緩衝時間），隨時上 SBB App 或本站確認最新訊息（本站看到最新消息會馬上更新）。如果你打算這段期間內從米蘭往返策馬特，一定要先查好時刻表，並注意各種可能的異動，詳情請往下看，或直接跳到<a href="#survey">直接告訴我要怎麼辦</a>部分。</p>
 
 {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}
 SBB App 是什麼？
@@ -29,7 +29,7 @@ SBB App 是什麼？
  </figure>  
 
 <h3>懶人包</h3>
-<h4>第一階段：5/30 - 5/31 以及 6/7 - 6/25</h4>
+<h4>第一階段：6/7 - 6/25</h4>
 
 <p>米蘭 - Domodossola 火車路線維修（請見上圖），將由替代公車運行，車程約兩小時，巴士營運者為 BusItalia，每班車提供 52 個座位。搭車地點就在車站外：</p>
 
@@ -41,13 +41,14 @@ Domodossola: <a href="https://www.google.com/maps/place/Piazza+Giacomo+Matteotti
 <h4>買票？班次？</h4>
 <p>建議直接從<a href="https://www.trenitalia.com/en.html">義大利國鐵 Trenitalia 官網</a>查詢班次與購票，買米蘭到 Domodossola 的接駁公車票（16 歐元），Domodossola 後往策馬特皆為 Swiss Travel Pass (STP) 適用範圍。</p>
 
+<p>
 {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
 什麼是半價卡？什麼是 STP？請看這篇
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a></p>
 
 <h4>第二階段：6/26 - 7/26</h4>
 
-<p>施工範圍擴大（請見上圖）從 Brig 到 Iselle di Trasquera 也變成施工範圍，替代公車會從米蘭中央車站直接開到 Iselle di Trasquera（有些還是只開到 Domodossola，就需多轉一次替代公車到 Iselle di Trasquera）（車程約兩小時半），但因為是客運公車，所以比較多不確定性（路況等等，建議多預留一到兩小時時間），大件行李也變得棘手。</p>
+<p>施工範圍擴大（請見上圖）從 Brig 到 Iselle di Trasquera 也變成施工範圍，替代公車會從米蘭中央車站直接開到 Iselle di Trasquera（有些還是只開到 Domodossola，就需多轉一次替代公車到 Iselle di Trasquera）（車程約兩小時半），但因為是客運公車，所以比較多不確定性（路況等等，建議多預留一到兩小時時間），大件行李也變得棘手。在 SBB App 上替代公車會顯示 EV。</p>
 
 <p>從 Iselle di Trasquera 開始就都是火車了，只是仍然要轉幾次車。Iselle di Trasquera 到 Brig 這段有瑞士提供的接駁火車，定時發車（約兩小時一班），到 Brig 之後就脫離施工的部分，可搭到 Visp 再轉一次車到策馬特。</p>
 
@@ -58,7 +59,7 @@ Domodossola: <a href="https://www.google.com/maps/place/Piazza+Giacomo+Matteotti
 
 <h4>太麻煩了吧，能繞過嗎？</h4>
 
-<p>目前不確定這些替代公車多可靠，也暫時沒有更多細節，但官方說絕對會把大家安全準時送達目的地。若要避開這段施工路線，則需繞道蘇黎世：米蘭 - 蘇黎世 - 策馬特，米蘭到蘇黎世約需 3 小時直達，蘇黎世到策馬特需 3 小時要轉車，需要花上 7 小時。可能替代方案：米蘭先北上蘇黎世 - 伯恩/琉森 - 策馬特，一路旅行過去。</p>
+<p>目前不確定這些替代公車多可靠，也暫時沒有更多細節，但官方說絕對會把大家安全準時送達目的地。若要避開這段施工路線，則需繞道蘇黎世：米蘭 - 蘇黎世 - 策馬特，米蘭到蘇黎世約需 3 小時直達，蘇黎世到策馬特需 3 小時要轉車，需要花上 7 小時。可能替代方案：米蘭先北上蘇黎世 - 伯恩/琉森 - 策馬特，一路旅行過去。或者從日內瓦出發的旅客，官方有提供接駁巴士，直接從日內瓦載你到米蘭。</p>
 <p>強烈建議如果仍打算走這條路線的旅客，在出發前一定要在 SBB App 查詢最新資訊。</p>
 
 </div>
@@ -207,9 +208,14 @@ function reset() {
 
 
 ## 小結
-<p><a href="https://www.sbb.ch/en/travel-information/rail-traffic-information/timetable-changes-europe/timetable-change-simplon.html#:~:text=From%207%20to%2025%20June,between%20Iselle%20and%20Domodossola/Milan.">瑞士鐵路 官方施工資訊（英文）</a></p>
 
-<p><b>免費瑞士旅遊諮詢</b>
+<b>最新資訊</b>
+<ol>
+<li><p><a href="https://www.sbb.ch/en/travel-information/rail-traffic-information/timetable-changes-europe/timetable-change-simplon.html">瑞士鐵路 官方施工資訊（英文）</a></p></li>
+<li><p><a href="https://swisspro.tw/blog/">看更多瑞士票券攻略（省瑞計劃）</a></p></li>
+</ol>
+
+<p><b>本站免費瑞士旅遊諮詢</b>
 <br>歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a></p>
 
 <div class="tip-box" markdown="1">
@@ -217,6 +223,8 @@ function reset() {
 - [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
 - [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
 </div>
+
+以下為施工時期之外資訊：
 
 ## 怎麼從米蘭到策馬特？
 
