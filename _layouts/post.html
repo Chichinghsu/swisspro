@@ -14,8 +14,14 @@ layout: default
         <h1>{{ page.title }}</h1>
         <p class="post-meta">
             <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
-                {{ page.date | date: "%Y年%m月%d日" }}
+                發布日期：{{ page.date | date: "%Y年%m月%d日" }}
             </time>
+            {% if page.last_modified_at %}
+            ・
+            <time itemprop="dateModified" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+                更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
+            </time>
+            {% endif %}
         </p>
         <meta itemprop="author" content="SwissPro">
         <meta itemprop="description" content="{{ page.description }}">
