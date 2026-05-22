@@ -41,7 +41,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/style_index.css' | relative_url }}">
 
-    
+    {% if page.url == "/" %}
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -49,7 +49,7 @@
             "@id": "https://swisspro.tw/#website",
             "url": "https://swisspro.tw",
             "name": "省瑞計劃",
-            "alternateName": "SwissPro",
+            "alternateName": ["SwissPro", "省瑞", "swisspro.tw"],
             "description": "{{ site.description }}",
             "inLanguage": "zh-TW",
             "publisher": {
@@ -59,6 +59,42 @@
             }
           }
     </script>
+
+    {% elsif page.layout == "post" %}
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "@id": "{{ page.url | absolute_url }}#article",
+            "mainEntityOfPage": "{{ page.url | absolute_url }}",
+            "headline": "{{ page.title }}",
+            "description": "{{ page.description | strip_html | strip_newlines | truncate: 150 }}",
+            "url": "{{ page.url | absolute_url }}",
+            "datePublished": "{{ page.date | date_to_xmlschema }}",
+            "dateModified": "{{ page.last_modified_at | date_to_xmlschema | default: page.date | date_to_xmlschema }}",
+            "inLanguage": "zh-TW",
+        {% if page.thumbnail or page.image %}
+            "image": {
+                "@type": "ImageObject",
+                "url": "{{ page.thumbnail | default: page.image | absolute_url }}"
+            },
+        {% endif %}
+            "author": {
+                "@type": "Person",
+                "name": "省瑞計劃",
+                "url": "https://swisspro.tw"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "省瑞計劃",
+                "url": "https://swisspro.tw"
+            },
+            "isPartOf": {
+                "@id": "https://swisspro.tw/#website"
+            }
+        }
+    </script>
+    {% endif %}
 </head>
 
 <body>
