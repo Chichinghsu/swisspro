@@ -8,6 +8,7 @@ thumbnail: /img/zermatt/zermatt_post.webp
 og_image: /img/zermatt/zermatt_post.webp
 description: "2026 策馬特交通攻略（內附試算工具），分析策馬特群山綜覽通行證與 Peak2Peak 票券優缺點，教你配合瑞士半價卡省上加省。冰川天堂、五湖健行、戈爾內格拉特 Gornergrat 怎麼買票一次看懂。"
 permalink: /blog/zermatt-pass-guide/
+last_modified_at: 2026-05-23
 ---
 
 快速導覽
@@ -16,121 +17,6 @@ permalink: /blog/zermatt-pass-guide/
 - [Peak2Peak：期間限定一日雙塔，最划算](#peak2peak)
 - [結論](#conclusions)
 
-直接去[結論](#conclusions)有策馬特精算機，點一點就知道買什麼划算。或者如果不確定這段路程要提早買嗎？要訂位嗎？怎麼買？多少錢？可以使用[省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)。最後，本文文末附有所有策馬特相關購票連結。
-
-<a id="zermatt"></a>
-## 策馬特景點與簡介
-
-策馬特 (Zermatt) 位於瑞士南部山區，以馬特洪峰還有 Toblerone 巧克力聞名於世。可說是來瑞士必去經典中的經典之一。要去策馬特交通上需預留較多時間，距離主要城市：
-
-- 蘇黎世 (Zurich HB)：約 3小時 15分 （班次多，每小時都有）
-- 米蘭 (Milano)：約 3小時 40分（班次不多，一天可能三四班快的，其他都要轉很多車花費五小時以上）
-- 日內瓦 (Geneva)：約 3小時 50分（班次多，每小時都有）
-- 琉森 (Lucerne)：約 3小時 17分（班次多，每小時都有）
-- 伯恩 (Bern)：約 2小時 10分（班次多，每小時都有）
-
-規劃策馬特行程算是相對簡單，基本上景點有三個：
-
-1. 戈爾內格拉特 Gornergrat
-1. 冰川天堂 Matterhorn Glacier Paradise 
-1. 五湖健行
-
-不管去哪一個，天氣很重要，很重要，很重要，天氣不好基本上就是看霧，真的不要有「來都來了」的心態，真的啥都看不到，不妨想想，這次沒看到，我下次再來，就會再回來。建議上山前先看一下 [山上 Webcam](https://www.matterhornparadise.ch/en/information/webcams)。
-
-{% assign target_post = site.posts | where: "url", "/blog/meteoswiss-app-guide/" | first %}
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
-
-<figure>
-  <img src="{{ '/img/zermatt/zermatt_map.png' | relative_url }}" alt="策馬特地圖">
-  <figcaption>策馬特地圖，基本上就是左、中、右三個大景點。來源<a href="https://zermatt.swiss/en/map?type=summer">策馬特官網</a></figcaption>
-</figure>
-
-景點極致懶人包
-1. 戈爾內格拉特 Gornergrat：搭火車上山，看馬特洪峰拍照，可以稍微健行往下一站火車的距離，非常壯觀（個人覺得必去）
-1. 冰川天堂 Matterhorn Glacier Paradise：海拔 3800 左右，有個冰宮，搭到頂，欣賞群山（個人覺得還好）
-1. 五湖健行：健行約四到六小時，經過五個湖，大多路程可以看到馬特洪峰，需要一些體力（體力允許的話必去）。
-
-<figure>
-  <img src="{{ '/img/zermatt/gornergrat_image.png' | relative_url }}" alt="策馬特戈爾內格拉特">
-  <figcaption>策馬特 戈爾內格拉特 火車搭上山後的風景，另外一邊即是馬特洪峰</figcaption>
-</figure>
-
-## 策馬特交通票券
-
-至於交通票券的選擇上就讓人頭痛，以下整理策馬特常用票券。前提是你已經買了 Swiss Travel Pass (STP) 或半價卡（通常是二選一，必買）。
-
-{% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
-
-#### 1. 戈爾內格拉特 Gornergrat
-
-策馬特搭齒軌火車上山，需注意這個火車站和從瑞士其他地方過來的那個火車站不一樣，但就在隔壁而已，請找到 Matterhorn Gotthard Bahn 的車站。這段票可在 SBB App 購買，省去排隊時間，無論 STP 或半價卡都只能半價折扣。SBB App 可選擇 Zermatt - Gornergrat。需注意下山班次，末班車大概下午六七點，太晚會沒車下山。海拔高，冷，注意保暖，而且夏天很曬。
-
-[購買戈爾內格拉特車票 中文 KKday](https://www.kkday.com/zh-tw/product/332076?cid=24072)
-
-#### 2. 冰川天堂
-
-從策馬特搭纜車上山，需注意纜車站離火車站有點距離，走路約要 15 分鐘。SBB App 看時刻表的話選擇 Zermatt - Klein Matterhorn，最少需轉車兩次 Zermatt - Furi - Trockener Steg - Klein Matterhorn。上面海拔 3883 公尺，需注意不要在上面奔跑，否則會很喘。
-
-[購買冰川天堂車票 英文官網](https://www.matterhornparadise.ch/en/book/tickets/matterhorn-glacier-paradise)
-
-#### 3. 五湖健行
-搭車先從策馬特搭乘纜車到 Sunnegga（海拔約 2200公尺），接著轉另一個纜車到 Blauherd（海拔約 2500公尺），這邊是五湖健行的起點。接著一路緩下坡跟著指標走，指標非常清楚，也很多人在走，只是沒有什麼樹，很曬。總共會經過總共五個湖，可以拍攝馬特洪峰倒影，最後走回 Sunnegga 纜車站，這邊有健行特殊套票可買，請見下方連結。
-
-[購買五湖健行票 英文官網](https://www.matterhornparadise.ch/en/book/tickets/kombitickets)
-
-#### 小結
-
-再次強調，這些票券建議不用提早買，看天氣好再買就好，以免天氣不好看不到。另外，策馬特官網上有些票都有開放日期限制，是因為某些纜車只在夏天才開放。例如 Riffelberg Express 在 2026 年開放時間為 6/27 至 8/16，這條路線（可見上圖）是從策馬特經 Furi 到 Riffelberg 這個通往 戈爾內格拉特 Gornergrat 半山腰的地方，也是 Peak2Peak 票券使用的路線，可以快速從冰川天堂移動到戈爾內格拉特，不用再回到策馬特。
-
-
-<div class="tip-box" markdown="1">
-### 💡 懶得研究買什麼比較划算？
-直接去 **[瑞士票券精算器（8 天範例行程含策馬特）](https://calculator.swisspro.tw/?itinerary_id=fd5b65b6&utm_source=swisspro_blog&utm_campaign=zermatt_pass_guide)** 輸入你的瑞士行程（或只輸入策馬特部分行程）及預計日期，我們會自動幫你比對各種方案（STP 或半價卡）的價差，看買什麼最划算（Peak2Peak 與群山綜覽通行證 (Zermatt Peak Pass)，或者什麼都不買）。你就不用研究半天，真的很複雜。
-</div>
-
-<a id="zermatt-peak-pass"></a>
-## 群山綜覽通行證 (Zermatt Peak Pass)：極致懶人首選
-如果你預計在策馬特待很多天，Peak Pass 就是你的吃到飽車票。有 1 到 5 天可以選擇，期間無限搭乘纜車、火車等等。如果真的懶得決定要買什麼，就買這個，無腦搭。
-
-* **包含範圍：** 策馬特地區所有纜車、齒軌火車，甚至包含到 Täsch 的接駁火車。（因為策馬特是無車小鎮，自駕的人需要把車停在 Täsch）
-* **適合對象：** 想去五湖健行、想去戈爾內格拉特、又想去冰川天堂，而且每天都想去，只要天氣好就要上去拍照的人
-
-價格依照季節不同，以 2026 大家常去的旺季（6 到 8 月）來說：
-
-| 天數 （連續） | 原價 (瑞郎) | 半價卡/STP 75折（瑞郎） |
-| :--- | :--- | :--- |
-| **1 Day** | 234  | 175.5  |
-| **2 Days** | 260  | 195.0  |
-| **3 Days** | 294  | 220.5 |
-| **4 Days** | 326  | 244.5  |
-| **5 Days** | 360  | 270.0  |
-
-夏天的話戈爾內格拉特來回約 66 瑞郎，冰川天堂約 60 瑞郎，五湖健行的票大概 25 瑞郎（持半價卡/STP）。所以如果真的精算一下你會發現，基本上都不太划算除非你真的狂上山且待很多天，每天都狂上山或健行，才有可能比較划算。
-
-<a id="peak2pass"></a>
-## Peak2Peak：期間限定一日雙塔，最划算
-
-如果你在策馬特「一天內」想同時朝聖「戈爾內格拉特 (Gornergrat) 」與「冰川天堂 (Matterhorn Glacier Paradise) 纜車」，直接買這張就對了。不過這是期間限定，2026 年是 6月 27日至 8月 16日可以買，其他日期就沒有（因為 Riffelberg Express 纜車只在這段期間運行的關係）。
-
-* **優勢：** 無需回到市區轉乘，冰川天堂下山後到 Furi 轉纜車上到 Riffelberg。快捷，且比分開買便宜約 20 瑞郎。不用提早買，所以可以看天氣好再現場買。
-* **缺點：** 不是無限次搭乘，只能各去一次。且必須同一天去，如果是慵懶系旅人可能不太適合。
-* **價格：** 2026 年持有半價卡約為 **106 瑞郎** ，相較於分開買上兩邊山的票約 **126 瑞郎**。
-
-購票的話建議當天或前一天看天氣好買即可，[官網](https://www.matterhornparadise.ch/en/book/tickets/peak2peak)也可以直接購買。
-
-
-<figure style="max-width: 300px; margin: 20px auto;">
-  <img src="{{ '/img/zermatt/calculator_zermatt.png' | relative_url }}" alt="瑞士票券精算器使用畫面">
-  <figcaption><a href="https://calculator.swisspro.tw">瑞士票券精算器</a> 使用畫面，輸入行程，就知道買什麼 </figcaption>
-</figure>
-
-<a id="conclusions"></a>
-## 結論
-
-歡迎使用本站的瑞士旅遊小工具
-- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
-- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
 
 
 <style>
@@ -347,6 +233,126 @@ function calc() {
 }
 calc();
 </script>
+
+<div class="tip-box" markdown="1">
+#### 💡 我只是不確定這段 Swiss Travel Pass (STP) 要不要另外買票？
+
+直接用[省瑞計劃 票券速查](https://calculator.swisspro.tw/?p=validator) 功能，輸入起點跟終點即可知道什麼票券可以用，要不要先訂位等等，所有的疑難雜症一次解決。
+</div>
+
+<a id="zermatt"></a>
+## 策馬特景點與簡介
+
+策馬特 (Zermatt) 位於瑞士南部山區，以馬特洪峰還有 Toblerone 巧克力聞名於世。可說是來瑞士必去經典中的經典之一。要去策馬特交通上需預留較多時間，距離主要城市：
+
+- 蘇黎世 (Zurich HB)：約 3小時 15分 （班次多，每小時都有）
+- 米蘭 (Milano)：約 3小時 40分（班次不多，一天可能三四班快的，其他都要轉很多車花費五小時以上）
+- 日內瓦 (Geneva)：約 3小時 50分（班次多，每小時都有）
+- 琉森 (Lucerne)：約 3小時 17分（班次多，每小時都有）
+- 伯恩 (Bern)：約 2小時 10分（班次多，每小時都有）
+
+規劃策馬特行程算是相對簡單，基本上景點有三個：
+
+1. 戈爾內格拉特 Gornergrat
+1. 冰川天堂 Matterhorn Glacier Paradise 
+1. 五湖健行
+
+不管去哪一個，天氣很重要，很重要，很重要，天氣不好基本上就是看霧，真的不要有「來都來了」的心態，真的啥都看不到，不妨想想，這次沒看到，我下次再來，就會再回來。建議上山前先看一下 [山上 Webcam](https://www.matterhornparadise.ch/en/information/webcams)。
+
+{% assign target_post = site.posts | where: "url", "/blog/meteoswiss-app-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+<figure>
+  <img src="{{ '/img/zermatt/zermatt_map.png' | relative_url }}" alt="策馬特地圖">
+  <figcaption>策馬特地圖，基本上就是左、中、右三個大景點。來源<a href="https://zermatt.swiss/en/map?type=summer">策馬特官網</a></figcaption>
+</figure>
+
+景點極致懶人包
+1. 戈爾內格拉特 Gornergrat：搭火車上山，看馬特洪峰拍照，可以稍微健行往下一站火車的距離，非常壯觀（個人覺得必去）
+1. 冰川天堂 Matterhorn Glacier Paradise：海拔 3800 左右，有個冰宮，搭到頂，欣賞群山（個人覺得還好）
+1. 五湖健行：健行約四到六小時，經過五個湖，大多路程可以看到馬特洪峰，需要一些體力（體力允許的話必去）。
+
+<figure>
+  <img src="{{ '/img/zermatt/gornergrat_image.png' | relative_url }}" alt="策馬特戈爾內格拉特">
+  <figcaption>策馬特 戈爾內格拉特 火車搭上山後的風景，另外一邊即是馬特洪峰</figcaption>
+</figure>
+
+## 策馬特交通票券
+
+至於交通票券的選擇上就讓人頭痛，以下整理策馬特常用票券。前提是你已經買了 Swiss Travel Pass (STP) 或半價卡（通常是二選一，必買）。
+
+{% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+#### 1. 戈爾內格拉特 Gornergrat
+
+策馬特搭齒軌火車上山，需注意這個火車站和從瑞士其他地方過來的那個火車站不一樣，但就在隔壁而已，請找到 Matterhorn Gotthard Bahn 的車站。這段票可在 SBB App 購買，省去排隊時間，無論 STP 或半價卡都只能半價折扣。SBB App 可選擇 Zermatt - Gornergrat。需注意下山班次，末班車大概下午六七點，太晚會沒車下山。海拔高，冷，注意保暖，而且夏天很曬。
+
+[購買戈爾內格拉特車票 中文 KKday](https://www.kkday.com/zh-tw/product/332076?cid=24072)
+
+#### 2. 冰川天堂
+
+從策馬特搭纜車上山，需注意纜車站離火車站有點距離，走路約要 15 分鐘。SBB App 看時刻表的話選擇 Zermatt - Klein Matterhorn，最少需轉車兩次 Zermatt - Furi - Trockener Steg - Klein Matterhorn。上面海拔 3883 公尺，需注意不要在上面奔跑，否則會很喘。
+
+[購買冰川天堂車票 英文官網](https://www.matterhornparadise.ch/en/book/tickets/matterhorn-glacier-paradise)
+
+#### 3. 五湖健行
+搭車先從策馬特搭乘纜車到 Sunnegga（海拔約 2200公尺），接著轉另一個纜車到 Blauherd（海拔約 2500公尺），這邊是五湖健行的起點。接著一路緩下坡跟著指標走，指標非常清楚，也很多人在走，只是沒有什麼樹，很曬。總共會經過總共五個湖，可以拍攝馬特洪峰倒影，最後走回 Sunnegga 纜車站，這邊有健行特殊套票可買，請見下方連結。
+
+[購買五湖健行票 英文官網](https://www.matterhornparadise.ch/en/book/tickets/kombitickets)
+
+#### 小結
+
+再次強調，這些票券建議不用提早買，看天氣好再買就好，以免天氣不好看不到。另外，策馬特官網上有些票都有開放日期限制，是因為某些纜車只在夏天才開放。例如 Riffelberg Express 在 2026 年開放時間為 6/27 至 8/16，這條路線（可見上圖）是從策馬特經 Furi 到 Riffelberg 這個通往 戈爾內格拉特 Gornergrat 半山腰的地方，也是 Peak2Peak 票券使用的路線，可以快速從冰川天堂移動到戈爾內格拉特，不用再回到策馬特。
+
+
+<div class="tip-box" markdown="1">
+### 💡 懶得研究買什麼比較划算？
+直接去 **[瑞士票券精算器（8 天範例行程含策馬特）](https://calculator.swisspro.tw/?itinerary_id=fd5b65b6&utm_source=swisspro_blog&utm_campaign=zermatt_pass_guide)** 輸入你的瑞士行程（或只輸入策馬特部分行程）及預計日期，我們會自動幫你比對各種方案（STP 或半價卡）的價差，看買什麼最划算（Peak2Peak 與群山綜覽通行證 (Zermatt Peak Pass)，或者什麼都不買）。你就不用研究半天，真的很複雜。
+</div>
+
+<a id="zermatt-peak-pass"></a>
+## 群山綜覽通行證 (Zermatt Peak Pass)：極致懶人首選
+如果你預計在策馬特待很多天，Peak Pass 就是你的吃到飽車票。有 1 到 5 天可以選擇，期間無限搭乘纜車、火車等等。如果真的懶得決定要買什麼，就買這個，無腦搭。
+
+* **包含範圍：** 策馬特地區所有纜車、齒軌火車，甚至包含到 Täsch 的接駁火車。（因為策馬特是無車小鎮，自駕的人需要把車停在 Täsch）
+* **適合對象：** 想去五湖健行、想去戈爾內格拉特、又想去冰川天堂，而且每天都想去，只要天氣好就要上去拍照的人
+
+價格依照季節不同，以 2026 大家常去的旺季（6 到 8 月）來說：
+
+| 天數 （連續） | 原價 (瑞郎) | 半價卡/STP 75折（瑞郎） |
+| :--- | :--- | :--- |
+| **1 Day** | 234  | 175.5  |
+| **2 Days** | 260  | 195.0  |
+| **3 Days** | 294  | 220.5 |
+| **4 Days** | 326  | 244.5  |
+| **5 Days** | 360  | 270.0  |
+
+夏天的話戈爾內格拉特來回約 66 瑞郎，冰川天堂約 60 瑞郎，五湖健行的票大概 25 瑞郎（持半價卡/STP）。所以如果真的精算一下你會發現，基本上都不太划算除非你真的狂上山且待很多天，每天都狂上山或健行，才有可能比較划算。
+
+<a id="peak2pass"></a>
+## Peak2Peak：期間限定一日雙塔，最划算
+
+如果你在策馬特「一天內」想同時朝聖「戈爾內格拉特 (Gornergrat) 」與「冰川天堂 (Matterhorn Glacier Paradise) 纜車」，直接買這張就對了。不過這是期間限定，2026 年是 6月 27日至 8月 16日可以買，其他日期就沒有（因為 Riffelberg Express 纜車只在這段期間運行的關係）。
+
+* **優勢：** 無需回到市區轉乘，冰川天堂下山後到 Furi 轉纜車上到 Riffelberg。快捷，且比分開買便宜約 20 瑞郎。不用提早買，所以可以看天氣好再現場買。
+* **缺點：** 不是無限次搭乘，只能各去一次。且必須同一天去，如果是慵懶系旅人可能不太適合。
+* **價格：** 2026 年持有半價卡約為 **106 瑞郎** ，相較於分開買上兩邊山的票約 **126 瑞郎**。
+
+購票的話建議當天或前一天看天氣好買即可，[官網](https://www.matterhornparadise.ch/en/book/tickets/peak2peak)也可以直接購買。
+
+
+<figure style="max-width: 300px; margin: 20px auto;">
+  <img src="{{ '/img/zermatt/calculator_zermatt.png' | relative_url }}" alt="瑞士票券精算器使用畫面">
+  <figcaption><a href="https://calculator.swisspro.tw">瑞士票券精算器</a> 使用畫面，輸入行程，就知道買什麼 </figcaption>
+</figure>
+
+<a id="conclusions"></a>
+## 結論
+
+歡迎使用本站的瑞士旅遊小工具
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
 
 
 <div class="swiss-buy-container">
