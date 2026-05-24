@@ -14,7 +14,7 @@ permalink: /blog/rheinfall-guide/
 
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-.w{background:#fff;border:0.5px solid #D3D1C7;border-radius:16px;padding:1.25rem 1.5rem;font-family:var(--font-sans,'system-ui',sans-serif);max-width:360px}
+.w{background:#fff;border:0.5px solid #D3D1C7;border-radius:16px;padding:1.25rem 1.5rem;font-family:var(--font-sans,'system-ui',sans-serif)}
 .location{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#888780;margin-bottom:.75rem}
 .top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.9rem}
 .temp{font-size:42px;font-weight:500;color:#2C2C2A;line-height:1}
@@ -132,6 +132,7 @@ load();
 - [簡介](#intro)
 - [遊船](#boat)
 - [交通與建議路線](#transport)
+- [加碼景點：瑞士小人國](#miniaturwelt)
 - [省瑞結論：值得去嗎？](#conclusions)
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12128.96779836837!2d8.605882143440294!3d47.676402698336695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479078b4c0fa42a3%3A0x3c6d588fc5d96c81!2sSchloss%20Laufen%20am%20Rheinfall!5e0!3m2!1sde!2sch!4v1776686613926!5m2!1sde!2sch" 
@@ -275,6 +276,26 @@ load();
     </a>
 </div>
 
+<a id="miniaturwelt"></a>
+## 加碼景點：瑞士小人國
+
+除了參觀萊茵瀑布之外，旁邊北岸火車站 Neuhausen Rheinfall 走路大約 10 分鐘處有「瑞士小人國」Smilestones - Miniaturwelt am Rheinfall。類似袖珍博物館，裡面展出縮小版的瑞士與許多火車模型。對於火車模型有興趣或者帶小孩者，非常適合來參觀。裡面不算太大，但很精緻，還可以看到縮小版的萊茵瀑布。
+
+- 門票 22 瑞郎（約台幣 880），學生 20 瑞郎，小孩 6 至 15 歲只要 12 瑞郎
+- 開放時間 2026 四月到十月
+    - 週一至週五 11:00 - 17:30 
+    - 週六週日 10:00 - 17:30
+
+詳情及購票可至[官網](https://smilestones.ch/en/visitor-information/)，也可現場買票。
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.0938043448036!2d8.6132661!3d47.6825982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47907fe4eca29ecb%3A0xe1cb82756764b20c!2sSmilestones%20-%20Miniaturwelt%20am%20Rheinfall!5e0!3m2!1sde!2sch!4v1779656717747!5m2!1sde!2sch"
+        class="map-frame" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 
 <a id="conclusions"></a>
 ## 省瑞結論：值得去嗎？
