@@ -17,8 +17,6 @@ last_modified_at: 2026-05-23
 - [Peak2Peak：期間限定一日雙塔，最划算](#peak2peak)
 - [結論](#conclusions)
 
-
-
 <style>
 .z-wrap { font-family: 'PingFang TC','Microsoft JhengHei',sans-serif; max-width: 500px; margin: 0 auto; padding: 25px; border: 1px solid var(--color-border-secondary); border-radius: 16px; background: var(--color-background-primary); }
 .z-title { color: #b91c1c; margin: 0 0 20px; text-align: center; font-size: 1.35em; }
@@ -294,7 +292,7 @@ calc();
 
 從策馬特搭纜車上山，需注意纜車站離火車站有點距離，走路約要 15 分鐘。SBB App 看時刻表的話選擇 Zermatt - Klein Matterhorn，最少需轉車兩次 Zermatt - Furi - Trockener Steg - Klein Matterhorn。上面海拔 3883 公尺，需注意不要在上面奔跑，否則會很喘。
 
-[購買冰川天堂車票 英文官網](https://www.matterhornparadise.ch/en/book/tickets/matterhorn-glacier-paradise)
+[購買冰川天堂車票 中文 KKday](http://kkday.com/zh-tw/product/528759-matterhorn-glacier-paradise-cable-car-ticket-from-zermatt?cid=24072)
 
 #### 3. 五湖健行
 搭車先從策馬特搭乘纜車到 Sunnegga（海拔約 2200公尺），接著轉另一個纜車到 Blauherd（海拔約 2500公尺），這邊是五湖健行的起點。接著一路緩下坡跟著指標走，指標非常清楚，也很多人在走，只是沒有什麼樹，很曬。總共會經過總共五個湖，可以拍攝馬特洪峰倒影，最後走回 Sunnegga 纜車站，這邊有健行特殊套票可買，請見下方連結。
@@ -390,7 +388,7 @@ calc();
 
 [購買戈爾內格拉特車票 中文 KKday](https://www.kkday.com/zh-tw/product/332076?cid=24072)
 
-[購買冰川天堂車票 英文官網](https://www.matterhornparadise.ch/en/book/tickets/matterhorn-glacier-paradise)
+[購買冰川天堂車票 中文 KKday](http://kkday.com/zh-tw/product/528759-matterhorn-glacier-paradise-cable-car-ticket-from-zermatt?cid=24072)
 
 [購買五湖健行票 英文官網](https://www.matterhornparadise.ch/en/book/tickets/kombitickets)
 

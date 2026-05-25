@@ -68,7 +68,6 @@ Domodossola: <a href="https://www.google.com/maps/place/Piazza+Giacomo+Matteotti
 <a id="survey"></a>
 
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
 .shell{background:#F4F3F0;border-radius:20px;padding:2.5rem;font-family:var(--font-sans)}
 .eyebrow{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#888780;margin-bottom:.5rem}
 .headline{font-size:18px;font-weight:500;color:#2C2C2A;line-height:1.4;margin-bottom:.35rem}
