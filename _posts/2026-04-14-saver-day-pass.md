@@ -24,7 +24,7 @@ permalink: /blog/saver-day-pass/
 <a id="saverdaypass"></a>
 ## Saver Day Pass (SBB 早鳥天票)
 
-這張票可以看成是「單日版的 STP」，指定日期當天你可以在全瑞士境內無限次搭乘火車、巴士、船（但有些不包含，只能半價或打折例如：少女峰與策馬特）。
+這張票可以看成是「單日版的 STP」，指定日期當天你可以在全瑞士境內無限次搭乘火車、巴士、船（但有些不包含，只能半價或打折例如：少女峰與策馬特），範圍基本上和 STP 一樣，不確定有沒有包含的話可以用[省瑞計劃 票券速查](https://calculator.swisspro.tw/?p=validator) 小工具查詢。
 
 <div class="tip-box" markdown="1">
 價格： 愈早買愈便宜<br>
