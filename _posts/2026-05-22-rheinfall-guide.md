@@ -13,7 +13,6 @@ permalink: /blog/rheinfall-guide/
 萊茵瀑布 (Rheinfall) ，距離蘇黎世大概一小時火車車程。可說是從蘇黎世出發完美的半日遊景點。如果你在蘇黎世有半天的時間，且天氣不錯的話，不妨前往萊茵瀑布欣賞。春夏季的水量會比秋冬兩季多，所以如果正好在春夏季節到瑞士的話，可以欣賞到最壯觀滂薄的瀑布景觀。先來看看萊茵瀑布目前的天氣狀況：
 
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
 .w{background:#fff;border:0.5px solid #D3D1C7;border-radius:16px;padding:1.25rem 1.5rem;font-family:var(--font-sans,'system-ui',sans-serif)}
 .location{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#888780;margin-bottom:.75rem}
 .top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.9rem}
@@ -281,6 +280,11 @@ load();
 
 除了參觀萊茵瀑布之外，旁邊北岸火車站 Neuhausen Rheinfall 走路大約 10 分鐘處有「瑞士小人國」Smilestones - Miniaturwelt am Rheinfall。類似袖珍博物館，裡面展出縮小版的瑞士與許多火車模型。對於火車模型有興趣或者帶小孩者，非常適合來參觀。裡面不算太大，但很精緻，還可以看到縮小版的萊茵瀑布。
 
+<figure>
+  <img src="{{ '/img/zurich/rheinfall_mini.webp' | relative_url }}" alt="瑞士小人國Smilestones - Miniaturwelt am Rheinfall">
+  <figcaption>瑞士小人國就在萊茵瀑布旁邊，裡面有縮小版萊茵瀑布模型</figcaption>
+</figure>
+
 - 門票 22 瑞郎（約台幣 880），學生 20 瑞郎，小孩 6 至 15 歲只要 12 瑞郎
 - 開放時間 2026 四月到十月
     - 週一至週五 11:00 - 17:30 
@@ -300,7 +304,7 @@ load();
 <a id="conclusions"></a>
 ## 省瑞結論：值得去嗎？
 
-個人覺得這邊算是瑞士少數價格相對平易近人景點，而且從蘇黎世出發的話一小時就可以抵達，非常適合早上降落蘇黎世機場，或者準備離開，要搭隔天飛機住在蘇黎世時半日遊。如果你還有時間，可以搭火車再順遊旁邊的「沙夫豪森 (Schaffhausen)」，順便買支 IWC 手錶。
+個人覺得這邊算是瑞士少數價格相對平易近人景點，而且從蘇黎世出發的話一小時就可以抵達，非常適合早上降落蘇黎世機場，或者準備離開，要搭隔天飛機住在蘇黎世時半日遊。如果你還有時間，可以順遊旁邊瑞士小人國，再搭火車遊「沙夫豪森 (Schaffhausen)」城市，順便買支 IWC 手錶。
 
 <div class="tip-box" markdown="1">
 歡迎使用本站的瑞士旅遊小工具
