@@ -215,6 +215,9 @@ function reset() {
 <li><p><a href="https://swisspro.tw/blog/">看更多瑞士票券攻略（省瑞計劃）</a></p></li>
 </ol>
 
+{% assign target_post = site.posts | where: "url", "/blog/zermatt-guide/" | first %}
+<p>超詳細策馬特攻略請見此篇：<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a></p>
+
 <p><b>本站免費瑞士旅遊諮詢</b>
 <br>歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a></p>
 

@@ -241,7 +241,12 @@ calc();
 <a id="zermatt"></a>
 ## 策馬特景點與簡介
 
-策馬特 (Zermatt) 位於瑞士南部山區，以馬特洪峰還有 Toblerone 巧克力聞名於世。可說是來瑞士必去經典中的經典之一。要去策馬特交通上需預留較多時間，距離主要城市：
+策馬特 (Zermatt) 位於瑞士南部山區，以馬特洪峰還有 Toblerone 巧克力聞名於世。可說是來瑞士必去經典中的經典之一。
+
+{% assign target_post = site.posts | where: "url", "/blog/zermatt-guide/" | first %}
+<p>超詳細策馬特攻略請見此篇：<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a></p>
+
+要去策馬特交通上需預留較多時間，距離主要城市：
 
 - 蘇黎世 (Zurich HB)：約 3小時 15分 （班次多，每小時都有）
 - 米蘭 (Milano)：約 3小時 40分（班次不多，一天可能三四班快的，其他都要轉很多車花費五小時以上）
