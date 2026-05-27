@@ -617,8 +617,12 @@ Restaurant Schäferstube 主打羊料理，Restaurant Julen 有其他肉類，�
 
 - 黑面羊、土撥鼠周邊
 
-策馬特有許多黑面羊與土撥鼠周邊，還有很多策馬特的衣服，除了這邊其他地方不一定買得到，喜歡可以入手。不過火車站出來主要大街上有非常多家紀念品店，建議可以貨比三家，賣的東西大同小異。
+策馬特有許多黑面羊與土撥鼠周邊，還有很多策馬特的衣服，除了這邊其他地方不一定買得到，喜歡可以入手。不過火車站出來主要大街上有非常多家紀念品店，建議可以貨比三家，賣的東西大同小異。題外話，黑面羊的德文其實是「黑鼻羊」Schwarznasenschaf。
 
+<figure style="max-width: 400px; margin: 20px auto;">
+  <img src="{{ '/img/zermatt/schwarznasenschaf.webp' | relative_url }}" alt="黑面羊玩偶">
+  <figcaption>黑面羊玩偶，超大一隻</figcaption>
+</figure>
 
 <a href="#nav">👆 回到最上面選單</a>
 
