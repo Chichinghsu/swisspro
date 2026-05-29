@@ -76,7 +76,7 @@ nav {
     position: relative;
     text-align: center;
     padding: 80px 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/background_mountain.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/background_mountain.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1058,6 +1058,14 @@ a[id]:empty {
     padding: 12px 24px;
     font-size: 0.95rem;
     border: 2px solid rgba(130, 127, 127);
+}
+
+.hero-question {
+    color: #fff;
+    margin-top: 0;
+    font-size: 0.95rem;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .validator-demo-section {
