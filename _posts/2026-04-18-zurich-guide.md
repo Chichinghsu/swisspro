@@ -8,19 +8,162 @@ image: /img/zurich/zurich_post.webp
 thumbnail: /img/zurich/zurich_post.webp
 og_image:  /img/zurich/zurich_post.webp
 permalink: /blog/zurich-guide/
-last_modified_at: 2026-05-22
+last_modified_at: 2026-05-29
 ---
 
 蘇黎世大眾運輸路網錯綜複雜，看這篇完全拆解路網邏輯。本文分為以下幾個部分，包含所有蘇黎世近郊常去景點，以及要去那邊票券怎麼買：
 
-- [蘇黎世機場到市區](#airport)
-- [蘇黎世市區交通](#zurich)
-- [瑞士蓮巧克力博物館](#lindt)
-- [萊茵瀑布（精省秘訣）](#rheinfall)
-- [蘇黎世象山 - 玉特利山 Uetliberg](#uetliberg)
-- [蘇黎世卡 Zurich Card（附試算器）](#zurich-card)
-- [結論](#conclusion)
-- [常見問題](#faq)
+
+<style>
+.swiss-slider-container {
+  position: relative;
+  max-width: 400px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.swiss-slider-wrapper {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none; 
+}
+
+.swiss-slider-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.swiss-slider-item {
+  flex: 0 0 100%;
+  width: 100%;
+  margin: 0;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.swiss-slider-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.swiss-slider-item figcaption {
+  margin-top: 8px;
+  font-size: 1em;
+  color: #555;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.slider-arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.prev-arrow { left: 10px; }
+.next-arrow { right: 10px; }
+
+@media (max-width: 768px) {
+  .slider-arrow {
+    display: none !important;
+  }
+}
+.znav *{box-sizing:border-box;margin:0;padding:0}
+.znav{font-family:system-ui,sans-serif;width:100%}
+.znav-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:8px;
+}
+@media(max-width:600px){
+  .znav-grid{grid-template-columns:repeat(2,1fr);}
+}
+.znav-btn{
+  display:flex;flex-direction:column;gap:5px;
+  padding:12px 14px;
+  background:#fff;
+  border:0.5px solid #D3D1C7;
+  border-radius:12px;
+  cursor:pointer;text-decoration:none;text-align:left;
+  transition:border-color .15s,background .15s;
+}
+.znav-btn:hover{border-color:#C00000;background:#FFF8F8}
+.znav-icon{font-size:18px;line-height:1;margin-bottom:2px}
+.znav-label{font-size:13px;font-weight:500;color:#2C2C2A;line-height:1.3}
+.znav-desc{font-size:11px;color:#888780;line-height:1.5;margin-top:1px}
+</style>
+
+<a id="nav"></a>
+<div class="znav">
+  <div class="znav-grid">
+
+    <a href="#airport" class="znav-btn">
+      <div class="znav-icon">✈️</div>
+      <div class="znav-label">蘇黎世機場到市區</div>
+      <div class="znav-desc">手把手教學蘇黎世機場到市區購票</div>
+    </a>
+
+    <a href="#zurich" class="znav-btn">
+      <div class="znav-icon">🚋</div>
+      <div class="znav-label">蘇黎世市區交通</div>
+      <div class="znav-desc">蘇黎世市區的票怎麼買？24 小時票</div>
+    </a>
+
+    <a href="#lindt" class="znav-btn">
+      <div class="znav-icon">🍫</div>
+      <div class="znav-label">瑞士蓮巧克力博物館</div>
+      <div class="znav-desc">一定要提早訂門票！火車怎麼搭？</div>
+    </a>
+
+    <a href="#rheinfall" class="znav-btn">
+      <div class="znav-icon">🌊</div>
+      <div class="znav-label">萊茵瀑布（精省秘訣）</div>
+      <div class="znav-desc">省瑞秘訣讓你現省 20 瑞郎</div>
+    </a>
+
+    <a href="#uetliberg" class="znav-btn">
+      <div class="znav-icon">🥾</div>
+      <div class="znav-label">蘇黎世象山 - 玉特利山 Uetliberg</div>
+      <div class="znav-desc">路線、難度與票券怎麼買</div>
+    </a>
+
+    <a href="#zurich-card" class="znav-btn">
+      <div class="znav-icon">🧮</div>
+      <div class="znav-label">蘇黎世卡 Zurich Card（附試算器）</div>
+      <div class="znav-desc">30 秒點一點就知道該不該買卡</div>
+    </a>
+
+    <a href="#conclusion" class="znav-btn">
+      <div class="znav-icon">✅</div>
+      <div class="znav-label">省瑞結論</div>
+      <div class="znav-desc">最後總結</div>
+    </a>
+
+    <a href="#faq" class="znav-btn">
+      <div class="znav-icon">💬</div>
+      <div class="znav-label">常見問題</div>
+      <div class="znav-desc">你想問的應該都在這裡</div>
+    </a>
+
+  </div>
+</div>
 
 <a id="airport"></a>
 ## 蘇黎世機場到市區
@@ -47,6 +190,8 @@ last_modified_at: 2026-05-22
 2. 如果你已經在蘇黎世市區（如從米蘭、慕尼黑或巴黎等地搭火車到蘇黎世中央車站者），打算蘇黎世一日遊（「除了」蘇黎世機場、瑞士蓮巧克力博物館、蘇黎世象山 - 玉特利山 Uetliberg、萊茵瀑布等近郊之外，請見此文下方介紹），可直接買 110 區 24 小時票價格 9.4 瑞郎（持半價卡 6.6 瑞郎，STP 免費不用買票）。
 </div>
 
+<a href="#nav">👆 回到最上面選單</a>
+
 <figure>
   <img src="{{ '/img/zurich/zurich_zonen.png' | relative_url }}" alt="蘇黎世交通分區圖">
   <figcaption>蘇黎世大眾運輸分區圖<a href="https://www.zvv.ch/content/dam/zvv/publikationen/zonen/zvv-tarifzonen.pdf">官網詳細大圖</a></figcaption>
@@ -68,6 +213,8 @@ last_modified_at: 2026-05-22
 {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}
 如何使用 SBB App 買票？
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+<a href="#nav">👆 回到最上面選單</a>
 
 <a id="lindt"></a>
 ## 瑞士蓮巧克力博物館 Lindt Home of Chocolate
@@ -105,6 +252,8 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 參觀完巧克力博物館後如果天氣好的話，建議走到 <a href="https://maps.app.goo.gl/3iCiuguiSQgkgP8CA">Kilchberg ZH 碼頭 (Google Maps)</a>，在湖邊坐坐欣賞湖景，接著搭船半小時回到蘇黎世市區的 Bürkliplatz。享受蘇黎世湖風光，只是船班不多（大概每兩小時一班，夏天較多），最好先查好班次（可在 SBB App 上面查詢，也可直接 Google Maps 查詢），上述的 110 + 150 的 24 小時票也可以搭船，但要確定方向別搭錯（搭往 Bürkliplatz 方向，船身會寫）。
 </div>
 
+<a href="#nav">👆 回到最上面選單</a>
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2704.8014796583716!2d8.548561476808949!3d47.31821667116495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa747616a67d5%3A0x5add0a12342aa884!2sLindt%20Home%20of%20Chocolate!5e0!3m2!1sde!2sch!4v1776685512270!5m2!1sde!2sch" 
         class="map-frame" 
         height="450" 
@@ -116,6 +265,9 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 
 <a id="rheinfall"></a>
 ## 萊茵瀑布
+
+此部分只介紹到萊茵瀑布的交通票券，想看完整景點攻略請見此：{% assign target_post = site.posts | where: "url", "/blog/rheinfall-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 歐洲流量最大的瀑布，位於萊茵河上，距離蘇黎世市區約一小時車程，是 [Grand Tour of Switzerland](https://www.myswitzerland.com/en-ch/experiences/experience-tour/grand-tour-of-switzerland/) 其中一站，有那個紅紅牌子可以拍照。推薦從蘇黎世出發一日或半日遊，可以近距離體驗瀑布的震撼，只要 5 瑞郎門票，非常划算。另外可以加購搭船靠近瀑布，甚至登上瀑布旁邊的小島。
 
@@ -136,6 +288,8 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 
 到沙夫豪森轉車的話，來回日票就要 24.4 瑞郎（持半價卡，原價 48.8 瑞郎），且因為此票包含範圍已經出蘇黎世州，所以不是 24 小時票，只有買票當日有效。
 </div>
+
+<a href="#nav">👆 回到最上面選單</a>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12128.96779836837!2d8.605882143440294!3d47.676402698336695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479078b4c0fa42a3%3A0x3c6d588fc5d96c81!2sSchloss%20Laufen%20am%20Rheinfall!5e0!3m2!1sde!2sch!4v1776686613926!5m2!1sde!2sch" 
         class="map-frame" 
@@ -170,6 +324,7 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 請注意：Felsenegg 這邊位於 150 區，所以打算走這條路線的人記得買票要多買一區 110 + 154 + 155 + 150 （五個區的票，因為 110 算兩區）。不過這張票在 SBB App 有點難按出來，請選擇從 Uetliberg 至 Adliswil，隨便點一班車（確保這張票在你要搭車的時候有效就好），這樣就可買到正確的五區票，記得買 24 小時票。買好後再用 SBB App 查詢從中央車站到 Uetliberg 的車，去相對應月台搭車，不用管買票上面那車班次，我們只是要這幾區的票，沒有要搭那班車。
 
 </div>
+<a href="#nav">👆 回到最上面選單</a>
 
 <a id="zurich-card"></a>
 ## 蘇黎世卡 Zurich Card
@@ -336,8 +491,9 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 </script>
 
 還有很多其他博物館沒有列出來，可以到[蘇黎世卡官網（英文）](https://www.zuerich.com/en/zurich-card-city-guide-app/zurich-card)看完整清單還有可以折扣多少的資訊。
-
 </div>
+
+<a href="#nav">👆 回到最上面選單</a>
 
 <a id="conclusion"></a>
 ## 結論
@@ -356,10 +512,15 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 如果你打算買半價卡或 STP 的話，可以參考以下購買連結：[KKday 買半價卡](https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072)與 [KKday 買 STP](http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072)。
 
 
+歡迎使用本站的瑞士旅遊小工具
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
+
 <div class="tip-box" markdown="1">
 還是不清楚？歡迎直接去 **[Instagram](https://www.instagram.com/swisspro.tw/)** 私訊發問或者詢問[官方 LINE](https://lin.ee/5BCOXOU)。
 </div>
 
+<a href="#nav">👆 回到最上面選單</a>
 
 <a id="faq"></a>
 ## 常見問題
@@ -373,3 +534,5 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 - 蘇黎世旅程中適合待幾天？
 
 舒舒服服、疏疏離離，沒有像少女峰、策馬特大山大水，但細水長流、歲月靜好，時間夠的話不妨多停留一兩天。
+
+<a href="#nav">👆 回到最上面選單</a>
