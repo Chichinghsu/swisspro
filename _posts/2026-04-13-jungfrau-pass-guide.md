@@ -249,9 +249,11 @@ calc();
 | 原價 | 249.2  | 9968 |
 | STP | 189.6 | 7584 |
 | 半價卡 | 129.6  | 5184 | 
+| JTP | 89.0 | 3560 |
 | 早安票 | 201.4 | 8056 | 
 
 - 什麼是早安票？直接跳到此文介紹早安票的部分（[點此](#goodmorning)）
+- JTP 為少女峰通行證，直接跳到此文介紹少女峰通行證的部分（[點此](#jtp)）
 - 什麼是 STP 與半價卡？ {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
@@ -264,7 +266,7 @@ calc();
 少女峰觀光地區涵蓋很大一片地方，常聽到的格林德瓦 (Grindelwald)、Grindelwald-First（健行、冒險活動）、勞特布魯嫩（瀑布鎮 Lauterbrunnen）、穆倫 (Mürren)、溫根 (Wengen)、哈德昆觀景台 (Harder Kulm)、茵特拉肯 (Interlaken)、愛的迫降小鎮 Iseltwald 等等甚至布里恩茨湖或圖恩湖也都算是少女峰景點，請見下圖。到了少女峰這區至少都建議待三天以上，這樣也比較容易遇到好天氣。天氣即時訊息可以看[官網 Webcam](https://www.jungfrau.ch/en-gb/live/webcams/) 以防花冤望錢上山什麼都看不到。
 
 <figure>
-  <img src="{{ '/img/jungfrau/jungfrau_map.png' | relative_url }}" alt="少女峰地圖">
+  <img src="{{ '/img/jungfrau/jungfrau_map.webp' | relative_url }}" alt="少女峰地圖">
   <figcaption>少女峰地區景點地圖與地理位置，來源<a href="https://www.jungfrau.ch/en-gb/jungfrau-travel-pass/">少女峰官網</a></figcaption>
 </figure>
 
