@@ -219,10 +219,9 @@ last_modified_at: 2026-05-29
 <a id="lindt"></a>
 ## 瑞士蓮巧克力博物館 Lindt Home of Chocolate
 
-瑞士蓮巧克力博物館位於 Kilchberg ZH (150 區)，裡面有很多巧克力可以吃，介紹一些巧克力的歷史，老少咸宜、非常推薦，如果你喜歡巧克力的話。門票 17 瑞郎，入場每個時段有限人數，需要稍微等一下。不過夏天旅遊旺季建議先訂票，否則可能買不到票，可先線上預訂[KKday 中文介面買門票](https://www.kkday.com/zh-tw/product/134871-lindt-chocolate-ticket-zurich-switzerland?cid=24072)。
+瑞士蓮巧克力博物館位於 Kilchberg ZH (150 區)，裡面有很多巧克力可以吃，介紹一些巧克力的歷史，老少咸宜、非常推薦，如果你喜歡巧克力的話。門票 17 瑞郎，**Swiss Travel Pass 不能免費免場也不能打折**，入場每個時段有限人數，需要稍微等一下。不過夏天旅遊旺季（六七八月）建議先提早兩三週先訂票，否則可能買不到票，線上預訂[KKday 中文介面買門票](https://www.kkday.com/zh-tw/product/134871-lindt-chocolate-ticket-zurich-switzerland?cid=24072)。
 
 由於這裡出了主要蘇黎世市區的 110 區，要再加購 150 區，單程 7.2 瑞郎 （二等艙原價，半價卡的話 3.6 瑞郎）。不知道什麼區什麼區不用擔心，只要輸入起點終點，SBB App 都會幫你算好，直接上面買票就好。
-
 
 <div class="tip-box" markdown="1">
 <h4>省瑞秘訣 瑞士鐵路優惠套票</h4>
@@ -534,5 +533,9 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 - 蘇黎世旅程中適合待幾天？
 
 舒舒服服、疏疏離離，沒有像少女峰、策馬特大山大水，但細水長流、歲月靜好，時間夠的話不妨多停留一兩天。
+
+- 瑞士蓮巧克力博物館 Swiss Travel Pass 可用嗎？
+
+不可以，沒有免費也不能打折，門票原價 17 瑞郎。建議提早兩三週訂票，線上預訂[KKday 中文介面買門票](https://www.kkday.com/zh-tw/product/134871-lindt-chocolate-ticket-zurich-switzerland?cid=24072)，否則沒票只能去現場碰碰運氣。
 
 <a href="#nav">👆 回到最上面選單</a>
