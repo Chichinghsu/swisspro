@@ -13,6 +13,8 @@ last_modified_at: 2026-06-01
 
 少女峰 (Jungfrau) 不需贅言，瑞士經典中的經典，幾乎是所有旅客來瑞士的必去景點。但一看到那驚人的火車票價，上下山一趟要價約 200 瑞郎（約 8000 新台幣），都會覺得，我有看錯嗎？你沒有看錯，但有幾招可以讓你省一些車費，這篇帶你拆解最強省錢組合！
 
+- 少女峰景點詳細攻略：{% assign target_post = site.posts | where: "url", "/blog/jungfrau-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 <a id="nav"></a>
 ## 快速導覽
@@ -97,7 +99,7 @@ last_modified_at: 2026-06-01
   <!-- Summary -->
   <div class="j-summary">
     <div class="j-sum-row"><span>分開購票合計</span><b id="s-indiv">0.00 CHF</b></div>
-    <div class="j-sum-row blue"><span id="s-card-label">少女峰通行證</span><b id="s-card">— CHF</b></div>
+    <div class="j-sum-row blue"><span id="s-card-label">少女峰通票</span><b id="s-card">— CHF</b></div>
     <hr class="j-divider-line">
     <div class="j-verdict neutral" id="s-verdict">請勾選景點並選擇天數</div>
   </div>
@@ -208,7 +210,7 @@ function calc() {
   const totalWithoutPass = indiv;
   const totalWithPass = cardCost + withCard;
 
-  document.getElementById('s-card-label').textContent = `少女峰通行證 (${selDays}天)`;
+  document.getElementById('s-card-label').textContent = `少女峰通票 (${selDays}天)`;
   document.getElementById('s-indiv').textContent = totalWithoutPass.toFixed(2) + ' CHF';
   document.getElementById('s-card').textContent = totalWithPass.toFixed(2) + ' CHF';
 
@@ -253,7 +255,7 @@ calc();
 | 早安票 | 201.4 | 8056 | 
 
 - 什麼是早安票？直接跳到此文介紹早安票的部分（[點此](#goodmorning)）
-- JTP 為少女峰通行證，直接跳到此文介紹少女峰通行證的部分（[點此](#jtp)）
+- JTP 為少女峰通票，直接跳到此文介紹少女峰通票的部分（[點此](#jtp)）
 - 什麼是 STP 與半價卡？ {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
@@ -276,6 +278,9 @@ calc();
 
 <a id="price"></a>
 ## 2026 年上少女峰，路線懶人包
+
+- 少女峰景點詳細攻略：{% assign target_post = site.posts | where: "url", "/blog/jungfrau-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 其中少女峰的精華就是少女峰頂 Jungfraujoch - 歐洲之巔 Top of Europe，大家耗盡家財也要上去看一眼。就是很有名大家拍瑞士國旗後面一堆雪照片的地方，還有很貴的辛拉麵。想要上去的話，票券選擇偏複雜，但無論如何都得要先上到艾格冰川 (Eigergletscher)
 

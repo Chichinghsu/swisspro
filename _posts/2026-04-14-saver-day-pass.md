@@ -220,6 +220,23 @@ input:checked + .slider:before { transform: translateX(22px); }
 
 瑞士交通，就是這麼瑞，複雜但看完這篇你就完全懂。如果還是不知道如何是好，歡迎使用省瑞精算器：我們的票券精算器都幫你把這些考慮進去了，只需要輸入你要去的地點與日期，即可知道什麼最划算。雖然目前還不包含早鳥票功能，但之後有機會會整合。但如果你只是要算算該買 STP 還是半價卡，歡迎使用。
 
+### 策馬特地區攻略
+
+策馬特票券攻略：{% assign target_post = site.posts | where: "url", "/blog/zermatt-pass-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+策馬特景點攻略：{% assign target_post = site.posts | where: "url", "/blog/zermatt-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+### 少女峰地區攻略
+
+少女峰票券攻略：{% assign target_post = site.posts | where: "url", "/blog/jungfrau-pass-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+少女峰景點攻略：{% assign target_post = site.posts | where: "url", "/blog/jungfrau-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+
 <div class="swiss-buy-container">
     <a href="https://calculator.swisspro.tw/?itinerary_id=40262633&utm_source=swisspro_blog&utm_campaign=saver_day_pass" 
        target="_blank" 
@@ -228,9 +245,3 @@ input:checked + .slider:before { transform: translateX(22px); }
        省瑞票券精算器（少女峰範例行程）
     </a>
 </div>
-
-{% assign target_post = site.posts | where: "url", "/blog/zermatt-pass-guide/" | first %}
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
-
-{% assign target_post = site.posts | where: "url", "/blog/jungfrau-pass-guide/" | first %}
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>

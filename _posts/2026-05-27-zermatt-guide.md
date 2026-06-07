@@ -693,6 +693,13 @@ Restaurant Schäferstube 主打羊料理，Restaurant Julen 有其他肉類，�
 3. 第三天早上五湖健行，下午離開<br>詳細的話請見本文<a href="#gornergrat">景點介紹與行程</a></p>
 </div>
 </details>
+<details>
+<summary class="faq-question">我想問的問題不在這裡</summary>
+<div class="faq-answer">
+    <p><b>直接來問我：本站免費瑞士旅遊諮詢</b>
+<br>歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a></p>
+</div>
+</details>
 
 <a href="#nav">👆 回到最上面選單</a>
 
