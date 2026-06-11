@@ -545,4 +545,9 @@ function moveSlider(direction) {
 
 蘇黎世機場是許多瑞士自由行旅客的第一站，也是最後一站。雖然是大型國際機場，但整體動線清楚、交通便利，看完這篇之後，所有疑慮應該已經煙消雲散，祝你有個順利又愉快的瑞士旅程！
 
+最後歡迎使用本站的瑞士旅遊小工具
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
+
+
 <a href="#nav">👆 回到最上面本文章選單</a>

@@ -8,7 +8,7 @@ image: /img/zurich/zurich_post.webp
 thumbnail: /img/zurich/zurich_post.webp
 og_image:  /img/zurich/zurich_post.webp
 permalink: /blog/zurich-guide/
-last_modified_at: 2026-05-29
+last_modified_at: 2026-06-11
 ---
 
 蘇黎世大眾運輸路網錯綜複雜，看這篇完全拆解路網邏輯。本文分為以下幾個部分，包含所有蘇黎世近郊常去景點，以及要去那邊票券怎麼買：
@@ -173,8 +173,10 @@ last_modified_at: 2026-05-29
 除了單程票（3.6 瑞郎）之外，也可以買 24 小時票（7.2 瑞郎），假設我今天 14:00 買票，這張票可用到明天 14:00，所以你不只可從機場到市區，還可以用這張票在蘇黎世市區搭各種交通工具一日遊。這種 24 小時票券的價格是單程票的兩倍，至少搭兩趟就划算。
 
 <div class="tip-box" markdown="1">
-{% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}
-如何使用 SBB App 買票？
+
+- 如何使用 SBB App 買票？ {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- 蘇黎世機場全攻略 {% assign target_post = site.posts | where: "url", "/blog/zurich-airport-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 </div>
 
@@ -524,18 +526,40 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 <a id="faq"></a>
 ## 常見問題
 
-- 我轉機有六七小時，想去蘇黎世市區看一下來得及嗎？
+最後整理一些大家常問的問題
 
-如果你從申根區來就不用過護照，因為機場離市區很近（火車十分鐘），理論上可行。如果是非申根的話可能就有點棘手，你會需要過護照查驗，他可能會問你要來幹嘛，且等待時間也不一定。
 
-要快閃的話，建議買機場到市區 (Zürich Flughafen - Zürich HB) 24 小時票（110 121 區），原價 14.4 瑞郎，懶得下載 SBB App 的話直接在機場的自動售票機購買，那邊通常會有官方人員指導。跳上火車十分鐘到中央車站，往外走班霍夫大街，林登霍夫，一路走到蘇黎世湖邊，欣賞湖景，接著去老城區看看蘇黎世教堂等，吃點東西，最後建議兩到三小時前回到機場。
+<details>
+<summary class="faq-question">Swiss Travel Pass (STP) 有包含蘇黎世機場到市區的火車嗎？</summary>
+<div class="faq-answer">
+    Swiss Travel Pass (STP)「有包含」蘇黎世機場往返蘇黎世市區以及大部分瑞士境內火車路線。若不確定你的路線 STP 是否可用，建議使用<a href="https://calculator.swisspro.tw/?p=validator">省瑞計劃 票券速查</a>功能，輸入起點跟終點即可知道什麼票券可以用、打幾折、票價多少、要不要先訂位等等。
+</div>
+</details>
 
-- 蘇黎世旅程中適合待幾天？
+<details>
+<summary class="faq-question">我轉機有六七小時，想去蘇黎世市區看一下來得及嗎？</summary>
+<div class="faq-answer">
+   如果你從申根區來就不用過護照，因為機場離市區很近（火車十分鐘），理論上可行。如果是非申根的話可能就有點棘手，你會需要過護照查驗，他可能會問你要來幹嘛，且等待時間也不一定。<br><br>
 
-舒舒服服、疏疏離離，沒有像少女峰、策馬特大山大水，但細水長流、歲月靜好，時間夠的話不妨多停留一兩天。
+   要快閃的話，建議買機場到市區 (Zürich Flughafen - Zürich HB) 24 小時票（110 121 區），原價 14.4 瑞郎，懶得下載 SBB App 的話直接在機場的自動售票機購買，那邊通常會有官方人員指導。跳上火車十分鐘到中央車站，往外走班霍夫大街，林登霍夫，一路走到蘇黎世湖邊，欣賞湖景，接著去老城區看看蘇黎世教堂等，吃點東西，最後建議兩到三小時前回到機場。<br><br>
 
-- 瑞士蓮巧克力博物館 Swiss Travel Pass 可用嗎？
+   蘇黎世機場全攻略 {% assign target_post = site.posts | where: "url", "/blog/zurich-airport-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+</div>
+</details>
 
-不可以，沒有免費也不能打折，門票原價 17 瑞郎。建議提早兩三週訂票，線上預訂[KKday 中文介面買門票](https://www.kkday.com/zh-tw/product/134871-lindt-chocolate-ticket-zurich-switzerland?cid=24072)，否則沒票只能去現場碰碰運氣。
+<details>
+<summary class="faq-question">蘇黎世旅程中適合待幾天？</summary>
+<div class="faq-answer">
+    舒舒服服、疏疏離離，沒有像少女峰、策馬特大山大水，但細水長流、歲月靜好，時間夠的話不妨多停留一兩天。
+</div>
+</details>
+
+<details>
+<summary class="faq-question">瑞士蓮巧克力博物館 Swiss Travel Pass 可用嗎？</summary>
+<div class="faq-answer">
+    不可以，沒有免費也不能打折，門票原價 17 瑞郎。建議提早兩三週訂票，線上預訂👉<a href="https://www.kkday.com/zh-tw/product/134871-lindt-chocolate-ticket-zurich-switzerland?cid=24072">KKday 中文介面買門票</a>，否則沒票只能去現場碰碰運氣。
+</div>
+</details>
 
 <a href="#nav">👆 回到最上面選單</a>
