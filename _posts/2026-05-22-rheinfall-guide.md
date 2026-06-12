@@ -306,6 +306,11 @@ load();
 
 個人覺得這邊算是瑞士少數價格相對平易近人景點，而且從蘇黎世出發的話一小時就可以抵達，非常適合早上降落蘇黎世機場，或者準備離開，要搭隔天飛機住在蘇黎世時半日遊。如果你還有時間，可以順遊旁邊瑞士小人國，再搭火車遊「沙夫豪森 (Schaffhausen)」城市，順便買支 IWC 手錶。
 
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-airport-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
 <div class="tip-box" markdown="1">
 歡迎使用本站的瑞士旅遊小工具
 - [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
