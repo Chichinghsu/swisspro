@@ -506,7 +506,7 @@ function moveSlider(direction) {
 <details>
 <summary class="faq-question">蘇黎世機場有免費 Wi-Fi 嗎？</summary>
 <div class="faq-answer">
-    有，蘇黎世機場提供免費 Wi-Fi，可以用手機收驗證碼就可以連上。也可買好 eSIM 這樣一落地就可以用，無情業配一下我的 Airalo eSIM 推薦碼，可以用這個<a href="https://airalo.go.link/1BBox">推薦連結</a>買。在瑞士用起來都算蠻順的，還可以直接買歐洲的 eSIM，價格差不多，這樣去德國、義大利或者法國都還可用。
+    有，蘇黎世機場提供免費 Wi-Fi，可以用手機收驗證碼就可以連上。也可買好 eSIM 這樣一落地就可以用，無情業配一下我的 Airalo eSIM 推薦碼，可以用這個<a href="https://airalo.go.link/1BBox">推薦連結</a>買。在瑞士用起來都算蠻順的，還可以直接買歐洲的 eSIM，價格差不多，這樣去德國、義大利或者法國都還可用。或者買 <a href="https://www.kkday.com/zh-tw/product/135866?cid=24072">KKday 的歐洲歐洲41國 5G eSIM</a> 更便宜。
 </div>
 </details>
 
