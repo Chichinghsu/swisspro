@@ -136,6 +136,12 @@ permalink: /blog/zurich-airport-guide/
       <div class="znav-desc">從瑞士回台灣提早多久到機場？</div>
     </a>
 
+    <a href="#locker" class="znav-btn">
+      <div class="znav-icon">🧳</div>
+      <div class="znav-label">機場行李寄放</div>
+      <div class="znav-desc">哪裡可以寄放行李？價格？</div>
+    </a>
+
     <a href="#faq" class="znav-btn">
       <div class="znav-icon">💬</div>
       <div class="znav-label">常見問題</div>
@@ -475,6 +481,55 @@ function moveSlider(direction) {
 
 <a href="#nav">👆 回到最上面本文章選單</a>
 
+<a id="locker"></a>
+## 蘇黎世機場行李寄放
+
+若需寄放行李，在蘇黎世機場有兩個選項（都在安檢前）
+1. 24 小時開放的置物櫃：推薦，便宜很多
+1. 有人寄物處 6:00 - 22:00
+
+除此之外，還有隱藏的瑞士國鐵行李寄送服務，請往下閱讀。
+
+### 無人置物櫃
+
+SBB 提供的無人置物櫃稍微難找一點，在 check in 3，就是搭火車從月台上來的那一層樓，旁邊有間運動用品店 Ochsner Sport。目前 2026 價格（來源：[官網](https://www.sbb.ch/en/travel-information/stations/find-station/station.3016.zuerich-flughafen.html#equipment_lockers)）：
+
+| 種類 | 大小（公分） | 六小時內 瑞郎（台幣） | 超時 每六小時 瑞郎（台幣） | 數量 （個）|
+| :--- | :--- | :--- |
+| S | 35.1 x 55.5 x 45.7 | 5 (200)  | 2 (80) | 14 |
+| M | 35.1 x 55.5 x 62 | 7 (280) | 3 (120) | 27 | 
+| L | 35.1 x 55.5 x 94.5 | 9 (360) | 4 (160) | 7 |
+| XL | 52.5 x 85.5 x 45.7 | 10 (400) | 5 (200) | 16 |
+| XXL | 52.5 x 85.5 x 94.5 | 12 (480) | 6 (240) | 8 |
+
+*旺季（夏天的話）上面的價格再加一瑞郎。
+
+一次最低是寄放六小時，超過的話要再加錢，超過的話一樣以六小時計費，最多可以寄放 96 小時。省瑞精神的話，建議記一下你放的時間，六小時內來拿，才不會不小心放了六小時五分鐘，被加新的六小時的錢，會有點不爽。
+
+可以用信用卡付款，跟著上面指示就好，操作簡單。流程如下：先寄物，付六小時的錢，回來領取時如果超過六小時，再付超時費。一開始寄物付款後會拿到一張 QR Code，到時候用這張來開鎖，上面也會寫你寄物的置物櫃號碼，才不會忘記放在哪裡。建議把這張 QR Code 小紙條拍下來，以防弄丟。
+
+如果很不幸全都滿了的話，也可以考慮搭火車 10 分鐘到蘇黎世中央車站 (Zurich HB)，那邊有超多超多置物櫃，當然也不保證有位置。
+
+### 有人寄物處
+
+有人行李寄物處位於 Check in 2 的 Row 4 旁邊，開放時間是每天 6:00 到 22:00，不過價格比置物櫃還要貴非常多。目前 2026 價格（來源：[官網](https://www.flughafen-zuerich.ch/en/passengers/practical/services/services-for-travellers/baggageservices)）：
+
+|  | 四小時內 瑞郎（台幣） | 一天 瑞郎（台幣） | 
+| :--- | :--- | :--- |
+| 小行李 8 公斤以下 (36 x 56 x 25) | 10 (400)  | 17 (680) |
+| 大行李 25 公斤以下 (90 x 60 x 35) | 15 (600) | 22 (880) |
+| 大行李 25公斤以上 或尺寸大於 90 x 60 x 35 | 20 (800) | 28 (1120) |
+
+*行李尺寸單位：公分
+
+### 行李寄送服務
+
+最後懶得拿行李的話，瑞士國鐵 SBB 也有行李寄送服務 [官網](https://www.sbb.ch/en/offers/luggage-transport-station-to-station)，幫你把行李從一個火車站寄到另一個火車站。一件 12 瑞郎，不可超過 23 公斤，運送時間約兩天。官網裡面有寫可以寄的車站，基本上大站都有，你就只要輕裝上陣即可。
+
+
+
+<a href="#nav">👆 回到最上面本文章選單</a>
+
 <a id="faq"></a>
 ## 常見問題
 
@@ -499,7 +554,15 @@ function moveSlider(direction) {
 <details>
 <summary class="faq-question">需要先換瑞郎現金嗎？</summary>
 <div class="faq-answer">
-    很少很少機會用到現金，連上廁所都可以刷卡（大型車站上廁所通常需要 1 至 2 瑞郎），大部分都可以刷卡。真的擔心的話建議換個 50 瑞郎就好，台灣的話可以在台灣銀行或者兆豐銀行換。
+    很少很少機會用到現金，瑞士連上廁所都可以刷卡（大型車站上廁所通常需要 1 至 2 瑞郎），大部分都可以刷卡。真的擔心的話建議換個 50 瑞郎就好，台灣的話可以在台灣銀行或者兆豐銀行換，或者在蘇黎世機場也可以換，但匯率不好。
+</div>
+</details>
+
+
+<details>
+<summary class="faq-question">機場可以寄放行李嗎？</summary>
+<div class="faq-answer">
+    可以，有無人置物櫃跟有人寄物處，請見本文<a href="#locker">行李寄放</a>。
 </div>
 </details>
 
