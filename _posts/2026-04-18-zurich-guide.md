@@ -528,7 +528,6 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 
 最後整理一些大家常問的問題
 
-
 <details>
 <summary class="faq-question">Swiss Travel Pass (STP) 有包含蘇黎世機場到市區的火車嗎？</summary>
 <div class="faq-answer">
@@ -543,8 +542,7 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 
    要快閃的話，建議買機場到市區 (Zürich Flughafen - Zürich HB) 24 小時票（110 121 區），原價 14.4 瑞郎，懶得下載 SBB App 的話直接在機場的自動售票機購買，那邊通常會有官方人員指導。跳上火車十分鐘到中央車站，往外走班霍夫大街，林登霍夫，一路走到蘇黎世湖邊，欣賞湖景，接著去老城區看看蘇黎世教堂等，吃點東西，最後建議兩到三小時前回到機場。<br><br>
 
-   蘇黎世機場全攻略 {% assign target_post = site.posts | where: "url", "/blog/zurich-airport-guide/" | first %}
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+   蘇黎世機場全攻略 {% assign target_post = site.posts | where: "url", "/blog/zurich-airport-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 </div>
 </details>
 
