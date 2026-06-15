@@ -535,7 +535,9 @@ permalink: /blog/buy-guide-switzerland/
 - [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
 - [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
 
-另外你可能也需要看這些 ... 
+你可能也想要看這些 ... 
 - {% assign target_post = site.posts | where: "url", "/blog/food-guide-switzerland/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 - {% assign target_post = site.posts | where: "url", "/blog/meteoswiss-app-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 - {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/saver-day-pass/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
