@@ -266,6 +266,16 @@ permalink: /blog/buy-guide-switzerland/
   </div>
 
   <div class="ssl-card">
+    <div class="ssl-photo">🫧</div>
+    <div class="ssl-body">
+      <div class="ssl-name">Soeder 洗手乳</div>
+      <div class="ssl-meta">大間的 Coop 或專賣店 · <b>25 瑞郎（台幣 1000）左右</b></div>
+      <div class="ssl-meta">蘇黎世近年來最紅的洗手乳品牌，同時也是瑞航機上指定品牌，有洗手乳、乳液等等各種香氛產品。在蘇黎世中央車站、巴塞爾車站等等都有分店，買回去送給你愛的人。</div>
+      <button class="ssl-btn" data-id="alpinte" data-flag="🫧" data-name="Soeder 洗手乳" data-price="25 瑞郎（台幣 1000）左右" data-cat="store">+ 加入清單</button>
+    </div>
+  </div>
+
+  <div class="ssl-card">
     <div class="ssl-photo"><img src="/img/food/carandache.webp" alt="Carandache" onclick="sslShowImage('/img/food/carandache.webp','Carandache')"></div>
     <div class="ssl-body">
       <div class="ssl-name">Caran d’Ache 彩色鉛筆或鋼筆</div>
