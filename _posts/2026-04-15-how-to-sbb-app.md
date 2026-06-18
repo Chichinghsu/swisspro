@@ -8,16 +8,19 @@ thumbnail: /img/sbb/sbb_app_post.webp
 og_image:  /img/sbb/sbb_app_post.webp
 description: "SBB App 瑞士自由行不可或缺的神級 App，其實有超多功能，到底要怎麼用呢？這篇帶你看懂，內附票價試算工具。Easy ride 怎麼用？怎麼搭車？轉車五分鐘來得及嗎？馬上看懂。"
 permalink: /blog/how-to-sbb-app/
+last_modified_at: 2026-06-18
 ---
 
 SBB (德語：Schweizerische Bundesbahnen) 是瑞士鐵路公司的簡稱，在法語區與義大利語區有不同的名字（法語 CFF 義大利語 FFS），火車上會印全部的名字（請見下圖）。瑞鐵 SBB 的 App 整合了火車、巴士、路面電車、渡輪甚至纜車都有，查時刻表、買票都可以。舉個台灣的例子，就是你用「一個」 App 就可以買台北捷運、機場捷運、高鐵、高雄捷運、各縣市公車等等全部交通系統的票，還可以查時刻表。
 
 這篇帶你看 2026 年最新的功能幾個主要功能，重點摘要如下。App 下載連結於底部[常見問題](#faq)。
 
+<a id="nav"></a>
 - [實用功能介紹](#function) - 我轉車來得及嗎？月台怎麼看？擁擠嗎？
 - [怎麼買票](#buy) - 買好半價卡了，要怎麼買單程票？
 - [Easy Ride](#easyride) - 我還是怕買錯票怎麼辦？右滑上車、左滑下車
 - [隱藏功能](#hidden)
+- [結論](#conclusions)
 - [常見問題](#faq)
 
 <figure>
@@ -64,7 +67,21 @@ SBB (德語：Schweizerische Bundesbahnen) 是瑞士鐵路公司的簡稱，在�
 
 除此之外還可以看出車廂號碼（標在 Sector 下面），如 18 17 或者 9 8，這對旅客可能比較沒用，但是如果你和朋友從不同地點出發約在車上見面的話，你就可以說我在第 8 車廂之類的。還可以看到 17 和 9 車之間有個禁止的標誌，也就是說，從 17 車無法走到 9 車。有時候這很重要因為有些車子會分成兩段，開往不同目的地。所以除了車次之外，也要記得確認 Sector 沒錯，有些車會寫月台 1AB 代表你要在第一月台的 Sector A 或 B 上車，才不會被載到其他地方，不過瑞士這種分離的情況稍微少一點（不過還是有），請多留意。
 
-最後還可以看到圖 (4) 裡面的圖示的部分，可以看到列車車廂的各種設備，比較重要「NF」，表示車廂和月台沒有高度差，有大件行李或推嬰兒車的旅客，這就是你的好朋友，不用扛上扛下。此外，有帶小孩的旅客可以去有熊圖案的那節車廂，裡面會有遊樂場還有溜滑梯可以玩。另外，「BL」表示行李空間有限，不是不能帶行李，只是可能要早點上車卡位，或者得減少你的行李體積，通常大件行李會比較棘手，不然就得拿著行李站在走廊上。如果你有登機箱大小的行李或背包的話，可以放在頭頂置物架（但一定要仔細看著，有可能會被偷拿，建議放在對面的頭頂）。或者有些車種，座位背對背的下面可以放行李，不過大件的放不下。
+### 各種圖示：月台高度差、小孩遊樂場、行李空間、有無冷氣
+
+最後還可以看到圖 (4) 裡面的圖示的部分，可以看到列車車廂的各種設備，比較重要「NF」，表示車廂和月台沒有高度差，有大件行李或推嬰兒車的旅客，這就是你的好朋友，不用扛上扛下。此外，有帶小孩的旅客可以去有熊圖案的那節車廂，裡面會有遊樂場還有溜滑梯可以玩。另外，「BL」表示行李空間有限，不是不能帶行李，只是可能要早點上車卡位，或者得減少你的行李體積，通常大件行李會比較棘手，不然就得拿著行李站在走廊上。
+
+如果你有登機箱大小的行李或背包的話，可以放在頭頂置物架（但一定要仔細看著，有可能會被偷拿，建議放在對面的頭頂）。或者有些車種，座位背對背的下面可以放行李，不過大件的放不下。另外，夏天很重要的功能就是看這台車有沒有冷氣，對，瑞士有些車沒有冷氣。如果看到溫度計的圖案，代表這台車「沒有」冷氣，建議可以的話就別搭了，跟烤箱一樣，而且可能很臭。
+
+簡單總結
+<pre>
+NF: 與月台沒有高度差，適合行李、嬰兒車
+BL: 行李空間有限
+熊： 小孩遊戲區
+溫度計：沒有冷氣
+三個人頭：擁擠程度</pre>
+
+圖 (4) 各種圖示下方，有車的行進方向 (< Direction)，如上面「擁擠程度」那邊所說，瑞士的車幾乎都是 22 對坐。比較容易暈車的人，最好避免背對行進方向的座位。不過問題是，有些路線會到站之後會掉頭，所以你本來是正面的座位也可能變成背面。
 
 ### 加入同行旅伴
 
@@ -82,15 +99,22 @@ SBB (德語：Schweizerische Bundesbahnen) 是瑞士鐵路公司的簡稱，在�
   </figcaption>
 </figure>
 
+<a href="#nav">👆 回到本文目錄</a>
+
+
 <a id="hidden"></a>
 ### 隱藏功能
 
 SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選同一站（隨便選），你應該會看到一個 SBB 的人，接著你對這個人點三下。
 
+<a href="#nav">👆 回到本文目錄</a>
+
 <a id="buy"></a>
 ## 怎麼買票
 
-接著我們來看怎麼買車票，下圖 (7) 可以看到所有買票的選項，包含 Regular Offer, Saver Offer 還有其他的 Additional Offers。需特別注意，Additional Offers 賣的都不是「票」而是一些升等之類的附加功能，所以不要自以為撿到便宜只買 Additional Offers，這樣等於是沒有票。
+接著我們來看怎麼買車票，下圖 (7) 可以看到所有買票的選項，包含 Regular Offer, Saver Offer 還有其他的 Additional Offers。需特別注意，Additional Offers 賣的都不是「票」而是一些升等之類的附加功能，前提是你要先有票。所以不要自以為撿到便宜只買 Additional Offers，這樣等於是沒有票。
+
+### 重點：Additional Offers 賣的都不是「票」而是一些升等之類的附加功能
 
 圖 (7) 第一個選項 Regular Offer（Point-to-point 點對點票）就是一般的單程票，當天內所有車次都可以搭乘，只要是這條路線。要買來回票的話就選雙向箭頭，但需注意來回票通常是要當天使用，如果你要分兩天的話就分開買兩張單程票。
 
@@ -127,12 +151,19 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
   </figcaption>
 </figure>
 
+<a href="#nav">👆 回到本文目錄</a>
+
 <a id="easyride"></a>
 ## Easy Ride
 
 如果真的真的還是不知道怎麼買票，SBB 推出懶人救星 Easy Ride 功能，你要做的事情就是「上車右滑，下車左滑」（記得要開 GPS、也要有網路、還要開藍牙），就是這麼簡單，見圖 (9)。SBB App 會自己幫你算，你從哪裡去了哪裡，要多少錢，當天晚上他會自己扣錢，你什麼都不用做。聽起來很不錯，只是你要記得「上車之前」就要右滑，上車之後才滑就不算數，如果被查到罰款至少 90 瑞郎。下車也要記得左滑，不過如果你忘記左滑停止他會提醒你，問題比較小，沒右滑問題比較大。遇到查票時給他看 QR Code 即可，Easy Ride 也會生成 QR Code 讓你查票的時候可以展示。
 
 這個 Easy Ride 算的票價就是一般 Regular Offer 點對點的票價，也就是通常比較貴的那個選項，沒有什麼早鳥優惠之類的，不過真的很方便，且系統會自己幫你算最便宜的方案，如天票、24 小時票之類的（官方說法）。短途的話還蠻適合，比如說在蘇黎世市區搭搭公車，或者蘇黎世去個萊茵瀑布一日遊。
+
+<a href="#nav">👆 回到本文目錄</a>
+
+<a id="conclusions"></a>
+## 結論
 
 最後如果不知道要怎麼買比較划算，可以來省瑞票券精算器，輸入你的行程，可以看到票價多少，也可以看買什麼車票比較划算。
 
@@ -145,7 +176,6 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
     </a>
 </div>
 
-
 或者如果不確定這段路程 STP 能搭嗎？要提早買嗎？怎麼買？多少錢？可以使用省瑞票券速查器。
 
 <div class="swiss-buy-container">
@@ -157,53 +187,91 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
     </a>
 </div>
 
+<a href="#nav">👆 回到本文目錄</a>
+
 <a id="faq"></a>
 ## 常見問題
 
-- 下載 SBB App
+最後整理一些大家常問的問題，如果還是不清楚的話歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a>
 
-[SBB App (iOS)](https://apps.apple.com/tw/app/sbb-mobile/id294855237)<br>
-[SBB App (Android)](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&hl=zh_TW)
+<details>
+<summary class="faq-question">哪裡下載 SBB App?</summary>
+<div class="faq-answer">
+    👉 <a href="https://apps.apple.com/tw/app/sbb-mobile/id294855237">SBB App (iOS)</a><br>
+    👉 <a href="https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&hl=zh_TW">SBB App (Android)</a>
+</div>
+</details>
 
-- 什麼是半價卡？什麼是 STP？
+<details>
+<summary class="faq-question">什麼是半價卡？什麼是 STP？</summary>
+<div class="faq-answer">
+    
+  {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
+  <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a><br>
 
-{% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+  如果你打算買半價卡或 STP 的話，可以參考以下購買連結：👉 <a href="https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072">KKday 買半價卡</a> 與 👉 <a href="http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072">KKday 買 STP</a>
+</div>
+</details>
 
-如果你打算買半價卡或 STP 的話，可以參考以下購買連結：[KKday 買半價卡](https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072)與 [KKday 買 STP](http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072)。
+<details>
+<summary class="faq-question">一定要註冊 SBB App 會員嗎？</summary>
+<div class="faq-answer">
+    建議註冊，一勞永逸，不然你要一直重新輸入名字生日之類的。
+</div>
+</details>
 
-- 一定要註冊嗎？
+<details>
+<summary class="faq-question">遇到查票怎麼辦？</summary>
+<div class="faq-answer">
+    跟他說聲 Hi ，然後給他看 QR Code 即可。有時候他會跟你要護照來驗證身份，核對票上面的名字。
+</div>
+</details>
 
-建議註冊，一勞永逸，不然你要一直重新輸入名字生日之類的。
-
-- 遇到查票怎麼辦？
-
-跟他說聲 Hi ，然後給他看 QR Code 即可。
-
-- 我在 KKday 之類的旅遊平台買半價卡/Swiss Travel Pass，是不是無法加入 SBB App 中？
+<details>
+<summary class="faq-question">我在 KKday 之類的旅遊平台買半價卡/Swiss Travel Pass，是不是無法加入 SBB App 中？</summary>
+<div class="faq-answer">
 
 是，但可在 App 中手動加入 (Manually entered travelcards) 那邊選 Enter travelcard（見下圖），然後選半價卡 (Half Fare travelcard 1/2) 或者 GA Travelcard 2nd class/1st class，遇到查票時同時出示 App 車票 QR Code 與手機中的半價卡 PDF（或者把它印出來）。這裡半價卡的 1/2 意思是「二分之一」半價的意思，跟一等艙二等艙沒有關係，半價卡不分艙等。
+
+👉 <a href="https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072">KKday 買半價卡</a> 與 <a href="http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072">KKday 買 STP</a>
 
 <figure style="max-width: 300px; margin: 20px auto;">
   <img src="{{ '/img/sbb/sbb_halbtax_app.png' | relative_url }}" alt="手動加入半價卡">
   <figcaption>手動加入半價卡，這樣買票的時候就會顯示半價卡的價格</figcaption>
 </figure>
 
-- 我買了二等艙 STP，但我看要搭的車超擠，我還帶了大件行李，可以臨時升等成一等艙嗎？
 
-可以，這時候請見圖（7）各種票種，可以在 Additional offers 那邊選擇升等 Class Upgrade，但要注意，這個 Upgrade 沒有車票，只有升等的功能，你要先有車票才可以升級（如果你有二等艙 STP 那就是有車票了）。對日本熟悉的人可以想成乘車卷（二等艙的車票，可以是你的 STP 或點到點車票）和特急券（升等到一等艙），缺一不可。
+</div>
+</details>
 
-第一個選項 Supersvaer Class Upgrade 就是只升等這班車，原價 Point-to-point Class Upgrade 為 26 瑞郎，特價早鳥優惠 18.2 瑞郎（不可退改票）。而 Day Class Upgrade 就是整天都升等到一等艙，假設你有 STP 二等艙的票，你 + 50 瑞郎那一整天都可以搭一等艙。
+<details>
+<summary class="faq-question">我買了二等艙 STP，但我看要搭的車超擠，我還帶了大件行李，可以臨時升等成一等艙嗎？</summary>
+<div class="faq-answer">
+    可以，這時候請見圖（7）各種票種，可以在 Additional offers 那邊選擇升等 Class Upgrade，但要注意，這個 Upgrade 沒有車票，只有升等的功能，你要先有車票才可以升級（如果你有二等艙 STP 那就是有車票了）。對日本熟悉的人可以想成乘車卷（二等艙的車票，可以是你的 STP 或點到點車票）和特急券（升等到一等艙），缺一不可。
 
-- 二等艙跟一等艙有差嗎？
+    第一個選項 Supersvaer Class Upgrade 就是只升等這班車，原價 Point-to-point Class Upgrade 為 26 瑞郎，特價早鳥優惠 18.2 瑞郎（不可退改票）。而 Day Class Upgrade 就是整天都升等到一等艙，假設你有 STP 二等艙的票，你 + 50 瑞郎那一整天都可以搭一等艙。
+</div>
+</details>
 
-一等艙大概就是台灣高鐵商務車廂，或日本新幹線 Green Car，尊爵不凡，但就比較貴，位置很大，通常比較空，可以享受舒適的搭車體驗。二等車廂尤其上下班通勤時間會很多人，不到日本那種滿員電車程度，但也不會太舒服。
+<details>
+<summary class="faq-question">二等艙跟一等艙有差嗎？</summary>
+<div class="faq-answer">
+    一等艙大概就是台灣高鐵商務車廂，或日本新幹線 Green Car，尊爵不凡，但就比較貴，位置很大，通常比較空，可以享受舒適的搭車體驗。二等車廂尤其上下班通勤時間會很多人，不到日本那種滿員電車程度，但也不會太舒服。
+</div>
+</details>
 
-- 訂錯日期了能改嗎？能退嗎？
+<details>
+<summary class="faq-question">訂錯日期了能改嗎？能退嗎？</summary>
+<div class="faq-answer">
+    Point-to-point 「瑞士境內」出發之前可以改，通常做法是去你的買票的帳戶（所以建議註冊），找到退票的選項，全額退款之後再重買一張。如果是有跨國的車票就麻煩了，你需要打 SBB 客服或者直接去櫃檯找他們處理。
+</div>
+</details>
 
-Point-to-point 「瑞士境內」出發之前可以改，通常做法是去你的買票的帳戶（所以建議註冊），找到退票的選項，全額退款之後再重買一張。如果是有跨國的車票就麻煩了，你需要打 SBB 客服或者直接去櫃檯找他們處理。
+<details>
+<summary class="faq-question">我不知道這段路線有沒有包含在 STP 裡面？</summary>
+<div class="faq-answer">
+    馬上使用[省瑞票券速查](https://calculator.swisspro.tw/?p=validator) 輸入路線，馬上知道有沒有包含，還可看到各種小訣竅。
+</div>
+</details>
 
-- 我不知道這段路線有沒有包含在 STP 裡面？
-
-馬上使用[省瑞票券速查](https://calculator.swisspro.tw/?p=validator) 輸入路線，馬上知道有沒有包含，還可看到各種小訣竅
-
+<a href="#nav">👆 回到本文目錄</a>
