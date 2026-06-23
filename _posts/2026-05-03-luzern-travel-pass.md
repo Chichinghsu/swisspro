@@ -48,7 +48,7 @@ permalink: /blog/luzern-travel-pass/
 1. 琉森 ↔ 茵特拉肯 (Luzern Interlaken Express)
 1. 石丹峰 Stanserhorn
 1. 鐵力士山 Titlis
-1. 瑞吉山 Rigi
+1. 瑞吉山 Rigi - {% assign target_post = site.posts | where: "url", "/blog/rigi-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 1. 皮拉圖斯山 Pilatus （金色、銀色環遊）
 1. 琉森湖遊船
 1. 施圖斯 Stoos 最陡纜車
