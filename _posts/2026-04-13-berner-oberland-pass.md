@@ -2,7 +2,7 @@
 layout: post
 title: "【2026 伯恩高地通票】神秘的隱藏通票？划算嗎？一篇看懂"
 date: 2026-04-13
-categories: [精算攻略, 少女峰]
+categories: [精算攻略, 少女峰, 伯恩]
 image: /img/jungfrau/bopass_post.webp
 thumbnail: /img/jungfrau/bopass_post.webp
 og_image: /img/jungfrau/bopass_post.webp
