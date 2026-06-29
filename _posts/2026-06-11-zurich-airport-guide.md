@@ -603,6 +603,13 @@ SBB 提供的無人置物櫃稍微難找一點，在 check in 3，就是搭火�
 </div>
 </details>
 
+<details>
+<summary class="faq-question">蘇黎世機場好逛嗎？</summary>
+<div class="faq-answer">
+    安檢之前之後都有很多可以逛，請見此文<a href="#shopping">機場超市、購物、吃飯部分（點我）</a>。
+</div>
+</details>
+
 <a href="#nav">👆 回到最上面本文章選單</a>
 
 <a id="conclusions"></a>
