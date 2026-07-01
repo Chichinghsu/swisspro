@@ -16,6 +16,9 @@ permalink: /blog/berner-oberland-pass/
 - [範例行程](#example)
 - [結論 - 試算器，點一點就知道你要不要買這張](#conclusions)
 
+如果你是要看伯恩 Bern 城市的話，請見此攻略：
+- {% assign target_post = site.posts | where: "url", "/blog/bern-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
 <a id="bo-pass"></a>
 ## 伯恩高地通票 (Berner Oberland Pass)
 
