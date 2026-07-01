@@ -8,11 +8,11 @@ thumbnail: /img/zermatt/milano_post.webp
 og_image: /img/zermatt/milano_post.webp
 description: "直飛義大利米蘭之後想去策馬特要怎麼買票？（最新 2026 夏天鐵路施工資訊）有瑞士的 Swiss Travel Pass 或半價卡要怎麼買這段票，一篇帶你看懂（內附試算工具）。"
 permalink: /blog/zermatt-milano-how-to/
-last_modified_at: 2026-05-20
+last_modified_at: 2026-06-30
 ---
 
 <div style="background-color: #fff3f3; border-left: 5px solid #D32F2F; padding: 15px; margin: 20px 0;">
-<strong style="color: #D32F2F;"><i class="fas fa-exclamation-triangle"></i> 2026 施工資訊，重要交通警告（更新日期：2026/5/20）</strong>
+<strong style="color: #D32F2F;"><i class="fas fa-exclamation-triangle"></i> 2026 施工資訊，重要交通警告（更新日期：2026/6/30）</strong>
 <p>米蘭到策馬特的旅客請注意！2026 夏天 6/7 - 7/26 期間，米蘭往返瑞義邊境 Domodossola 部分路段停駛並改由替代公車接駁。建議預留充裕轉乘時間（多抓一到兩小時緩衝時間），隨時上 SBB App 或本站確認最新訊息（本站看到最新消息會馬上更新）。如果你打算這段期間內從米蘭往返策馬特，一定要先查好時刻表，並注意各種可能的異動，詳情請往下看，或直接跳到<a href="#survey">直接告訴我要怎麼辦</a>部分。</p>
 
 {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}
@@ -30,14 +30,14 @@ SBB App 是什麼？
  </figure>  
 
 <h3>懶人包</h3>
-<h4>第一階段：6/7 - 6/25</h4>
+<h4>第一階段：6/7 - 6/25 （已結束，請看第二階段）</h4>
 
-<p>米蘭 - Domodossola 火車路線維修（請見上圖），將由替代公車運行，車程約兩小時，巴士營運者為 BusItalia，每班車提供 52 個座位。搭車地點就在車站外：</p>
+<del><p>米蘭 - Domodossola 火車路線維修（請見上圖），將由替代公車運行，車程約兩小時，巴士營運者為 BusItalia，每班車提供 52 個座位。搭車地點就在車站外：</p>
 
 Domodossola: <a href="https://www.google.com/maps/place/Piazza+Giacomo+Matteotti,+28845+Domodossola+VB,+Italien/@46.1160703,8.2960566,124m/data=!3m1!1e3!4m6!3m5!1s0x4785f11399eb6801:0x12df464461ad4abb!8m2!3d46.1158028!4d8.2961125!16s%2Fg%2F119v98hv0?entry=ttu&g_ep=EgoyMDI2MDQyMC4wIKXMDSoASAFQAw%3D%3D">Piazza G. Matteotti (Google Maps)</a><br>
 米蘭中央車站：<a href="https://www.google.com/maps/search/45.48622705173492,+9.202224686054837?sa=X&ved=1t:242&ictx=111">Piazza IV Novembre (Google Maps)</a> 在 Hotel Gallia 旁
 
-<p>大多瑞士出發的列車只會開到瑞士 Brig，需自己轉火車到 Domodossola 再轉乘替代公車到米蘭中央車站。</p>
+<p>大多瑞士出發的列車只會開到瑞士 Brig，需自己轉火車到 Domodossola 再轉乘替代公車到米蘭中央車站。</p></del>
 
 <h4>買票？班次？</h4>
 <p>建議直接從<a href="https://www.trenitalia.com/en.html">義大利國鐵 Trenitalia 官網</a>查詢班次與購票，買米蘭到 Domodossola 的接駁公車票（16 歐元），Domodossola 後往策馬特皆為 Swiss Travel Pass (STP) 適用範圍。</p>
