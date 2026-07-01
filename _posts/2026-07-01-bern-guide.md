@@ -150,7 +150,11 @@ permalink: /blog/bern-guide/
 
 大部分的旅人應該都是搭火車抵達伯恩車站 Bern Bahnhof，這附近有許多吃的，也有不少置物櫃可以寄物。公車和輕軌都可在這邊轉乘，不過伯恩不大，用走的就可以去到大部分的景點。
 
-伯恩車站旁邊（偏北）就是伯恩大學，有免費廁所可以上，附近還有麥當勞跟很大的 Coop、郵局、美食廣場 Welle7（[Google Maps](https://maps.app.goo.gl/ABopKteHNWAi5dtZA) ，裡面有 Migros 賣熱食、肯德基、泰式料理、漢堡等等），不知道要吃什麼的話，這邊大約 10 - 15 瑞郎可解決一餐。關於瑞士常見的平價美食，可以參考這篇：
+伯恩車站旁邊（偏北）就是伯恩大學，有免費廁所可以上，附近還有麥當勞跟很大的 Coop、郵局、美食廣場 Welle7（<a href="https://maps.app.goo.gl/ABopKteHNWAi5dtZA" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Google Maps
+</a>，裡面有 Migros 賣熱食、肯德基、泰式料理、漢堡等等），不知道要吃什麼的話，這邊大約 10 - 15 瑞郎可解決一餐。關於瑞士常見的平價美食，可以參考這篇：
 
 - {% assign target_post = site.posts | where: "url", "/blog/food-guide-switzerland/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
@@ -171,15 +175,27 @@ permalink: /blog/bern-guide/
 
 瑞士德文的醫院 Spital 與德國德文的醫院 Krankenhaus 不同，有趣的是德國版本的 Krankenhaus 直接翻譯為「病院」，與日文和台語相同。
 
-沿途會看到很多華麗的噴泉，其中有個噴泉（[Google Maps](https://maps.app.goo.gl/Y4fwTNpFWMxZtkaY8) 在天文鐘附近）上面的雕像有點獵奇，有魔鬼在吃嬰兒。這座被稱為食童噴泉 Kindlifresserbrunnen 的景點是伯恩的特色之一，至於為啥有這個？眾說紛紜，不過主流說法好像是，威脅小孩用的，你不乖的話就會被吃掉，怕爆。
+沿途會看到很多華麗的噴泉，其中有個噴泉 （<a href="https://maps.app.goo.gl/Y4fwTNpFWMxZtkaY8" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Google Maps
+</a> 在天文鐘附近）上面的雕像有點獵奇，有魔鬼在吃嬰兒。這座被稱為食童噴泉 Kindlifresserbrunnen 的景點是伯恩的特色之一，至於為啥有這個？眾說紛紜，不過主流說法好像是，威脅小孩用的，你不乖的話就會被吃掉，怕爆。
 
 ### 天文鐘 Zytglogge 
-[Google Maps](https://maps.app.goo.gl/WC5VfoFpmuN1eYg96)
+<a href="https://maps.app.goo.gl/WC5VfoFpmuN1eYg96" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Google Maps
+</a>
 
 接著繼續走會看到天文鐘，整點之前大概五分鐘，鐘樓上的發條機關就會開始動，不過整個過程可能不到一分鐘，也沒有特別華麗。這邊先跟大家說，期待別太高，因為就是稍微動一下，叮叮，沒了。整點到的時候就叮一下，略嫌失望。
 
 ### 國會大廈 Bundeshaus
-[Google Maps](https://maps.app.goo.gl/L74ufNvWffL9dbRm9)
+<a href="https://maps.app.goo.gl/L74ufNvWffL9dbRm9" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Google Maps
+</a>
 
 看到天文鐘往右轉，可以看到瑞士的「凱達格蘭大道」聯邦廣場 Bundesplatz，也就是大家靜坐抗議的地方，有什麼不滿，就來這邊抗議，後面就是國會大廈。每次有什麼新聞的話，都會用這裡的畫面。
 
@@ -187,9 +203,21 @@ permalink: /blog/bern-guide/
 
 有幾種選擇，這邊附上官網連結，有興趣者記得提早預約，參觀記得帶護照：
 
-1. [參觀建築物本身](https://www.parlament.ch/en/services/visiting-the-parliament-building/guided-tours-parliament-building)
-1. [在會期的時候旁聽開會現場](https://www.parlament.ch/en/services/visiting-the-parliament-building/visits-when-parliament-session)
-1. [Open Day](https://www.parlament.ch/en/services/visiting-the-parliament-building/open-days)
+1. <a href="https://www.parlament.ch/en/services/visiting-the-parliament-building/guided-tours-parliament-building" 
+       target="_blank" 
+       rel="nofollow noopener">
+       參觀建築物本身
+</a>
+1. <a href="https://www.parlament.ch/en/services/visiting-the-parliament-building/visits-when-parliament-session" 
+       target="_blank" 
+       rel="nofollow noopener">
+       在會期的時候旁聽開會現場
+</a>
+1. <a href="https://www.parlament.ch/en/services/visiting-the-parliament-building/open-days" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Open Day
+</a>
 
 比較有趣的是 Open Day，每年只有幾天，今年是瑞士國慶日 8/1，還有 10/24，這天國會大廈開放大眾參觀，無需預約。
 
@@ -197,7 +225,11 @@ permalink: /blog/bern-guide/
 
 回到天文鐘再繼續往前走，就會看到愛因斯坦故居，現在變成樓下是咖啡廳，樓上是愛因斯坦故居博物館。簡單整理資訊如下：
 
-- 地址：Kramgasse 49, Bern [Google Maps](https://maps.app.goo.gl/TKfp5cJy5vsirGj69)
+- 地址：Kramgasse 49, Bern <a href="https://maps.app.goo.gl/TKfp5cJy5vsirGj69" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Google Maps
+</a>
 - 門票：成人 8 瑞郎、學生或 Swiss Travel Pass (STP) 持有者 6 瑞郎
 - 開放時間：每天 10:00 - 17:00
 
@@ -248,8 +280,6 @@ permalink: /blog/bern-guide/
 
 <a href="#nav">👆 回到最上面選單</a>
 
-
-
 <a id="transportation"></a>
 ## 順路一遊攻略
 
@@ -288,7 +318,11 @@ permalink: /blog/bern-guide/
 <a id="hint"></a>
 ## 隱藏景點：地下國歌與瑞士大港開唱
 
-最後加碼隱藏景點，位於伯恩南部的 Gurten 小山丘（讀起來像是古爾騰），這邊是伯恩在地人放鬆休閒踏青的地方。需先搭公車或輕軌到 Wabern, Gurtenbahn 站或者火車到 Wabern bei Bern 站，走五分鐘轉纜車上山，幾分鐘就到頂了。一樣用 SBB App 買票即可，山頂那站為 Gurten Kulm ([Google Maps](https://maps.app.goo.gl/BaBs186TDoSANUA16))。上山遠眺伯恩景色，還有遠方的阿爾卑斯山。
+最後加碼隱藏景點，位於伯恩南部的 Gurten 小山丘（讀起來像是古爾騰）<a href="https://maps.app.goo.gl/BaBs186TDoSANUA16" 
+       target="_blank" 
+       rel="nofollow noopener">
+       (Google Maps)
+</a>，這邊是伯恩在地人放鬆休閒踏青的地方。需先搭公車或輕軌到 Wabern, Gurtenbahn 站或者火車到 Wabern bei Bern 站，走五分鐘轉纜車上山，幾分鐘就到頂了。一樣用 SBB App 買票即可，山頂那站為 Gurten Kulm。上山遠眺伯恩景色，還有遠方的阿爾卑斯山。
 
 重點是這邊每年夏天會有「瑞士大港開唱」 <a href="https://gurtenfestival.ch/de/" 
        target="_blank" 
@@ -300,7 +334,11 @@ permalink: /blog/bern-guide/
 
 這首歌名是 W. Nuss vo Bümpliz，Bümpliz 是伯恩的一個區，而 W. Nuss 是某人的名字，W. Nuss 在德文中念起來就像是維納斯（德文 W 念成 V），所以硬要說的話歌名可以說是 Bümpliz 的女神。
 
-在你前往伯恩的火車上，不妨打開這個 Youtube [Patent Ochsner - W. Nuss vo Bümpliz (Live am Gurtenfestival 2019) (YouTube)](https://www.youtube.com/watch?v=3Prvkj3UWeE) 聽聽看，他們 2019 年在 Gurtenfestival 的現場版本。下次遇到瑞士人，記得跟他說，我知道這首歌！這就好像瑞士人跟你說他們知道挪威的森林那種感覺。
+在你前往伯恩的火車上，不妨打開這個 Youtube <a href="https://www.youtube.com/watch?v=3Prvkj3UWeE" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Patent Ochsner - W. Nuss vo Bümpliz (Live am Gurtenfestival 2019)
+</a> 聽聽看，他們 2019 年在 Gurtenfestival 的現場版本。下次遇到瑞士人，記得跟他說，我知道這首歌！這就好像瑞士人跟你說他們知道挪威的森林那種感覺。
 
 <a href="#nav">👆 回到最上面選單</a>
 
