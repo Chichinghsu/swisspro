@@ -140,12 +140,12 @@ permalink: /blog/buy-guide-switzerland/
   </div>
 
   <div class="ssl-card">
-    <div class="ssl-photo">🍫</div>
+    <div class="ssl-photo"><img src="/img/food/cailler.webp" alt="Cailler 巧克力" onclick="sslShowImage('/img/food/cailler.webp','Cailler 巧克力')"></div>
     <div class="ssl-body">
       <div class="ssl-name">Cailler 巧克力</div>
       <div class="ssl-meta">Coop 或 Migros 等超市 · <b>5 瑞郎（台幣 200）以下</b></div>
       <div class="ssl-meta">瑞士法語區的牌子，吃起來就 ... 巧克力，一片一片的適合送人，有非常多種口味。他也有巧克力工廠 Maison Cailler 可參觀 (<a href="https://maps.app.goo.gl/ERsQrFJYbFTABVcs6" target="_blank" rel="noopener">Google Maps</a>)，在知名起司產地 Gruyères 附近，可以兩個一起去，那邊還有異形博物館。</div>
-      <button class="ssl-btn" data-id="cailler" data-flag="🍫" data-name="Cailler 巧克力" data-price="5 瑞郎（台幣 200）以下" data-cat="supermarket">+ 加入清單</button>
+      <button class="ssl-btn" data-id="cailler" data-flag="🍫" data-name="Cailler 巧克力" data-price="5 瑞郎（台幣 200）以下" data-cat="supermarket" data-img="/img/food/cailler.webp">+ 加入清單</button>
     </div>
   </div>
   <a href="#shopping_list">直接跳到我的購物清單 👇</a>
@@ -214,22 +214,22 @@ permalink: /blog/buy-guide-switzerland/
   </div>
 
   <div class="ssl-card">
-    <div class="ssl-photo">🥤</div>
+    <div class="ssl-photo"><img src="/img/food/elmer.webp" alt="Elmer Citro 瑞士雪碧" onclick="sslShowImage('/img/food/elmer.webp','Elmer Citro 瑞士雪碧')"></div>
     <div class="ssl-body">
       <div class="ssl-name">Elmer Citro 瑞士雪碧</div>
       <div class="ssl-meta">Coop, Migros, Denner 等超市 · <b>5 瑞郎（台幣 200）以下</b></div>
       <div class="ssl-meta">位於瑞士 Elm 這個小鎮所生產，你去那邊爬山的話路邊還有免費的這個飲料可以喝。喝起來就是雪碧的感覺，檸檬味道稍微重一點，很甜，瑞士特色飲品，可以喝喝看。</div>
-      <button class="ssl-btn" data-id="elmer" data-flag="🥤" data-name="Elmer Citro 瑞士雪碧" data-price="5 瑞郎（台幣 200）以下" data-cat="supermarket">+ 加入清單</button>
+      <button class="ssl-btn" data-id="elmer" data-flag="🥤" data-name="Elmer Citro 瑞士雪碧" data-price="5 瑞郎（台幣 200）以下" data-cat="supermarket" data-img="/img/food/elmer.webp">+ 加入清單</button>
     </div>
   </div>
 
   <div class="ssl-card">
-    <div class="ssl-photo">🥤</div>
+    <div class="ssl-photo"><img src="/img/food/apfel.webp" alt="Apfelschorle 瑞士蘋果西打" onclick="sslShowImage('/img/food/apfel.webp','Apfelschorle 瑞士蘋果西打')"></div>
     <div class="ssl-body">
       <div class="ssl-name">Apfelschorle 瑞士蘋果西打</div>
       <div class="ssl-meta">Coop, Migros, Denner 等超市 · <b>5 瑞郎（台幣 200）以下</b></div>
       <div class="ssl-meta">瑞士國民飲料蘋果汽水 Apfelschorle，但這個就沒有特定什麼品牌，其實都蠻好喝的。大家夏天上班蠻常會喝這個，就是有氣的蘋果汁。平常常喝的牌子是 Coop 賣的綠色瓶蓋版本，紅色瓶蓋的也很好喝，一瓶 1.6 瑞郎左右約 50 台幣。</div>
-      <button class="ssl-btn" data-id="apfelschorle" data-flag="🥤" data-name="Apfelschorle 瑞士蘋果西打" data-price="5 瑞郎（台幣 200）以下" data-cat="supermarket">+ 加入清單</button>
+      <button class="ssl-btn" data-id="apfelschorle" data-flag="🥤" data-name="Apfelschorle 瑞士蘋果西打" data-price="5 瑞郎（台幣 200）以下" data-cat="supermarket" data-img="/img/food/apfel.webp">+ 加入清單</button>
     </div>
   </div>
   <a href="#shopping_list">直接跳到我的購物清單 👇</a>
