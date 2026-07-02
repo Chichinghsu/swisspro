@@ -8,8 +8,10 @@ thumbnail: /img/meteoswiss/meteoswiss_app_guide.webp
 og_image:  /img/meteoswiss/meteoswiss_app_guide.webp
 description: "此文介紹瑞士自由行不可或缺的神級天氣 App。看看天氣 App 再看看 Webcam，確保萬無一失，一篇帶你看懂（附穿著推薦與票價試算工具）。"
 permalink: /blog/meteoswiss-app-guide/
+last_modified_at: 2026-07-02
 ---
 
+<a id="nav"></a>
 快速導覽
 - [瑞士旅遊怎麼穿](#wear)
 - [天氣 App 介紹](#app)
@@ -287,10 +289,20 @@ permalink: /blog/meteoswiss-app-guide/
 })();
 </script>
 
+<div class="tip-box" markdown="1">
+#### 2026 年 6 月更新
+
+如果你看到全都三十幾度，那恭喜你，熱浪來襲。不幸的是，瑞士很少冷氣。建議就是能喝水就喝水，小心中暑。如果三十幾度的話，那也不用帶什麼羽絨衣之類的，真的很熱，沒冷氣的三十幾度很難受。更神秘的是瑞士幾乎沒有人在撐陽傘，所以你可以看要融入當地，熱到不行，還是不管眾人眼光照撐。
+
+接下來 7 月似乎還有一波熱浪，請做好準備，一定要喝足夠的水。
+
+</div>
+
 歡迎使用本站的瑞士旅遊小工具
 - [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
 - [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
 
+<a href="#nav">👆 回到最上面選單</a>
 
 <a id="wear"></a>
 ## 瑞士旅遊怎麼穿搭？
@@ -492,6 +504,8 @@ initWidget();
 
 除此之外建議可加毛帽，不然感覺耳朵隨時會掉下來，真的很怕冷的話再加圍巾與手套。鞋子部分不上山只在市區的話，倒是不太需要擔心，瑞士人行道鏟雪滿快的，如果不是真的下很誇張大的雪，一般運動鞋走在鏟完雪的路沒有什麼問題（還是要小心滑倒）。
 
+<a href="#nav">👆 回到最上面選單</a>
+
 <a id="app"></a>
 ## 天氣 MeteoSwiss App 介紹
 
@@ -499,8 +513,8 @@ initWidget();
 
 下載 MeteoSwiss App
 
-[SBB App (iOS)](https://apps.apple.com/tw/app/meteoswiss/id589772015)<br>
-[SBB App (Android)](https://play.google.com/store/apps/details?id=ch.admin.meteoswiss&hl=zh-TW)
+<a href="https://apps.apple.com/tw/app/meteoswiss/id589772015" target="_blank" rel="nofollow noopener">SBB App (iOS)</a><br>
+<a href="https://play.google.com/store/apps/details?id=ch.admin.meteoswiss&hl=zh-TW" target="_blank" rel="nofollow noopener">SBB App (Android)</a>
 
 以下簡介 MeteoSwiss App 重要功能，可搭配下方截圖閱讀。首先點進去 App 可以設定地點，以下圖為例假設我們選蘇黎世，見圖(1)，可看到一週預報的溫度曲線圖與天氣概況圖案，還有降雨預報。這邊可以放置不只一個城市，可把你要去的地方都新增進去。
 
@@ -534,6 +548,7 @@ initWidget();
   </figcaption>
 </figure>
 
+<a href="#nav">👆 回到最上面選單</a>
 
 <a id="webcam"></a>
 ## 山上 Webcam 一覽 
@@ -542,15 +557,17 @@ initWidget();
 
 常去觀光景點官方 Webcam 幫大家整理如下
 
-- [少女峰地區 Jungfrau](https://www.jungfrau.ch/en-gb/live/webcams/)
-- [策馬特地區 Zermatt](https://zermatt.swiss/en/info/webcams)
-- [皮拉圖斯山 Pilatus](https://pilatus.ch/live#c21147)
-- [瑞吉山 Rigi](https://www.rigi.ch/en/inform/webcams)
-- [鐵力士山 Titlis](https://www.titlis.ch/en/webcams)
-- [石丹峰 Stanserhorn](https://www.stanserhorn.ch/en/informations/weather-webcam)
-- [施圖斯 Stoos](https://www.stoos.ch/en/pages/webcams)
+- <a href="https://www.jungfrau.ch/en-gb/live/webcams/" target="_blank" rel="nofollow noopener">少女峰地區 Jungfrau</a>
+- <a href="https://zermatt.swiss/en/info/webcams" target="_blank" rel="nofollow noopener">策馬特地區 Zermatt</a>
+- <a href="https://pilatus.ch/live#c21147" target="_blank" rel="nofollow noopener">皮拉圖斯山 Pilatus</a>
+- <a href="https://www.rigi.ch/en/inform/webcams" target="_blank" rel="nofollow noopener">瑞吉山 Rigi</a>
+- <a href="https://www.titlis.ch/en/webcams" target="_blank" rel="nofollow noopener">鐵力士山 Titlis</a>
+- <a href="https://www.stanserhorn.ch/en/informations/weather-webcam" target="_blank" rel="nofollow noopener">石丹峰 Stanserhorn</a>
+- <a href="https://www.stoos.ch/en/pages/webcams" target="_blank" rel="nofollow noopener">施圖斯 Stoos</a>
 
 如果你想去的沒有在上面，可搜尋地名 + Webcam，一般瑞士山上都會有即時影像。
+
+<a href="#nav">👆 回到最上面選單</a>
 
 <a id="weather"></a>
 ## 瑞士月均溫和降雨概況
@@ -864,6 +881,7 @@ initWidget();
 })();
 </script>
 
+<a href="#nav">👆 回到最上面選單</a>
 
 <a id="conclusions"></a>
 ## 結論
@@ -883,3 +901,10 @@ initWidget();
     </a>
 </div>
 
+<a href="#nav">👆 回到最上面選單</a>
+
+你可能也想要看這些 ... 
+- {% assign target_post = site.posts | where: "url", "/blog/food-guide-switzerland/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/meteoswiss-app-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/saver-day-pass/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
