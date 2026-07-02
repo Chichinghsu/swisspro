@@ -127,6 +127,7 @@ load();
 <p><b>本站免費瑞士旅遊諮詢</b>
 <br>歡迎去省瑞計劃 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a></p></div>
 
+<a id="nav"></a>
 快速導覽
 - [簡介](#intro)
 - [遊船](#boat)
@@ -162,20 +163,34 @@ load();
 
 主要參觀景點整理如上 1 - 4，分別為 
 
-1. 勞芬城堡 (Schloss Laufen)：門票 5 瑞郎（約台幣 200），有售票機可以買，通常不用排隊，可以非常近距離看瀑布。裡面觀景台有 [Grand Tour of Switzerland](https://www.myswitzerland.com/en-ch/experiences/experience-tour/grand-tour-of-switzerland/) 紅色框框可以搜集及拍照。
+1. 勞芬城堡 (Schloss Laufen)：門票 5 瑞郎（約台幣 200），有售票機可以買，通常不用排隊，可以非常近距離看瀑布。裡面觀景台有 <a href="https://www.myswitzerland.com/en-ch/experiences/experience-tour/grand-tour-of-switzerland/" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Grand Tour of Switzerland
+</a> 紅色框框可以搜集及拍照。
 1. 遊船乘船處（還有餐廳與紀念品店）：搭乘遊船的地方，有三種路線可以選擇，詳情請見本文下方[遊船部分](#boat)。
 1. 北岸觀景拍照點，可拍整個萊茵瀑布：這邊有些椅子可以坐著休息，欣賞瀑布全景，還有瑞士所有州的州旗，可學習瑞士地理歷史。
 1. 火車橋：火車與行人共用的橋，可以近距離體驗火車從身邊呼嘯而過的震撼。此路線為南岸車站 Schloss Laufen am Rheinfall 往返沙夫豪森 Schaffhausen 的路線（單線雙向通行）。想拍火車的話可以先查好時刻表，守株待兔。
 
+<a href="#nav">👆 回到最上面選單</a>
+
 <a id="boat"></a>
 ## 遊船
 
-參觀萊茵瀑布首推搭乘遊船，遊船的路線有四條，Swiss Travel Pass (STP) 皆<span style="color:red">沒有</span>包含，都必須另外購票。[搭船處 (Google Maps)](https://maps.app.goo.gl/JnQnasPZ8X9wp1Ce6) 位於北岸，見上方介紹圖。
+參觀萊茵瀑布首推搭乘遊船，遊船的路線有四條，Swiss Travel Pass (STP) 皆<span style="color:red">沒有</span>包含，都必須另外購票。<a href="https://maps.app.goo.gl/JnQnasPZ8X9wp1Ce6" 
+       target="_blank" 
+       rel="nofollow noopener">
+       搭船處 (Google Maps)
+</a> 位於北岸，見上方介紹圖。
 
 - {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
-遊船路線分別為（整理自[遊船官網](https://rhyfall-maendli.ch/en/)）：
+遊船路線分別為（整理自<a href="https://rhyfall-maendli.ch/en/" 
+       target="_blank" 
+       rel="nofollow noopener">
+       遊船官網
+</a>）：
 
 | 方案 | 路線 | 行程 | 票價 | 時間（分） | 
 | :--- | :--- | :--- | :--- | :--- |
@@ -188,11 +203,17 @@ load();
 
 **購票**
 
-可以現場看天氣情況購票，現場大排長龍的話，也可直接[線上官網訂票（英文）](https://rhyfall-maendli.ch/en/boat-tours-experiences/)，直接跳過排隊人潮。
+可以現場看天氣情況購票，現場大排長龍的話，也可直接<a href="https://rhyfall-maendli.ch/en/boat-tours-experiences/" 
+       target="_blank" 
+       rel="nofollow noopener">
+       線上官網訂票（英文）
+</a>，直接跳過排隊人潮。這邊常常有大量印度人在排隊買票。
 
 **值得搭嗎？**
 
 推薦選一條線搭乘，近距離體驗瀑布震撼，喜歡刺激的話可以搭 1 號黃色船登島，想體驗一下就搭 4 號或 5 號船 15/30 分鐘靠近瀑布被水噴一下。紅色船只能當來從北到南或南到北的交通工具。
+
+<a href="#nav">👆 回到最上面選單</a>
 
 <figure>
   <img src="{{ '/img/rheinrall_cover.png' | relative_url }}" alt="萊茵瀑布">
@@ -217,11 +238,15 @@ load();
 出站後有電梯可以搭，就不用走下去。建議路線如下：
 
 1. 從車站漫步到乘船處會路過上圖 3 的拍照點，可拍整個萊茵瀑布（拍起來大概如上圖）
-1. 走到上圖 2 乘船處的地方購票並搭船，可自由選擇方案：[本文上方方案件介紹](#boat)
+1. 走到上圖 2 乘船處的地方購票並搭船，可自由選擇方案：[本文上方 遊船方案介紹](#boat)
 1. 遊船搭完後，回到上圖 2 乘船處，搭 2號 接駁船至南岸
 1. 下船後往上走，可在旁邊售票機買城堡與觀景台入場票（如果沒人排隊的話，也可搭電梯上去再買，那邊也有一台售票機），票價 5 瑞郎
 1. 接著搭電梯上去後左轉有小小的城堡博物館，可以刷票進去欣賞（同一張票），有一些勞芬城堡的歷史簡介（上電梯後右轉有紀念品店及免費廁所可使用，還有餐廳與食物路邊攤）
-1. 刷票進到觀景台，一路向下有好幾層可以近距離欣賞瀑布壯闊的景色，裡面有 [Grand Tour of Switzerland](https://www.myswitzerland.com/en-ch/experiences/experience-tour/grand-tour-of-switzerland/)萊茵瀑布的紅色框框可以拍照
+1. 刷票進到觀景台，一路向下有好幾層可以近距離欣賞瀑布壯闊的景色，裡面有 <a href="https://www.myswitzerland.com/en-ch/experiences/experience-tour/grand-tour-of-switzerland/" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Grand Tour of Switzerland
+</a>萊茵瀑布的紅色框框可以拍照
 1. 最後到出口的地方旁邊就是南岸的 Schloss Laufen am Rheinfall 可直接搭火車回蘇黎世，或去參觀沙夫豪森 Schaffhausen 市
 
 <figure>
@@ -234,7 +259,11 @@ load();
 搭火車到南岸 Schloss Laufen am Rheinfall，一樣 SBB App 買票即可，出站後會看到電梯與售票機。接著參觀路線則是上面的步驟 4. 到 6.，最後到出口地方，有兩個選擇
 
 1. 出口出去後往下走，搭乘 2號 紅色船（3 瑞郎）到達北岸乘船處（上圖 2 的地方），可以轉搭其他的船
-1. 出口出去後往上走，回到火車站的地方，搭電梯上去回到原本的地方，但右轉，那邊有個遊客中心可以免費上廁所，旁邊叉路下坡走鐵路橋過河到北岸，可以直接導航這座橋 [Google Maps 地標](https://maps.app.goo.gl/xzDaJPzmFQQ1MQ9g7)
+1. 出口出去後往上走，回到火車站的地方，搭電梯上去回到原本的地方，但右轉，那邊有個遊客中心可以免費上廁所，旁邊叉路下坡走鐵路橋過河到北岸，可以直接導航這座橋 <a href="https://maps.app.goo.gl/xzDaJPzmFQQ1MQ9g7" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Google Maps 地標
+</a>
 
 到達北岸之後就可在北岸欣賞景點，接著可沿著上面「北進南出」步驟 1. 與 2. 逛逛與搭船。最後可以搭 2 號船或再走鐵路橋，返回南岸去搭火車回蘇黎世。為什麼要返回南岸呢？因為這樣可以節省車票錢，覺得沒差的話，也可直接北岸火車站搭車走人。
 
@@ -257,7 +286,11 @@ load();
 
 到沙夫豪森轉車或搭 S9 的話，來回日票就要 24.4 瑞郎（持半價卡，原價 48.8 瑞郎），且因為此票包含範圍已經出蘇黎世州，所以不是 24 小時票，只有買票當日有效。
 
-買這張票 ZVV 全區九點票可順便去參觀[瑞士蓮巧克力之家](https://www.kkday.com/zh-tw/product/134871-lindt-chocolate-ticket-zurich-switzerland?cid=24072)，或者去爬玉特利山 Uetliberg，{% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}
+買這張票 ZVV 全區九點票可順便去參觀<a href="https://www.kkday.com/zh-tw/product/134871-lindt-chocolate-ticket-zurich-switzerland?cid=24072" 
+       target="_blank" 
+       rel="nofollow noopener">
+       瑞士蓮巧克力之家
+</a>，或者去爬玉特利山 Uetliberg，{% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}
 蘇黎世近郊其他景點，請看此文：
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 </div>
@@ -275,6 +308,8 @@ load();
     </a>
 </div>
 
+<a href="#nav">👆 回到最上面選單</a>
+
 <a id="miniaturwelt"></a>
 ## 加碼景點：瑞士小人國
 
@@ -290,7 +325,11 @@ load();
     - 週一至週五 11:00 - 17:30 
     - 週六週日 10:00 - 17:30
 
-詳情及購票可至[官網](https://smilestones.ch/en/visitor-information/)，也可現場買票。
+詳情及購票可至<a href="https://smilestones.ch/en/visitor-information/" 
+       target="_blank" 
+       rel="nofollow noopener">
+       官網
+</a>，也可現場買票。
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.0938043448036!2d8.6132661!3d47.6825982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47907fe4eca29ecb%3A0xe1cb82756764b20c!2sSmilestones%20-%20Miniaturwelt%20am%20Rheinfall!5e0!3m2!1sde!2sch!4v1779656717747!5m2!1sde!2sch"
         class="map-frame" 
@@ -316,3 +355,12 @@ load();
 - [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
 - [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
 </div>
+
+<a href="#nav">👆 回到最上面選單</a>
+
+你可能也想要看這些 ... 
+- {% assign target_post = site.posts | where: "url", "/blog/food-guide-switzerland/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/meteoswiss-app-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/saver-day-pass/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
