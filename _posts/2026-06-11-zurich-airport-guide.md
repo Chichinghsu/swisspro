@@ -336,7 +336,12 @@ NON_SCHENGEN.forEach(a => {
 <a id="transportation"></a>
 ## 蘇黎世機場到市區及其他城市交通方式
 
-要從蘇黎世機場到市區，推薦直接搭火車，十分鐘左右就可以到蘇黎世中央車站。要搭火車的話，拿完行李之後，出去沿著 Train Station 或者 Train/Bahn 的指標（Bahn 為火車的德文），即可走到機場的火車站。如果要直接從機場去琉森、策馬特、少女峰之類的也是都在同個地方搭火車。
+要從蘇黎世機場到市區，推薦直接搭火車，十分鐘左右就可以到蘇黎世中央車站。要搭火車的話，拿完行李之後，出去沿著 Train Station 或者 Train/Bahn 的指標（Bahn 為火車的德文），即可走到機場的火車站（見下圖）。如果要直接從機場去琉森、策馬特、少女峰之類的也是都在同個地方搭火車。
+
+<figure>
+  <img src="{{ '/img/zurich/zrh_train_station.webp' | relative_url }}" alt="蘇黎世機場火車站">
+  <figcaption>蘇黎世機場火車站，共有四個月台</figcaption>
+</figure>
 
 建議出發前先買好 Swiss Travel Pass (STP) 或者半價卡，怕買錯的話也可以到蘇黎世機場再買，裡面有瑞士鐵路 SBB 的購票中心。已經買好 STP 的話，確定日期有 cover 到就可以直接去月台上車。
 
@@ -422,7 +427,11 @@ function moveSlider(direction) {
 
 ### The Circle 購物廣場
 
-機場逛不夠的話，機場旁邊有普立茲克建築獎得主山本理顯的作品，The Circle 購物廣場 ([Google Maps](https://maps.app.goo.gl/T8qzM23YjrzHzeMq9))，這邊是有點半室內、半室外的那種購物空間。不久之前才開張的新型購物廣場，有空閒時間的話也可來這邊逛逛，旁邊還有個小公園可以踏青。裡面有一些壽司店、酒吧、咖啡廳等等，太早到機場的話可以在這邊休息逛逛。
+機場逛不夠的話，機場旁邊有普立茲克建築獎得主山本理顯的作品，The Circle 購物廣場 (<a href="https://maps.app.goo.gl/T8qzM23YjrzHzeMq9" 
+       target="_blank" 
+       rel="nofollow noopener">
+       Google Maps
+</a>)，這邊是有點半室內、半室外的那種購物空間。不久之前才開張的新型購物廣場，有空閒時間的話也可來這邊逛逛，旁邊還有個小公園可以踏青。裡面有一些壽司店、酒吧、咖啡廳等等，太早到機場的話可以在這邊休息逛逛。
 
 <a href="#nav">👆 回到最上面本文章選單</a>
 
@@ -501,7 +510,18 @@ function moveSlider(direction) {
 
 ### 無人置物櫃
 
-SBB 提供的無人置物櫃稍微難找一點，在 check in 3，就是搭火車從月台上來的那一層樓，旁邊有間運動用品店 Ochsner Sport。目前 2026 價格（來源：[官網](https://www.sbb.ch/en/travel-information/stations/find-station/station.3016.zuerich-flughafen.html#equipment_lockers)）：
+SBB 提供的無人置物櫃稍微難找一點，在火車下車後從月台上來的那一層樓，找到 3、4 月台的指標，就在這個月台手扶梯旁邊的小角落，需要稍微找一下。
+
+<figure>
+  <img src="{{ '/img/zurich/locker.webp' | relative_url }}" alt="蘇黎世機場無人置物櫃">
+  <figcaption>蘇黎世機場無人置物櫃，在 3、4 月台指標旁邊的小角落</figcaption>
+</figure>
+
+目前 2026 價格（來源：<a href="https://www.sbb.ch/en/travel-information/stations/find-station/station.3016.zuerich-flughafen.html#equipment_lockers" 
+       target="_blank" 
+       rel="nofollow noopener">
+       官網
+</a>）：
 
 | 種類 | 大小（公分） | 六小時內 瑞郎（台幣） | 超時 每六小時 瑞郎（台幣） | 數量 （個）|
 | :--- | :--- | :--- |
@@ -521,7 +541,11 @@ SBB 提供的無人置物櫃稍微難找一點，在 check in 3，就是搭火�
 
 ### 有人寄物處
 
-有人行李寄物處位於 Check in 2 的 Row 4 旁邊，開放時間是每天 6:00 到 22:00，不過價格比置物櫃還要貴非常多。目前 2026 價格（來源：[官網](https://www.flughafen-zuerich.ch/en/passengers/practical/services/services-for-travellers/baggageservices)）：
+有人行李寄物處位於 Check in 2 的 Row 4 旁邊，開放時間是每天 6:00 到 22:00，不過價格比置物櫃還要貴非常多。目前 2026 價格（來源：<a href="https://www.flughafen-zuerich.ch/en/passengers/practical/services/services-for-travellers/baggageservices" 
+       target="_blank" 
+       rel="nofollow noopener">
+       官網
+</a>）：
 
 |  | 四小時內 瑞郎（台幣） | 一天 瑞郎（台幣） | 
 | :--- | :--- | :--- |
@@ -533,7 +557,11 @@ SBB 提供的無人置物櫃稍微難找一點，在 check in 3，就是搭火�
 
 ### 行李寄送服務
 
-最後懶得拿行李的話，瑞士國鐵 SBB 也有行李寄送服務 [官網](https://www.sbb.ch/en/offers/luggage-transport-station-to-station)，幫你把行李從一個火車站寄到另一個火車站。一件 12 瑞郎，不可超過 23 公斤，運送時間約兩天。官網裡面有寫可以寄的車站，基本上大站都有，你就只要輕裝上陣即可。
+最後懶得拿行李的話，瑞士國鐵 SBB 也有行李寄送服務（<a href="https://www.sbb.ch/en/offers/luggage-transport-station-to-station" 
+       target="_blank" 
+       rel="nofollow noopener">
+       請見官網
+</a>），幫你把行李從一個火車站寄到另一個火車站。一件 12 瑞郎，不可超過 23 公斤，運送時間約兩天。官網裡面有寫可以寄的車站，基本上大站都有，你就只要輕裝上陣即可。
 
 
 
