@@ -8,7 +8,7 @@ image: /img/zurich/zurich_post.webp
 thumbnail: /img/zurich/zurich_post.webp
 og_image:  /img/zurich/zurich_post.webp
 permalink: /blog/zurich-guide/
-last_modified_at: 2026-06-11
+last_modified_at: 2026-07-04
 ---
 
 蘇黎世大眾運輸路網錯綜複雜，看這篇完全拆解路網邏輯。本文分為以下幾個部分，包含所有蘇黎世近郊常去景點，以及要去那邊票券怎麼買：
@@ -350,8 +350,6 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 
 所以只要去上述其中幾個博物館就回本，此卡附贈的交通票券範圍還可以搭乘蘇黎世湖遊船（大概能遊個 30 分鐘左右，不然會出區，要額外買票）、去玉特利山 - 行星小徑健行、老城區、林登霍夫、班霍夫大街等等，還蠻划算的。
 
-想要入手蘇黎世卡的話，可以到蘇黎世機場或中央車站購買，線上購買也可以，請見 [蘇黎世卡官網（英文）](https://www.zuerich.com/en/zurich-card-city-guide-app/zurich-card)。
-
 <div class="tip-box" markdown="1">
 <h4>要買蘇黎世卡嗎？小小試算器</h4>
 
@@ -490,9 +488,24 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
     }
     calculate();
 </script>
-
-還有很多其他博物館沒有列出來，可以到[蘇黎世卡官網（英文）](https://www.zuerich.com/en/zurich-card-city-guide-app/zurich-card)看完整清單還有可以折扣多少的資訊。
 </div>
+
+想要入手蘇黎世卡的話，可從 KKday 購買，隨手支持一下我維護這個網站
+
+<div class="swiss-buy-container">
+    <a href="https://www.kkday.com/zh-tw/product/270843?cid=24072" 
+       target="_blank" 
+       rel="nofollow noopener"
+       class="kkday-swiss-btn">
+        KKday 購買蘇黎世卡
+    </a>
+</div>
+
+或者也可現場到蘇黎世機場或蘇黎世中央車站購買，官網線上購買也行，請見<a href="https://www.zuerich.com/en/zurich-card-city-guide-app/zurich-card" 
+       target="_blank" 
+       rel="nofollow noopener">
+       蘇黎世卡官網（英文）
+</a> 。此卡還有包含很多其他博物館沒有列出來，一樣可到上面官網看完整清單，還有可以折扣多少。
 
 <a href="#nav">👆 回到最上面選單</a>
 
