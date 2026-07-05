@@ -8,6 +8,7 @@ thumbnail: /img/food/must_buy_cover.webp
 og_image:  /img/food/must_buy_cover.webp
 description: "瑞士 Coop 以及 Migros 超市必買，零食餅乾巧克力推薦，要帶什麼伴手禮回去送親朋好友？什麼過譽了？還有這些小東西背後的故事。"
 permalink: /blog/buy-guide-switzerland/
+last_modified_at: 2026-07-05
 ---
 
 買伴手禮之前先看一下上方皮拉圖斯山的美景。瑞士物價超高，回台灣到底要買什麼伴手禮分送親朋好友？有哪些知名瑞士伴手禮過譽？有哪些低調好物，瑞士人自己也會買的東西？以下跟大家分享一些好物，但因為我住蘇黎世多年，所以以下的清單會從蘇黎世看天下，敬請見諒。
@@ -148,6 +149,17 @@ permalink: /blog/buy-guide-switzerland/
       <button class="ssl-btn" data-id="cailler" data-flag="🍫" data-name="Cailler 巧克力" data-price="5 瑞郎（台幣 200）以下" data-cat="supermarket" data-img="/img/food/cailler.webp">+ 加入清單</button>
     </div>
   </div>
+
+  <div class="ssl-card">
+    <div class="ssl-photo"><img src="/img/food/frey.webp" alt="Frey 巧克力" onclick="sslShowImage('/img/food/frey.webp','Frey 巧克力')"></div>
+    <div class="ssl-body">
+      <div class="ssl-name">Frey 巧克力</div>
+      <div class="ssl-meta">Migros 超市 · <b>5 瑞郎（台幣 200）以下</b></div>
+      <div class="ssl-meta">瑞士國民巧克力，價格平易近人，非常適合送人。這牌子也是瑞航飛機上發的那塊巧克力的牌子，個人蠻喜歡吃的。</div>
+      <button class="ssl-btn" data-id="cailler" data-flag="🍫" data-name="Frey 巧克力" data-price="5 瑞郎（台幣 200）以下" data-cat="supermarket" data-img="/img/food/frey.webp">+ 加入清單</button>
+    </div>
+  </div>
+
   <a href="#shopping_list">直接跳到我的購物清單 👇</a>
   <div class="ssl-meta">其他食物類</div>
   <div class="ssl-card">
@@ -281,7 +293,7 @@ permalink: /blog/buy-guide-switzerland/
       <div class="ssl-name">Caran d’Ache 彩色鉛筆或鋼筆</div>
       <div class="ssl-meta">專賣店 · <b>25 瑞郎（台幣 1000）左右</b></div>
       <div class="ssl-meta">Caran d’Ache 這牌子看起來像法文，結果聽說是俄文的「鉛筆」（Karandash），也是瑞士百年大廠。推薦可入手的有圖中的彩色鉛筆，以及鋼筆和其他的文具都很推薦。大部分文具店會賣，也可去他的專賣店。</div>
-      <button class="ssl-btn" data-id="carandache" data-flag="🎨" data-name="Caran d’Ache 彩色鉛筆或鋼筆" data-price="25 瑞郎（台幣 1000）左右" data-cat="store">+ 加入清單</button>
+      <button class="ssl-btn" data-id="carandache" data-flag="🎨" data-name="Caran d’Ache 彩色鉛筆或鋼筆" data-price="25 瑞郎（台幣 1000）左右" data-cat="store" data-img="/img/food/carandache.webp">+ 加入清單</button>
     </div>
   </div>
 
@@ -296,25 +308,25 @@ permalink: /blog/buy-guide-switzerland/
   </div>
 
   <div class="ssl-card">
-    <div class="ssl-photo">🔔</div>
+    <div class="ssl-photo"><img src="/img/food/cow_bell.webp" alt="牛鈴裝飾" onclick="sslShowImage('/img/food/cow_bell.webp','牛鈴裝飾')"></div>
     <div class="ssl-body">
       <div class="ssl-name">牛鈴裝飾</div>
       <div class="ssl-meta">紀念品店 · <b>25 瑞郎（台幣 1000）左右</b></div>
       <div class="ssl-meta">阿爾卑斯山的象徵，如果你家有養牛的話剛好，不然就擺著也是蠻好看，回到台灣後想念瑞士的時候，可以拿起來搖一搖，秒回到瑞士。</div>
-      <button class="ssl-btn" data-id="cowbell" data-flag="🔔" data-name="牛鈴裝飾" data-price="25 瑞郎（台幣 1000）左右" data-cat="souvenir">+ 加入清單</button>
+      <button class="ssl-btn" data-id="cowbell" data-flag="🔔" data-name="牛鈴裝飾" data-price="25 瑞郎（台幣 1000）左右" data-cat="souvenir" data-img="/img/food/cow_bell.webp">+ 加入清單</button>
     </div>
   </div>
   <a href="#shopping_list">直接跳到我的購物清單 👇</a>
 
   <div class="ssl-name">過譽類（個人覺得）</div>
   <div class="ssl-card">
-    <div class="ssl-photo">🍫</div>
+    <div class="ssl-photo"><img src="/img/food/lr.webp" alt="Läderach" onclick="sslShowImage('/img/food/lr.webp','Läderach')"></div>
     <div class="ssl-body">
       <div class="ssl-name">Läderach 巧克力</div>
       <div class="ssl-meta">各地 Läderach 店 · <b>30 瑞郎（台幣 1200）左右</b></div>
       <div class="ssl-meta">Läderach （德文 ä 讀成ㄟ）在台灣很有名，但Läderach 在瑞士其實有一些爭議。他們創辦家族過去曾因保守宗教立場、反同婚言論、排外言論而受到批評。撇開這個來說，他們家的巧克力個人覺得的確是非常好吃，也非常貴，不在乎這些爭議事件的話，仍然可以購買，到處都有分店。
   </div>
-      <button class="ssl-btn" data-id="Laederach" data-flag="🍫" data-name="Läderach 巧克力" data-price="30 瑞郎（台幣 1200）左右" data-cat="store">+ 加入清單</button>
+      <button class="ssl-btn" data-id="Laederach" data-flag="🍫" data-name="Läderach 巧克力" data-price="30 瑞郎（台幣 1200）左右" data-cat="store" data-img="/img/food/lr.webp">+ 加入清單</button>
     </div>
   </div>
 
