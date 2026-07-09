@@ -311,8 +311,8 @@ last_modified_at: 2026-07-05
     <div class="ssl-photo"><img src="/img/food/cow_bell.webp" alt="牛鈴裝飾" onclick="sslShowImage('/img/food/cow_bell.webp','牛鈴裝飾')"></div>
     <div class="ssl-body">
       <div class="ssl-name">牛鈴裝飾</div>
-      <div class="ssl-meta">紀念品店 · <b>25 瑞郎（台幣 1000）左右</b></div>
-      <div class="ssl-meta">阿爾卑斯山的象徵，如果你家有養牛的話剛好，不然就擺著也是蠻好看，回到台灣後想念瑞士的時候，可以拿起來搖一搖，秒回到瑞士。</div>
+      <div class="ssl-meta">Coop, Migros 超市或紀念品門市 · <b>25 瑞郎（台幣 1000）左右</b></div>
+      <div class="ssl-meta">阿爾卑斯山的象徵，如果你家有養牛的話剛好，不然就擺著也是蠻好看，回到台灣後想念瑞士的時候，可以拿起來搖一搖，秒回到瑞士。機場的超市有賣，也可以最後再補買。</div>
       <button class="ssl-btn" data-id="cowbell" data-flag="🔔" data-name="牛鈴裝飾" data-price="25 瑞郎（台幣 1000）左右" data-cat="souvenir" data-img="/img/food/cow_bell.webp">+ 加入清單</button>
     </div>
   </div>
@@ -552,10 +552,13 @@ last_modified_at: 2026-07-05
 
 如果真的忘記買的話，蘇黎世機場還有超大 Coop 和 Migros 超市讓你最後採購，都在安檢前，可以買完塞進行李箱，拿去托運。也有 Läderach 和蘇黎世老牌 Sprüngli 巧克力，安檢前後都有，也可最後採購。詳情可看：{% assign target_post = site.posts | where: "url", "/blog/zurich-airport-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
+<div class="tip-box" markdown="1">
 
 最後歡迎使用本站的瑞士旅遊小工具來讓你的瑞士之旅更簡單。
 - [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
 - [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
+
+</div>
 
 你可能也想要看這些 ... 
 - {% assign target_post = site.posts | where: "url", "/blog/food-guide-switzerland/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>

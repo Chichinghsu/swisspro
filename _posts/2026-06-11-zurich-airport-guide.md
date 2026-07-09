@@ -563,14 +563,39 @@ SBB 提供的無人置物櫃稍微難找一點，在火車下車後從月台上�
        請見官網
 </a>），幫你把行李從一個火車站寄到另一個火車站。一件 12 瑞郎，不可超過 23 公斤，運送時間約兩天。官網裡面有寫可以寄的車站，基本上大站都有，你就只要輕裝上陣即可。
 
+<a href="#nav">👆 回到最上面本文章選單</a>
 
+
+<a id="conclusions"></a>
+## 省瑞結論
+
+蘇黎世機場是許多瑞士自由行旅客的第一站，也是最後一站。雖然是大型國際機場，但整體動線清楚、交通便利，看完這篇之後，所有疑慮應該已經煙消雲散，祝你有個順利又愉快的瑞士旅程！
+
+- 蘇黎世有什麼好逛好看的？ {% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+本文最下方整理了常見問題，如果還是不清楚的話歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a>。
+
+<div class="tip-box" markdown="1">
+
+最後歡迎使用本站的瑞士旅遊小工具
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
+</div>
+
+你可能也想要看這些 ... 
+- {% assign target_post = site.posts | where: "url", "/blog/food-guide-switzerland/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/meteoswiss-app-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/saver-day-pass/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 <a href="#nav">👆 回到最上面本文章選單</a>
 
 <a id="faq"></a>
 ## 常見問題
 
-最後整理一些大家常問的問題，如果還是不清楚的話歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a>
+如果沒找到你的問題，歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a>。
 
 <details>
 <summary class="faq-question">Swiss Travel Pass (STP) 有包含蘇黎世機場到市區的火車嗎？</summary>
@@ -652,17 +677,5 @@ SBB 提供的無人置物櫃稍微難找一點，在火車下車後從月台上�
     安檢之前之後都有很多可以逛，請見此文<a href="#shopping">機場超市、購物、吃飯部分（點我）</a>。
 </div>
 </details>
-
-<a href="#nav">👆 回到最上面本文章選單</a>
-
-<a id="conclusions"></a>
-## 省瑞結論
-
-蘇黎世機場是許多瑞士自由行旅客的第一站，也是最後一站。雖然是大型國際機場，但整體動線清楚、交通便利，看完這篇之後，所有疑慮應該已經煙消雲散，祝你有個順利又愉快的瑞士旅程！
-
-最後歡迎使用本站的瑞士旅遊小工具
-- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
-- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
-
 
 <a href="#nav">👆 回到最上面本文章選單</a>
