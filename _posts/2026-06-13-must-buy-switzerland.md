@@ -278,12 +278,12 @@ last_modified_at: 2026-07-05
   </div>
 
   <div class="ssl-card">
-    <div class="ssl-photo">🫧</div>
+    <div class="ssl-photo"><img src="/img/food/soeder.webp" alt="Soeder 洗手乳" onclick="sslShowImage('/img/food/soeder.webp','Soeder 洗手乳')"></div>
     <div class="ssl-body">
       <div class="ssl-name">Soeder 洗手乳</div>
       <div class="ssl-meta">大間的 Coop 或專賣店 · <b>25 瑞郎（台幣 1000）左右</b></div>
-      <div class="ssl-meta">蘇黎世近年來最紅的洗手乳品牌，同時也是瑞航機上指定品牌，有洗手乳、乳液等等各種香氛產品。在蘇黎世中央車站、巴塞爾車站等等都有分店，買回去送給你愛的人。</div>
-      <button class="ssl-btn" data-id="alpinte" data-flag="🫧" data-name="Soeder 洗手乳" data-price="25 瑞郎（台幣 1000）左右" data-cat="store">+ 加入清單</button>
+      <div class="ssl-meta">蘇黎世近年來最紅的洗手乳品牌，同時也是瑞航機上指定品牌，有洗手乳、乳液、消毒酒精等等各種香氛產品。在蘇黎世中央車站、巴塞爾車站等等都有分店，買回去送給你愛的人。是比巧克力有誠意許多，又是瑞士才有的好伴手禮。</div>
+      <button class="ssl-btn" data-id="alpinte" data-flag="🫧" data-name="Soeder 洗手乳" data-price="25 瑞郎（台幣 1000）左右" data-cat="store" data-img="/img/food/soeder.webp">+ 加入清單</button>
     </div>
   </div>
 
