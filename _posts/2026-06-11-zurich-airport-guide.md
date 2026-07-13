@@ -347,7 +347,12 @@ NON_SCHENGEN.forEach(a => {
 
 - 什麼是 STP 與半價卡？ {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
-- 蘇黎世有什麼好逛好看的？ {% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}
+
+蘇黎世有什麼好逛好看的？ 
+
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-city-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 要查時刻表，建議用瑞士鐵路 SBB App ，或者 Google Maps 上的資訊也都蠻準確。但如果有異常情況的話，例如誤點或者部分路線施工，建議還是看官方 SBB App 最準確。
@@ -571,7 +576,11 @@ SBB 提供的無人置物櫃稍微難找一點，在火車下車後從月台上�
 
 蘇黎世機場是許多瑞士自由行旅客的第一站，也是最後一站。雖然是大型國際機場，但整體動線清楚、交通便利，看完這篇之後，所有疑慮應該已經煙消雲散，祝你有個順利又愉快的瑞士旅程！
 
-- 蘇黎世有什麼好逛好看的？ {% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}
+蘇黎世有什麼好逛好看的？ 
+
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-city-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 本文最下方整理了常見問題，如果還是不清楚的話歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a>。

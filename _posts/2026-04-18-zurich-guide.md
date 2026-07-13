@@ -11,8 +11,15 @@ permalink: /blog/zurich-guide/
 last_modified_at: 2026-07-04
 ---
 
-蘇黎世大眾運輸路網錯綜複雜，看這篇完全拆解路網邏輯。本文分為以下幾個部分，包含所有蘇黎世近郊常去景點，以及要去那邊票券怎麼買：
+蘇黎世大眾運輸路網錯綜複雜，看這篇完全拆解路網邏輯。本文主要包含
 
+1. 蘇黎世近郊常去景點介紹
+1. 蘇黎世大眾運輸票怎麼買
+
+想看蘇黎世「市區」景點的話，請見此文
+
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-city-guide/" | first %}
+<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 <style>
 .swiss-slider-container {
@@ -122,7 +129,7 @@ last_modified_at: 2026-07-04
 
     <a href="#zurich" class="znav-btn">
       <div class="znav-icon">🚋</div>
-      <div class="znav-label">蘇黎世市區交通</div>
+      <div class="znav-label">蘇黎世市區交通攻略</div>
       <div class="znav-desc">蘇黎世市區的票怎麼買？24 小時票</div>
     </a>
 
@@ -201,7 +208,7 @@ last_modified_at: 2026-07-04
 
 
 <a id="zurich"></a>
-## 蘇黎世市區交通
+## 蘇黎世市區交通攻略
 
 蘇黎世市區主要有輕軌電車 (Tram)、公車、火車 (S-Bahn) 為主，沒有捷運/地鐵。最精華的景點幾乎都在 110 區內，包括班霍夫大街 (Bahnhofstrasse) 、蘇黎世湖畔、蘇黎世中央車站、林登霍夫 (Lindenhof)、老城區、蘇黎世大教堂等等。如上圖所示，蘇黎世交通重點是「區」，而不是距離，只要在區內不管搭多遠，價格一樣。
 
