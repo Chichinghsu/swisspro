@@ -147,7 +147,7 @@ last_modified_at: 2026-07-04
     <a href="#zurich-card" class="znav-btn">
       <div class="znav-icon">🧮</div>
       <div class="znav-label">蘇黎世卡 Zurich Card（附試算器）</div>
-      <div class="znav-desc">30 秒點一點就知道該不該買卡</div>
+      <div class="znav-desc">30 秒點一點就知道該不該買</div>
     </a>
 
     <a href="#conclusion" class="znav-btn">
@@ -397,10 +397,20 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
                 <span style="font-size: 14px;">蘇黎世美術館（免費）</span>
                 <span style="margin-left: auto; font-weight: bold; font-size: 14px;">24.00</span>
             </label>
-            <label style="display: flex; align-items: center; cursor: pointer;">
+            <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 15px;">
                 <input type="checkbox" class="item" data-full="26.0" data-half="26.0" data-discount-rate="1" style="width: 18px; height: 18px; margin-right: 12px; accent-color: #D52B1E;" onchange="calculate()">
                 <span style="font-size: 14px;">世界足球博物館（免費）</span>
                 <span style="margin-left: auto; font-weight: bold; font-size: 14px;">26.00</span>
+            </label>
+            <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 15px;">
+                <input type="checkbox" class="item" data-full="5.0" data-half="5.0" data-discount-rate="1" style="width: 18px; height: 18px; margin-right: 12px; accent-color: #D52B1E;" onchange="calculate()">
+                <span style="font-size: 14px;">蘇黎世大教堂（免費）</span>
+                <span style="margin-left: auto; font-weight: bold; font-size: 14px;">5.00</span>
+            </label>
+            <label style="display: flex; align-items: center; cursor: pointer;">
+                <input type="checkbox" class="item" data-full="5.0" data-half="5.0" data-discount-rate="1" style="width: 18px; height: 18px; margin-right: 12px; accent-color: #D52B1E;" onchange="calculate()">
+                <span style="font-size: 14px;">聖母大教堂（免費）</span>
+                <span style="margin-left: auto; font-weight: bold; font-size: 14px;">5.00</span>
             </label>
         </div>
     </div>
