@@ -20,7 +20,7 @@ permalink: /blog/food-guide-switzerland/
 除了大家熟知的 Coop 烤雞之外，此文分享幾個在地人的省吃小秘訣，一餐可控制在約 15 瑞郎（約台幣 600 元）的範圍，很難再更低了。
 
 <div class="tip-box" markdown="1">
-歡迎使用本站的瑞士旅遊小工具
+省瑞計劃是幫你省瑞士旅費的網站，歡迎使用各種小工具：
 - [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
 - [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
 </div>
@@ -39,15 +39,25 @@ permalink: /blog/food-guide-switzerland/
 
 這應該是大家最熟悉的朋友，麥當勞、漢堡王、肯德基等等，通常大的車站附近一定會有，適合快速解決一餐，通常都有自助點餐機，可以不用說話，I 人友善。
 
-除了這些連鎖品牌之外，推薦一家瑞士在地漢堡店 Holy Cow（后里靠），在蘇黎世、洛桑等等都有分店，強調使用瑞士本地食材。以下是蘇黎世中央車站附近店家的地標 [Holy Cow! (Google Maps)](https://maps.app.goo.gl/NPRatibCzx5WzEmV8)，也可以直接搜尋 Holy Cow，有許多分店。價格約在 15 - 20 瑞郎左右，有漢堡、薯條與飲料，非常划算。個人覺得他的薯條非常好吃，走過路過不要錯過。
-
 <div class="tip-box" markdown="1">
 #### 省瑞秘訣
 
 台灣麥當勞 App 和瑞士其實是同一個，可以直接換成瑞士的，重點是可以使用裡面的折價券，讓你省上加省。特價的東西每個月不一定，不過通常可以買到 9.9 瑞郎的麥香雞或大麥克套餐之類。不然在瑞士就算是麥當勞，如果用原價買還是很貴。不過瑞士沒有玉米濃湯，但有一些瑞士特殊起司漢堡，有興趣者可以試試。
 
-[麥當勞 App 換到瑞士教學 (Instagram)](https://www.instagram.com/reel/DWL9Y9VCAdV/)
+<a href="https://www.instagram.com/reel/DWL9Y9VCAdV/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          麥當勞 App 換到瑞士教學 (Instagram)
+    </a>
 </div>
+
+### Holy Cow!
+
+除了這些連鎖品牌之外，推薦一家瑞士在地漢堡店 Holy Cow（后里靠），在蘇黎世、洛桑等等都有分店，強調使用瑞士本地食材。以下是蘇黎世中央車站附近店家的地標<a href="https://maps.app.goo.gl/NPRatibCzx5WzEmV8" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Holy Cow! (Google Maps)
+    </a>，也可以直接搜尋 Holy Cow，有許多分店。價格約在 15 - 20 瑞郎左右，有漢堡、薯條與飲料，非常划算。個人覺得他的薯條非常好吃，是真的馬鈴薯切一切下去炸的那種，走過路過不要錯過。
 
 ### Kebab 
 
@@ -63,12 +73,25 @@ permalink: /blog/food-guide-switzerland/
 1. 選醬：沒有特別挑食的，隨便指一個 (Cocktail 紅醬 或 Yoghurt 白醬)
 1. 要辣？瑞士的辣不會太辣
 
-省瑞精選推薦 Kebab 店（多位於德語區）
-- [Züri Bistro (Google Maps)](https://maps.app.goo.gl/ocbpjMi3F9WyigCh6)
+省瑞精選推薦 Kebab 店（多位於德語區，因為我很少去法語區或義語區）
+
+#### Züri Bistro
+<a href="https://maps.app.goo.gl/ocbpjMi3F9WyigCh6" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Züri Bistro (Google Maps)
+    </a>
 
 這家位於蘇黎世中央車站地下，學生最愛，每次到吃飯時間都有大量青少年在排隊。他在蘇黎世市區還有其他分店，可以在 Google Maps 搜尋，其他分店有比較多座位可以坐著吃。吃飽後想上廁所要精省的話，可以不要在車站上，雖然就在這家店旁邊，不過要錢。可以走大概五分鐘到旁邊的瑞士國家博物館 Landesmuseum 地下室去上，不用錢。
 
-- [Ayverdi's (Google Maps)](https://maps.app.goo.gl/8fa9FoGo4fnKtf8z9)
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-city-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+#### Ayverdi's
+<a href="https://maps.app.goo.gl/8fa9FoGo4fnKtf8z9" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Ayverdi's (Google Maps)
+    </a>
 
 這家也是蘇黎世人最推薦的 Kebab 店之一，料多實在，除了中央車站附近有之外，還有許多分店。這家還有自助點餐機，不用跟店員講到話，對於 I 人非常友善。他的薯條也很好吃，有特製紅紅的粉。
 
@@ -89,9 +112,17 @@ permalink: /blog/food-guide-switzerland/
 
 以下是在蘇黎世中央車站附近的店家，這兩家在全瑞士有很多分店，可以在 Google Maps 上搜尋。
 
-[Migros Restaurant (Google Maps)](https://maps.app.goo.gl/VJPczd4UjgTdRTQ37)
+- <a href="https://maps.app.goo.gl/VJPczd4UjgTdRTQ37" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Migros Restaurant (Google Maps)
+    </a>
 
-[Coop Restaurant (Google Maps)](https://maps.app.goo.gl/kbn86XUDgWYYBsAd9)
+- <a href="https://maps.app.goo.gl/kbn86XUDgWYYBsAd9" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Coop Restaurant (Google Maps)
+    </a>
 
 <a id="aessbar"></a>
 ## Äss Bar
@@ -100,7 +131,11 @@ permalink: /blog/food-guide-switzerland/
 
 建議買法國麵包三明治，裡面包著肉與菜的那種。預算大概 10 瑞郎內可以買到一大個，普通的可頌之類的甚至不到 2 瑞郎，大概 15 塊就可以吃很飽，還可以幫你加熱麵包。此店在蘇黎世、伯恩、琉森、洛桑等都有。有些地方他也有餐車，地點比較不固定，不過只要認這個藍色招牌即可。
 
-蘇黎世老城區（中央車站走路約十分鐘）的分店：[Äss Bar (Google Maps)](https://maps.app.goo.gl/vQ5cL6PLm3X1E2hM7)
+蘇黎世老城區（中央車站走路約十分鐘）的分店：<a href="https://maps.app.goo.gl/vQ5cL6PLm3X1E2hM7" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Äss Bar  (Google Maps)
+    </a>
 
 <figure style="max-width: 300px; margin: 20px auto;">
   <img src="{{ '/img/food/aess_bar.webp' | relative_url }}" alt="Äss Bar 蘇黎世">
@@ -115,7 +150,11 @@ permalink: /blog/food-guide-switzerland/
 
 不過最著名的 Coop 超市，今 (2026) 年改了規則，取消了 50% 折扣，現在最多只有 40%（打六折）。不過他們（號稱）會提早開始貼，大概四五點就開始會有 20% （打八折）的貼紙，都沒人買的話會加碼到 40%。不過買了記得早點吃，不然就過期了。
 
-[心痛比快樂更珍食 (Instagram)](https://www.instagram.com/reel/DWeAHiMiHbf/)
+<a href="https://www.instagram.com/reel/DWeAHiMiHbf/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          心痛比快樂更珍食 (Instagram)
+</a>
 
 <a id="tgtg"></a>
 ## Too Good To Go
@@ -135,9 +174,17 @@ permalink: /blog/food-guide-switzerland/
 
 Too Good To Go App 下載
 
-[App 下載 (Android)](https://play.google.com/store/apps/details?id=com.app.tgtg)
+<a href="https://play.google.com/store/apps/details?id=com.app.tgtg" 
+          target="_blank" 
+          rel="nofollow noopener">
+          App 下載 (Android)
+</a>
 
-[App 下載 (iOS)](https://apps.apple.com/ch/app/too-good-to-go-essen-retten/id1060683933)
+<a href="https://apps.apple.com/ch/app/too-good-to-go-essen-retten/id1060683933" 
+          target="_blank" 
+          rel="nofollow noopener">
+          App 下載 (iOS)
+</a>
 
 <a id="mensa"></a>
 ## 大學學生餐廳 Mensa
@@ -158,17 +205,29 @@ Too Good To Go App 下載
   <figcaption>某日學生餐廳的咖哩飯</figcaption>
 </figure>
 
-蘇黎世聯邦理工 (ETH Zurich) 主校區離蘇黎世中央火車站很近，可以搭小纜車 Polybahn 上去，順便參觀愛因斯坦的置物櫃與拍拍蘇黎世的景。此外，此校也是我的母校，歡迎加入 [省瑞計劃 官方 LINE](https://lin.ee/5BCOXOU) 私訊我，我可以推薦你更多私房景點。
+蘇黎世聯邦理工 (ETH Zurich) 主校區離蘇黎世中央火車站很近，可以搭小纜車 Polybahn 上去，順便參觀愛因斯坦的置物櫃與拍拍蘇黎世的景。此外，此校也是我的母校，歡迎加入<a href="https://lin.ee/5BCOXOU" 
+          target="_blank" 
+          rel="nofollow noopener">
+          省瑞計劃 官方 LINE
+</a> 我可以推薦你更多私房景點。
 
-{% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-city-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/zurich-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 
 以下為離蘇黎世中央車站不遠的兩家學生餐廳
 
-[蘇黎世聯邦理工 學生餐廳 (Google Maps)](https://maps.app.goo.gl/E6bWBryXhnVLXqdKA)
+<a href="https://maps.app.goo.gl/E6bWBryXhnVLXqdKA" 
+          target="_blank" 
+          rel="nofollow noopener">
+          蘇黎世聯邦理工 ETH 學生餐廳 (Google Maps)
+</a>
 
-[蘇黎世大學 學生餐廳 (Google Maps)](https://maps.app.goo.gl/fKPNBUQZbDdN3ihh7)
+<a href="https://maps.app.goo.gl/fKPNBUQZbDdN3ihh7" 
+          target="_blank" 
+          rel="nofollow noopener">
+          蘇黎世大學 UZH 學生餐廳 (Google Maps)
+</a>
 
 除了這兩家之外還有很多散落在瑞士各地的大學學生餐廳，可以在 Google Maps 輸入 Mensa （德文的學生餐廳）尋找，但需注意不是每家都可以讓外人進去吃。
 
@@ -184,19 +243,39 @@ Too Good To Go App 下載
 
 其實還有 IKEA 餐廳也很划算，只是通常都比較郊區一點，如果你正好有買 Swiss Travel Pass (STP) 的話，可以考慮去 IKEA 吃個肉丸和冰淇淋，大概也是 15 瑞郎可以解決。
 
-{% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}
-<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 
-如果你打算買半價卡或 STP 的話，可以參考以下購買連結：[KKday 買半價卡](https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072) 與 [KKday 買 STP](http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072)。
+如果你打算買半價卡或 STP 的話，可以參考以下購買連結：<a href="https://www.kkday.com/zh-tw/product/128031-swiss-half-fare-e-ticket-switzerland?cid=24072" 
+          target="_blank" 
+          rel="nofollow noopener">
+          KKday 買半價卡
+</a> 與 <a href="http://kkday.com/zh-tw/product/2524-swiss-travel-pass?cid=24072" 
+          target="_blank" 
+          rel="nofollow noopener">
+          KKday 買 STP
+</a>或者買一下 eSIM 網卡 <a href="https://www.kkday.com/zh-tw/product/135866?cid=24072" 
+          target="_blank" 
+          rel="nofollow noopener">
+          KKday 買 歐洲41國 5G eSIM
+</a>（注意要買 41 的才有包含瑞士），支持一下本站，感謝您。
 
 瑞士很貴是真的，餐廳吃飯很貴也是真的。但如果知道去哪吃、怎麼吃，就可以省下大量旅費。除此之外，瑞士交通也是很貴，不過如果你使用本站的交通票券精算器，只需要輸入你要去的地點與日期，即可知道買什麼票最划算。
 
-<div class="swiss-buy-container">
-    <a href="https://calculator.swisspro.tw/?itinerary_id=fd5b65b6" 
-       target="_blank" 
-       rel="nofollow noopener" 
-       class="kkday-swiss-btn">
-       省瑞票券精算器（經典 8 天）
-    </a>
+<div class="tip-box" markdown="1">
+歡迎使用本站的瑞士旅遊小工具來規劃你的瑞士行程
+- [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)：這段 Swiss Travel Pass 能搭嗎？要提早買嗎？怎麼買？要提早預約嗎？多少錢？
+- [省瑞票券精算器](https://calculator.swisspro.tw/?itinerary_id=f529bba7)：幫我精算 STP 還是半價卡划算
 </div>
+
+還是不懂的話，直接私訊我 <a href="https://lin.ee/5BCOXOU" 
+          target="_blank" 
+          rel="nofollow noopener">
+          官方 LINE
+    </a>。
+
+你可能也想要看這些 ... 
+- {% assign target_post = site.posts | where: "url", "/blog/meteoswiss-app-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/saver-day-pass/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
