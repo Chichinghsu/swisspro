@@ -8,13 +8,13 @@ image: /img/zurich/zurich_post.webp
 thumbnail: /img/zurich/zurich_post.webp
 og_image:  /img/zurich/zurich_post.webp
 permalink: /blog/zurich-guide/
-last_modified_at: 2026-07-04
+last_modified_at: 2026-07-17
 ---
 
 蘇黎世大眾運輸路網錯綜複雜，看這篇完全拆解路網邏輯。本文主要包含
 
 1. 蘇黎世近郊常去景點介紹
-1. 蘇黎世大眾運輸票怎麼買
+1. 蘇黎世大眾運輸票怎麼買（機場到市區、24 小時票 ...）
 
 想看蘇黎世「市區」景點的話，請見此文
 
@@ -566,6 +566,20 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 </details>
 
 <details>
+<summary class="faq-question">我明天從蘇黎世機場飛，今天打算在蘇黎世市區逛逛，要買什麼票？</summary>
+<div class="faq-answer">
+    如果是在 24 小時內的話，建議買 110 + 121 區天票（包含蘇黎世市區與機場），票價為 14.4 瑞郎（半價卡 7.2 瑞郎）。這樣 24 小時內可在蘇黎世市區搭車，隔天搭去機場，不用再額外買票。如果打算去很多博物館的話，也可買<a href="#zurich-card">蘇黎世卡（點我看本文上方介紹）</a>。
+</div>
+</details>
+
+<details>
+<summary class="faq-question">我剛到蘇黎世機場，想去市區逛逛，這樣要買什麼票？</summary>
+<div class="faq-answer">
+    如果只待 24 小時左右，建議直接買 110 + 121 區天票（包含蘇黎世市區與機場），票價為 14.4 瑞郎（半價卡 7.2 瑞郎）。這樣 24 小時內從蘇黎世機場到市區，包含在市區內的交通。如果打算去很多博物館的話，也可買<a href="#zurich-card">蘇黎世卡（點我看本文上方介紹）</a>。
+</div>
+</details>
+
+<details>
 <summary class="faq-question">我轉機有六七小時，想去蘇黎世市區看一下來得及嗎？</summary>
 <div class="faq-answer">
    如果你從申根區來就不用過護照，因為機場離市區很近（火車十分鐘），理論上可行。如果是非申根的話可能就有點棘手，你會需要過護照查驗，他可能會問你要來幹嘛，且等待時間也不一定。<br><br>
@@ -577,7 +591,7 @@ S-Bahn (火車)：從蘇黎世中央車站 (Zürich HB) 搭到 Kilchberg ZH（ZH
 </details>
 
 <details>
-<summary class="faq-question">蘇黎世旅程中適合待幾天？</summary>
+<summary class="faq-question">蘇黎世適合待幾天？</summary>
 <div class="faq-answer">
     舒舒服服、疏疏離離，沒有像少女峰、策馬特大山大水，但細水長流、歲月靜好，時間夠的話不妨多停留一兩天。
 </div>
