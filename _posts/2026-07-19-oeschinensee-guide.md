@@ -301,7 +301,7 @@ function switchTab(t){
 </script>
 
 <figure>
-  <img src="{{ '/img/bern/Oeschinensee.webp' | relative_url }}" alt="厄希嫩湖">
+  <img src="{{ '/img/bern/oeschinensee.webp' | relative_url }}" alt="厄希嫩湖">
   <figcaption>厄希嫩湖本人，這附近整區都是世界自然遺產</figcaption>
 </figure>
 
@@ -383,7 +383,7 @@ function switchTab(t){
 </a>。
 
 <figure style="max-width: 400px; margin: 20px auto;">
-  <img src="{{ '/img/bern/Oeschinensee-bus.webp' | relative_url }}" alt="往纜車站的公車">
+  <img src="{{ '/img/bern/oeschinensee-bus.webp' | relative_url }}" alt="往纜車站的公車">
   <figcaption>從火車站往纜車站的 242 號公車</figcaption>
 </figure>
 
@@ -396,7 +396,7 @@ function switchTab(t){
 預約會給你一個時段，你必須在那個時段搭乘才可，沒有的話就只能現場慢慢等。纜車約上升 400 多公尺，從山腳下海拔 1200 公尺左右到山上 1680 公尺，所以沒有高山症的問題。
 
 <figure>
-  <img src="{{ '/img/bern/Oeschinensee-cable-car.webp' | relative_url }}" alt="纜車站">
+  <img src="{{ '/img/bern/oeschinensee-cable-car.webp' | relative_url }}" alt="纜車站">
   <figcaption>纜車站的排隊人潮，上山一定要預約訂位</figcaption>
 </figure>
 
@@ -421,7 +421,7 @@ function switchTab(t){
 因為從山上的纜車站還要走個半小時才能到湖邊，所以這邊也有提供接駁車可以搭（半小時一班），不過要錢。但這段半小時的路基本上平緩，推嬰兒車/輪椅也可以走，所以不太需要擔心。
 
 <figure style="max-width: 400px; margin: 20px auto;">
-  <img src="{{ '/img/bern/Oeschinensee-e-taxi.webp' | relative_url }}" alt="接駁車 E-Taxi">
+  <img src="{{ '/img/bern/oeschinensee-e-taxi.webp' | relative_url }}" alt="接駁車 E-Taxi">
   <figcaption>接駁車可從山上纜車站載你到湖邊</figcaption>
 </figure>
 
@@ -446,7 +446,7 @@ function switchTab(t){
 </a>的路線 A，歸類在黃色初級路線），其他路線很多現在（2026 七月）都沒開放，有落石危險。
 
 <figure>
-  <img src="{{ '/img/bern/Oeschinensee-hiking.webp' | relative_url }}" alt="健行的入口">
+  <img src="{{ '/img/bern/oeschinensee-hiking.webp' | relative_url }}" alt="健行的入口">
   <figcaption>健行的入口，正式進入登山步道</figcaption>
 </figure>
 
