@@ -694,7 +694,7 @@ SBB 提供的無人置物櫃稍微難找一點，在火車下車後從月台上�
 <details>
 <summary class="faq-question">蘇黎世機場好逛嗎？</summary>
 <div class="faq-answer">
-    安檢之前之後都有很多可以逛，請見此文<a href="#shopping">機場超市、購物、吃飯部分（點我）</a>。
+    安檢之前之後都有很多可以逛，請見此文<a href="#shopping">機場超市、購物、吃飯部分（點我）</a>。但因為蘇黎世機場離市區很近（火車十分鐘），建議時間充裕的話直接去市區比較好逛。
 </div>
 </details>
 
