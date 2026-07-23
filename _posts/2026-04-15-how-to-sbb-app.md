@@ -8,12 +8,12 @@ thumbnail: /img/sbb/sbb_app_post.webp
 og_image:  /img/sbb/sbb_app_post.webp
 description: "SBB App 瑞士自由行不可或缺的神級 App，其實有超多功能，到底要怎麼用呢？這篇帶你看懂，內附票價試算工具。Easy ride 怎麼用？怎麼搭車？轉車五分鐘來得及嗎？馬上看懂。"
 permalink: /blog/how-to-sbb-app/
-last_modified_at: 2026-06-18
+last_modified_at: 2026-07-24
 ---
 
 SBB (德語：Schweizerische Bundesbahnen) 是瑞士鐵路公司的簡稱，在法語區與義大利語區有不同的名字（法語 CFF 義大利語 FFS），火車上會印全部的名字（請見下圖）。瑞鐵 SBB 的 App 整合了火車、巴士、路面電車、渡輪甚至纜車都有，查時刻表、買票都可以。舉個台灣的例子，就是你用「一個」 App 就可以買台北捷運、機場捷運、高鐵、高雄捷運、各縣市公車等等全部交通系統的票，還可以查時刻表。
 
-這篇帶你看 2026 年最新的功能幾個主要功能，重點摘要如下。App 下載連結於底部[常見問題](#faq)。
+這篇帶你看 2026 年最新的功能幾個主要功能，重點摘要如下。App 下載連結與其它有關 App 的疑難雜症請見底部[常見問題](#faq)。
 
 <a id="nav"></a>
 - [實用功能介紹](#function) - 我轉車來得及嗎？月台怎麼看？擁擠嗎？
@@ -44,7 +44,7 @@ SBB (德語：Schweizerische Bundesbahnen) 是瑞士鐵路公司的簡稱，在�
     <img src="{{ '/img/sbb/sbb_app_intro3.png' | relative_url }}" alt="路線圖">
   </div>
   <figcaption>
-    SBB App 畫面截圖（左右滑動查看）<br>
+    SBB App 畫面截圖之一（手機上左右滑動查看）<br>
     （1）時刻表與換車月台（2）換車路徑指引（3）路線圖
   </figcaption>
 </figure>
@@ -94,7 +94,7 @@ BL: 行李空間有限
     <img src="{{ '/img/sbb/sbb_app_intro6.png' | relative_url }}" alt="SBB App 隱藏功能">
   </div>
   <figcaption>
-    SBB App 畫面截圖（左右滑動查看）<br>
+    SBB App 畫面截圖之二（手機上左右滑動查看）<br>
     （4）停車位置與擁擠程度，還有列車各種設備（5）加入同行旅伴（6）SBB App 隱藏功能
   </figcaption>
 </figure>
@@ -113,6 +113,12 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
 ## 怎麼買票
 
 接著我們來看怎麼買車票，下圖 (7) 可以看到所有買票的選項，包含 Regular Offer, Saver Offer 還有其他的 Additional Offers。需特別注意，Additional Offers 賣的都不是「票」而是一些升等之類的附加功能，前提是你要先有票。所以不要自以為撿到便宜只買 Additional Offers，這樣等於是沒有票。
+
+### City Zürich + CHF 5.9 什麼意思?
+
+至於下面有個框框 City Zürich + CHF 5.9 或者如果你選其他路線的話會有其他城市的選項，例如琉森、伯恩等等。這代表市區的日票（有效到隔天早上 5點），比如說這個 City Zürich + CHF 5.9 就代表多付 5.9 瑞郎，搭蘇黎世市區一日券。注意這邊是一日券，到隔天早上 5點，非 24小時票。
+
+什麼時候適合加購呢？例如：早上我從策馬特回蘇黎世，打算下午晚上在蘇黎世半日遊，這時候就可以加購，免去到蘇黎世還要買票的麻煩。或者反過來，我下午打算去策馬特但早上想在蘇黎世半日遊，這樣也適合買這個加價日票。
 
 ### 重點：Additional Offers 賣的都不是「票」而是一些升等之類的附加功能
 
@@ -146,7 +152,7 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
     <img src="{{ '/img/sbb/sbb_app_intro9.png' | relative_url }}" alt="Easy Ride 右滑後畫面">
   </div>
   <figcaption>
-    SBB App 畫面截圖之三（左右滑動查看）<br>
+    SBB App 畫面截圖之三（手機上左右滑動查看）<br>
     （7）各種票種選擇（8）轉車時間設定可選有行李 (9) Easy Ride 右滑後畫面
   </figcaption>
 </figure>
@@ -221,6 +227,13 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
 </details>
 
 <details>
+<summary class="faq-question">SBB App 一直註冊失敗怎麼辦？</summary>
+<div class="faq-answer">
+    有可能是台灣地址太長，試著把一些巷弄號碼之類的刪掉，地址短一點有時候會解決。還有建議使用電腦註冊，手機 App 註冊有時候不知為何就是無法成功。
+</div>
+</details>
+
+<details>
 <summary class="faq-question">遇到查票怎麼辦？</summary>
 <div class="faq-answer">
     跟他說聲 Hi ，然後給他看 QR Code 即可。有時候他會跟你要護照來驗證身份，核對票上面的名字。
@@ -239,7 +252,6 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
   <img src="{{ '/img/sbb/sbb_halbtax_app.png' | relative_url }}" alt="手動加入半價卡">
   <figcaption>手動加入半價卡，這樣買票的時候就會顯示半價卡的價格</figcaption>
 </figure>
-
 
 </div>
 </details>
@@ -270,7 +282,7 @@ SBB App 隱藏功能，看圖 (6)，如果你打開 SBB App，起點跟終點選
 <details>
 <summary class="faq-question">我不知道這段路線有沒有包含在 STP 裡面？</summary>
 <div class="faq-answer">
-    馬上使用[省瑞票券速查](https://calculator.swisspro.tw/?p=validator) 輸入路線，馬上知道有沒有包含，還可看到各種小訣竅。
+    馬上使用<a href="https://calculator.swisspro.tw/?p=validator" class="swiss-red-link">省瑞票券速查</a> 輸入路線，馬上知道有沒有包含，還可看到各種小訣竅。
 </div>
 </details>
 
