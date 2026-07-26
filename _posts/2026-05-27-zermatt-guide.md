@@ -8,6 +8,7 @@ thumbnail: /img/zermatt/zermatt_guide.webp
 og_image:  /img/zermatt/zermatt_guide.webp
 description: "策馬特最完整攻略：交通、天氣、日出時間，必買必吃必拍景點，跟著住瑞士多年工程師一起去策馬特，看這篇就足夠，所有疑難雜症一次解決。"
 permalink: /blog/zermatt-guide/
+last_modified_at: 2026-07-26
 ---
 
 <style>
@@ -161,13 +162,12 @@ permalink: /blog/zermatt-guide/
   </div>
 </div>
 
-<!--
+
 <div class="tip-box" markdown="1">
 <p><b>本站免費瑞士旅遊諮詢</b>
 <br>歡迎去省瑞計劃 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a></p></div>
 
 
--->
 <a id="intro"></a>
 ## 簡介
 
@@ -355,11 +355,19 @@ load();
 
 ### 日出黃金馬特洪
 
-日出時間很重要因為要拍黃金馬特洪，也就是太陽灑在馬特洪峰上的時候（見下圖）。如果你住的飯店看得到馬特洪峰的話，你只需要早起。如果不行的話，推薦這個教堂旁邊的橋 ([Google Maps](https://maps.app.goo.gl/dvZmuV3KFpC3xBAt8))，可以很清楚拍到馬特洪峰。
+日出時間很重要因為要拍黃金馬特洪，也就是太陽灑在馬特洪峰上的時候（見下圖）。如果你住的飯店看得到馬特洪峰的話，你只需要早起。如果不行的話，推薦這個教堂旁邊的橋 (<a href="https://maps.app.goo.gl/dvZmuV3KFpC3xBAt8" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>)，可以很清楚拍到馬特洪峰。
 
 ### 日落小鎮夜景
 
-至於日落時間很重要是因為要拍小鎮夜景，可以到 Murini 拍照點 ([Google Maps](https://maps.app.goo.gl/UM7Us7cWx66sapHk9)) 來拍小鎮夜景（見下圖）。白天也可以拍，不過晚上可以拍出萬家燈火的溫馨，背景是馬特洪峰。不過為了到達這裡，需要爬一小段樓梯，加上策馬特海拔大概 1600 米，會稍微比平常再喘一點，建議慢慢爬，不要衝刺。
+至於日落時間很重要是因為要拍小鎮夜景，可以到 Murini 拍照點 (<a href="https://maps.app.goo.gl/UM7Us7cWx66sapHk9" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>) 來拍小鎮夜景（見下圖）。白天也可以拍，不過晚上可以拍出萬家燈火的溫馨，背景是馬特洪峰。不過為了到達這裡，需要爬一小段樓梯，加上策馬特海拔大概 1600 米，會稍微比平常再喘一點，建議慢慢爬，不要衝刺。
 
 <script>
 function moveSlider(direction) {
@@ -391,7 +399,11 @@ function moveSlider(direction) {
 
 ### Webcam 即時影像
 
-要上山之前一定要先看山上即時影像，無論是五湖健行、戈內爾格拉特還是冰川天堂（請見下方[主要景點與行程](#gornergrat)與[五湖健行](#5seen)部分），因為就算策馬特（山腳下）霧霧的，上面也可以晴空萬里。也有可能反過來，山腳下天氣很好，上面卻什麼都看不到。即時影像 Webcam 請看此：[策馬特 Zermatt Webcam](https://zermatt.swiss/en/info/webcams)。
+要上山之前一定要先看山上即時影像，無論是五湖健行、戈內爾格拉特還是冰川天堂（請見下方[主要景點與行程](#gornergrat)與[五湖健行](#5seen)部分），因為就算策馬特（山腳下）霧霧的，上面也可以晴空萬里。也有可能反過來，山腳下天氣很好，上面卻什麼都看不到。即時影像 Webcam 請看此：<a href="https://zermatt.swiss/en/info/webcams" 
+          target="_blank" 
+          rel="nofollow noopener">
+          策馬特 Zermatt Webcam
+    </a>。
 
 <a href="#nav">👆 回到最上面選單</a>
 
@@ -402,19 +414,43 @@ function moveSlider(direction) {
 
 ### 策馬特小鎮 Zermatt
 
-- 馬特洪峰博物館 Matterhorn Museum ([Google Maps](https://maps.app.goo.gl/9Fm97cueFDG384Qt7))：門票 12 瑞郎，持 STP 可免費參觀，但要注意開放時間很短，只有 15:00 - 18:00 （每天）。 裡面有介紹馬特洪峰的歷史，1865 年一群歐洲登山家首次攻頂，不過七人上山登頂，最後只有三人下山。
+- 馬特洪峰博物館 Matterhorn Museum (<a href="https://maps.app.goo.gl/9Fm97cueFDG384Qt7" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>)：門票 12 瑞郎，持 STP 可免費參觀，但要注意開放時間很短，只有 15:00 - 18:00 （每天）。 裡面有介紹馬特洪峰的歷史，1865 年一群歐洲登山家首次攻頂，不過七人上山登頂，最後只有三人下山。
 
-- 拍照橋 Kirchbrücke ([Google Maps](https://maps.app.goo.gl/DwZJxFtADrSCgAKcA))：熱門拍照景點，可以拍馬特洪峰的橋，包含日出時的黃金馬特洪。
+- 拍照橋 Kirchbrücke (<a href="https://maps.app.goo.gl/DwZJxFtADrSCgAKcA" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>)：熱門拍照景點，可以拍馬特洪峰的橋，包含日出時的黃金馬特洪。
 
-- Murini 拍照點 ([Google Maps](https://maps.app.goo.gl/UM7Us7cWx66sapHk9))：可俯瞰整個策馬特小鎮的拍照點，適合日落前來，看整個燈火闌珊的景，永生難忘，上方日落小鎮夜景圖就是在這裡拍的。不過夏天很晚天黑，可以早上下午先上山，晚上吃飽後再來看。不過注意要來這邊需要爬一小段不短的樓梯，量力而為。
+- Murini 拍照點 (<a href="https://maps.app.goo.gl/UM7Us7cWx66sapHk9" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>)：可俯瞰整個策馬特小鎮的拍照點，適合日落前來，看整個燈火闌珊的景，永生難忘，上方日落小鎮夜景圖就是在這裡拍的。不過夏天很晚天黑，可以早上下午先上山，晚上吃飽後再來看。不過注意要來這邊需要爬一小段不短的樓梯，量力而為。
 
-- 黑面羊 隨機出沒：通常會出沒在火車站旁邊的草皮上，但只有夏天（大概六月左右會開始放出來），可以跟他們拍照，可以用這個 [黑面羊追蹤器](https://sheep.gornergrat.ch/en/map) 看他們現在在哪裡。
+- 黑面羊 隨機出沒：通常會出沒在火車站旁邊的草皮上，但只有夏天（大概六月左右會開始放出來），可以跟他們拍照，善用<a href="https://sheep.gornergrat.ch/en/map" 
+          target="_blank" 
+          rel="nofollow noopener">
+          黑面羊追蹤器
+    </a>看他們現在在哪裡。
 
 ### 戈內爾格拉特 Gornergrat
 
 從策馬特搭乘齒軌火車可以直接上到戈內爾格拉特觀景台，海拔約 3100 公尺，個人最推薦的策馬特景點，沒有之一。小心高山症，但別在上面奔跑應該是還好，若真的不舒服趕緊搭車下山，車次頻繁約 20 分鐘一班。
 
-最上面有天文台、知名飯店 3100 Kulmhotel Gornergrat，也有 [Grand Tour of Switzerland](https://www.myswitzerland.com/en-ch/experiences/experience-tour/grand-tour-of-switzerland/) 的紅色框框可以拍照。如果時間有限的話，建議一定要上來看看（買票前先看山上 即時影像 Webcam [策馬特 Zermatt Webcam](https://zermatt.swiss/en/info/webcams)），天氣不好就別硬上，留著遺憾這樣才有下次再來的理由。
+最上面有天文台、知名飯店 3100 Kulmhotel Gornergrat，也有 <a href="https://www.myswitzerland.com/en-ch/experiences/experience-tour/grand-tour-of-switzerland/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Grand Tour of Switzerland
+    </a>的紅色框框可以拍照。如果時間有限的話，建議一定要上來看看（買票前先看山上 即時影像 Webcam <a href="https://zermatt.swiss/en/info/webcams" 
+          target="_blank" 
+          rel="nofollow noopener">
+          策馬特 Zermatt Webcam
+    </a> ），天氣不好就別硬上，留著遺憾這樣才有下次再來的理由。
 
 2026 夏季票價如下（來回）
 
@@ -437,7 +473,11 @@ function moveSlider(direction) {
 
 ### 冰川天堂 Glacier Paradise
 
-海拔約 3880 公尺，裡面有冰宮可以參觀，性質與少女峰有點相似。要到冰川天堂需從距離策馬特火車站走路約需 10 - 15 分鐘的纜車站 ([Google Maps](https://maps.app.goo.gl/3vyunbjAUFjHdz2B6)) 出發，與五湖健行的纜車站不同地方，可用 SBB App 選擇 Zermatt - Klein Matterhorn。
+海拔約 3880 公尺，裡面有冰宮可以參觀，性質與少女峰有點相似。要到冰川天堂需從距離策馬特火車站走路約需 10 - 15 分鐘的纜車站 (<a href="https://maps.app.goo.gl/3vyunbjAUFjHdz2B6" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>) 出發，與五湖健行的纜車站不同地方，可用 SBB App 選擇 Zermatt - Klein Matterhorn。
 
 個人覺得跟 Gornergrat 比起來略遜一籌，且海拔 3880 公尺，比較不放心帶長輩上山，不過還是比少女峰便宜很多。
 
@@ -467,7 +507,11 @@ function moveSlider(direction) {
 
 - {% assign target_post = site.posts | where: "url", "/blog/zermatt-pass-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
-- [購買 Peak2Peak 票願（英文官網）](https://www.matterhornparadise.ch/en/book/tickets/peak2peak)
+- <a href="https://www.matterhornparadise.ch/en/book/tickets/peak2peak" 
+          target="_blank" 
+          rel="nofollow noopener">
+          購買 Peak2Peak 票願（英文官網）
+    </a>
 </div>
 
 ### 行程安排
@@ -524,7 +568,11 @@ function moveSlider(direction) {
   </div>
 </div>
 
-也可參考 [詳細高度與路線圖（英文）](https://schweizmobil.ch/en/hiking-in-switzerland/route-186)。官方介紹需時約 3 小時 15 分鐘，我個人上次邊爬邊拍照約 4 小時左右完成，沿途非常曬，沒有太多遮陽的地方。
+也可參考<a href="https://schweizmobil.ch/en/hiking-in-switzerland/route-186" 
+          target="_blank" 
+          rel="nofollow noopener">
+          詳細高度與路線圖（英文）
+    </a>。官方介紹需時約 3 小時 15 分鐘，我個人上次邊爬邊拍照約 4 小時左右完成，沿途非常曬，沒有太多遮陽的地方。
 
 | 策馬特五湖健行 | 省瑞評價 | 
 | :--- | :--- | 
@@ -534,7 +582,15 @@ function moveSlider(direction) {
 
 ### 交通方式
 
-從策馬特車站走路約 5 分鐘可到纜車站（[Google Maps](https://maps.app.goo.gl/ZcjCMeQbiC13wqar7)），需注意這個纜車站和冰川天堂的不同。這邊可以買票，跟櫃檯說要五湖健行的票 (5-Lakes Trail)，可以當天天氣好再買，也可先官網 [購買五湖健行票（英文官網）](https://www.matterhornparadise.ch/en/book/tickets/kombitickets)。
+從策馬特車站走路約 5 分鐘可到纜車站（<a href="https://maps.app.goo.gl/ZcjCMeQbiC13wqar7" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>），需注意這個纜車站和冰川天堂的不同。這邊可以買票，跟櫃檯說要五湖健行的票 (5-Lakes Trail)，可以當天天氣好再買，也可先官網<a href="https://www.matterhornparadise.ch/en/book/tickets/kombitickets" 
+          target="_blank" 
+          rel="nofollow noopener">
+          購買五湖健行票（英文官網）
+    </a>。不會說英文的話給他看這句：Tickets for 5-Lakes Trail，票價如下。
 
 | 策馬特五湖健行 | 價格（瑞郎） | 價格（台幣） | 
 | :--- | :--- | :--- |
@@ -584,13 +640,21 @@ function moveSlider(direction) {
 
 ### 必吃必喝 餐廳美食
 
-- Fuchs 麵包店 ([Google Maps](https://maps.app.goo.gl/QdPg77bAHHhponaZA))
+- Fuchs 麵包店 (<a href="https://maps.app.goo.gl/QdPg77bAHHhponaZA" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>)
 
 這家是在策馬特一定會路過的麵包店，若天氣不好時可以在這邊喝杯咖啡。創立超過一甲子，提供各種麵包、咖啡、還有甜點，使用瓦萊州在地食材，可以品嚐最道地的策馬特。在策馬特有許多家分店，上面 Google Maps 是離火車站最近的一家，也可直接搜尋 Fuchs Bakery 就可找到其他分店。
 
 他們有特殊的馬特洪峰形狀巧克力，所以下次上山別再帶 Toblerone 三角巧克力了，可以考慮買他們家的馬特洪峰巧克力 Matterhörnli，更有策馬特的感覺。如果你住的飯店沒有早餐的話，也可以來這邊吃個麵包喝個咖啡，體驗最策馬特的麵包店。
 
-- 策馬特啤酒 (COOP 超市 [Google Maps](https://maps.app.goo.gl/BsQNT9ETWAcAU2N2A))
+- 策馬特啤酒 (COOP 超市 <a href="https://maps.app.goo.gl/BsQNT9ETWAcAU2N2A" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>)
 
 策馬特釀造的啤酒，有兩款藍色和紅色，似乎只有在策馬特買得到（見下圖）。喝起來沒有說特別驚艷，紅色的喝起來有點蜂蜜的味道，比較甜。藍色的喝起來就比較像一般的啤酒，沒有什麼太大差異。在車站旁邊 COOP 超市可以買到，餐廳裡面也可以點。
 
@@ -599,15 +663,33 @@ function moveSlider(direction) {
   <figcaption>策馬特啤酒有兩款</figcaption>
 </figure>
 
-- 黑面羊餐廳 Restaurant Schäferstube ([Google Maps](https://maps.app.goo.gl/hJMTyetbZ1VpUb1R7)) 及 Restaurant Julen ([Google Maps](https://maps.app.goo.gl/EXsFffybSai54F5D8))
+- 黑面羊餐廳 Restaurant Schäferstube (<a href="https://maps.app.goo.gl/hJMTyetbZ1VpUb1R7" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>) 及 Restaurant Julen (<a href="https://maps.app.goo.gl/EXsFffybSai54F5D8" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Google Maps
+    </a>)
 
 Restaurant Schäferstube 主打羊料理，Restaurant Julen 有其他肉類，還有起司鍋之類的，都算是瑞士菜餐廳，非常有名，建議提前預約，否則沒位置。不過黑面羊很可愛，捨不得吃。人均預算約 50 瑞郎（2000 台幣左右），可以吃非常飽。至於好不好吃，可以自己去體驗看看。
 
-- [Restaurant Schäferstube 訂位](https://www.julen.ch/en/restaurant-schaeferstube/)
-- [Restaurant Julen 訂位](https://www.julen.ch/en/restaurant-julen/)
+- <a href="https://www.julen.ch/en/restaurant-schaeferstube/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Restaurant Schäferstube 訂位（官網）
+    </a>
+- <a href="https://www.julen.ch/en/restaurant-julen/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          Restaurant Julen 訂位（官網）
+    </a>
 
 <p><b>菜單看不懂嗎？</b>
-<br>歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE </a>，可以跟你一起研究菜單</p>
+<br>歡迎去 <a href="https://www.instagram.com/swisspro.tw/" target="_blank" 
+          rel="nofollow noopener">Instagram</a> 私訊或者詢問 <a href="https://lin.ee/5BCOXOU" target="_blank" 
+          rel="nofollow noopener">官方 LINE </a>，可以跟你一起研究菜單</p>
 
 ### 必買，也不一定必買
 
@@ -618,6 +700,9 @@ Restaurant Schäferstube 主打羊料理，Restaurant Julen 有其他肉類，�
 - 黑面羊、土撥鼠周邊
 
 策馬特有許多黑面羊與土撥鼠周邊，還有很多策馬特的衣服，除了這邊其他地方不一定買得到，喜歡可以入手。不過火車站出來主要大街上有非常多家紀念品店，建議可以貨比三家，賣的東西大同小異。題外話，黑面羊的德文其實是「黑鼻羊」Schwarznasenschaf。
+
+- {% assign target_post = site.posts | where: "url", "/blog/buy-guide-switzerland/" | first %}
+    <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
 <figure style="max-width: 400px; margin: 20px auto;">
   <img src="{{ '/img/zermatt/schwarznasenschaf.webp' | relative_url }}" alt="黑面羊玩偶">
@@ -697,7 +782,9 @@ Restaurant Schäferstube 主打羊料理，Restaurant Julen 有其他肉類，�
 <summary class="faq-question">我想問的問題不在這裡</summary>
 <div class="faq-answer">
     <p><b>直接來問我：本站免費瑞士旅遊諮詢</b>
-<br>歡迎去 <a href="https://www.instagram.com/swisspro.tw/">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU">官方 LINE</a></p>
+<br>歡迎去 <a href="https://www.instagram.com/swisspro.tw/" target="_blank" 
+          rel="nofollow noopener">Instagram</a> 私訊發問或者詢問 <a href="https://lin.ee/5BCOXOU" target="_blank" 
+          rel="nofollow noopener">官方 LINE</a></p>
 </div>
 </details>
 
