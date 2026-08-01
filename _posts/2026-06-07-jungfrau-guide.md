@@ -12,6 +12,20 @@ permalink: /blog/jungfrau-guide/
 
 少女峰 (Jungfrau) 無庸置疑是所有來瑞士觀光客必去的景點，與策馬特齊名。但少女峰地區票券非常複雜且昂貴，買錯的話直接損失幾千塊台幣。除此之外，這附近景點也非常多，甚至可以待上整整一週都沒問題。此文帶你看懂所有少女峰的細節，讓你能省省遊瑞士。
 
+
+<div class="tip-box" markdown="1">
+2026 年 7 月 23 到 8 月 5 在 COOP 超市消費超過 100 瑞郎，即可拿到少女峰半價優惠券！
+
+也就是說如果你有半價卡的話，就只要四分之一價格（例如：格林德瓦到少女峰，原價 239.2 只要 69.4 瑞郎，價格可在 [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)查詢），優惠券可用到 2026 年 12 月 12 日。
+
+更多詳情請見
+<a href="https://www.jungfrau.ch/en-gb/coop-nazionale-jungfraujoch/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          少女峰官網
+    </a>。
+</div>
+
 <style>
 .swiss-slider-container {
   position: relative;

@@ -16,6 +16,19 @@ last_modified_at: 2026-06-01
 - 少女峰景點詳細攻略：{% assign target_post = site.posts | where: "url", "/blog/jungfrau-guide/" | first %}
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
 
+<div class="tip-box" markdown="1">
+2026 年 7 月 23 到 8 月 5 在 COOP 超市消費超過 100 瑞郎，即可拿到少女峰半價優惠券！
+
+也就是說如果你有半價卡的話，就只要四分之一價格（例如：格林德瓦到少女峰，原價 239.2 只要 69.4 瑞郎，價格可在 [省瑞票券速查器](https://calculator.swisspro.tw/?p=validator)查詢），優惠券可用到 2026 年 12 月 12 日。
+
+更多詳情請見
+<a href="https://www.jungfrau.ch/en-gb/coop-nazionale-jungfraujoch/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          少女峰官網
+    </a>。
+</div>
+
 <a id="nav"></a>
 ## 快速導覽
 - [少女峰景點與簡介](#introduction)
