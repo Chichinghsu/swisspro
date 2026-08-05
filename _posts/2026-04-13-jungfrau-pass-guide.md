@@ -278,7 +278,11 @@ calc();
 直接用[省瑞計劃 票券速查](https://calculator.swisspro.tw/?p=validator) 功能，輸入起點跟終點即可知道什麼票券可以用、打幾折、票價多少、要不要先訂位等等。
 </div>
 
-少女峰觀光地區涵蓋很大一片地方，常聽到的格林德瓦 (Grindelwald)、Grindelwald-First（健行、冒險活動）、勞特布魯嫩（瀑布鎮 Lauterbrunnen）、穆倫 (Mürren)、溫根 (Wengen)、哈德昆觀景台 (Harder Kulm)、茵特拉肯 (Interlaken)、愛的迫降小鎮 Iseltwald 等等甚至布里恩茨湖或圖恩湖也都算是少女峰景點，請見下圖。到了少女峰這區至少都建議待三天以上，這樣也比較容易遇到好天氣。天氣即時訊息可以看[官網 Webcam](https://www.jungfrau.ch/en-gb/live/webcams/) 以防花冤望錢上山什麼都看不到。
+少女峰觀光地區涵蓋很大一片地方，常聽到的格林德瓦 (Grindelwald)、Grindelwald-First（健行、冒險活動）、勞特布魯嫩（瀑布鎮 Lauterbrunnen）、穆倫 (Mürren)、溫根 (Wengen)、哈德昆觀景台 (Harder Kulm)、茵特拉肯 (Interlaken)、愛的迫降小鎮 Iseltwald 等等甚至布里恩茨湖或圖恩湖也都算是少女峰景點，請見下圖。到了少女峰這區至少都建議待三天以上，這樣也比較容易遇到好天氣。天氣即時訊息可以看<a href="https://www.jungfrau.ch/en-gb/live/webcams/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          官網 Webcam
+    </a>以防花冤望錢上山什麼都看不到。
 
 <figure>
   <img src="{{ '/img/jungfrau/jungfrau_map.webp' | relative_url }}" alt="少女峰地圖">
@@ -306,7 +310,11 @@ calc();
 | :--- | :--- | :--- | :--- | :--- |
 | 格林德瓦 ↔ 艾格冰川 | 81.2 | 61.2 | 40.6  | 0 |
 
-直接登頂票價如下（2026 五月 - 十月票價）含訂位費 10 瑞郎，這段日期最後艾格冰川 (Eigergletscher) → 少女峰頂 (Jungfraujoch) 需要訂位，可點此 [官網訂位](https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/book-priority-boarding/)。
+直接登頂票價如下（2026 五月 - 十月票價）含訂位費 10 瑞郎，這段日期最後艾格冰川 (Eigergletscher) → 少女峰頂 (Jungfraujoch) 需要訂位，可點此<a href="https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/book-priority-boarding/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          官網訂位
+    </a>。
 
 | 路線 | 來回原價（瑞郎） | STP 價格 75 折| 半價卡價格 半價| 少女峰通票 |
 | :--- | :--- | :--- | :--- | :--- |
@@ -426,7 +434,11 @@ calc();
 - 網路上買的票：在搭車前一天都可免退票，無法更換，只能退票再重新購買，手續費 10 瑞郎。
 - 現場買的票：去櫃檯退/換票
 
-最後附上官網連結：[官網購買早安票（英文）](https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/good-morning-ticket/)。
+最後附上官網連結：<a href="https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/good-morning-ticket/" 
+          target="_blank" 
+          rel="nofollow noopener">
+          官網購買早安票（英文）
+    </a>。
 
 <a href="#nav">👆 回到最上面選單</a>
 
@@ -484,7 +496,7 @@ calc();
 <a href="#nav">👆 回到最上面選單</a>
 
 <div class="tip-box" markdown="1">
-#### 💡 我只是不確定這段能不能用 Swiss Travel Pass (STP) 搭？
+#### 💡 我只是不確定這段 Swiss Travel Pass (STP) 有沒有包含？
 
 直接用[省瑞計劃 票券速查](https://calculator.swisspro.tw/?p=validator) 功能，輸入起點跟終點即可知道什麼票券可以用，要不要先訂位等等，所有的疑難雜症一次解決。
 </div>
@@ -496,3 +508,12 @@ calc();
 {% assign target_post = site.posts | where: "url", "/blog/berner-oberland-pass/" | first %}
 少女峰附近的行程也可以搭配伯恩高地通票：
 <a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+
+
+
+你可能也想要看這些 ... 
+- {% assign target_post = site.posts | where: "url", "/blog/food-guide-switzerland/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/meteoswiss-app-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/how-to-sbb-app/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/saver-day-pass/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
+- {% assign target_post = site.posts | where: "url", "/blog/stp-halbtax-guide/" | first %}<a href="{{ target_post.url }}" class="swiss-red-link">{{ target_post.title }}</a>
